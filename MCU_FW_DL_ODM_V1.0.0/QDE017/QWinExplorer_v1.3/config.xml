@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!--mode type (bg95 or bg96) 1:bg96 2:bg95-->
+	<module>2</module>
+	<!-- file system (Alternate File System or EFS2 File System) 1:efs(modem) 2:alternate(AP)-->
+	<filesys>2</filesys>
+    <!--is config.-->
+    <isconfig>1</isconfig>
+	<!--dm port.-->
+	<dmport>COM67</dmport>
+</config>

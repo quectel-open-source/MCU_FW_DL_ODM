@@ -1,0 +1,2 @@
+S_CCU_FW_ESP32_QUECTEL_V1_1.0.25.bin:7f4af176ec6c3a6db4e631b8cee62d9a
+audio-esp.bin:5693d940ec73f7c40a97a35a7409a875

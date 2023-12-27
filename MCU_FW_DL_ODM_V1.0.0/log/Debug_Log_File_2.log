@@ -1,0 +1,6 @@
+2023-12-15_13:31:52 <--> ************IMEI:************
+2023-12-15_13:32:2 <--> FLHubTool Download FW ......
+2023-12-15_13:32:2 <--> cmd.exe /c E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDC518\2\FLHubTool.exe -DEV_0 -FIRMWARE_PC -UPDATE E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\Panther_FL7102_YiYuan_Base_V7.210.7.0_2023_0817_1034_X6400\Panther_FL7102_YiYuan_Base_V7.210.7.0_2023_0817_1034_X6400\Panther_FL7102_YiYuan_Base_V7.210.7.0_2023_0817_1034_X6400.bin
+2023-12-15_13:32:2 <--> FAIL: Unable to open FLHubTool_LOG.txt!
+2023-12-15_13:32:2 <--> FLHubTool Flash_FW Fail
+2023-12-15_13:32:2 <--> =====ERR-OC:QDC518GLSD-U60-AABAS=====

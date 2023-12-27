@@ -1,0 +1,2 @@
+S_CCU_FW_ESP32_QUECTEL_V1_1.0.21.bin:0x00
+audio-esp.bin:0x180000

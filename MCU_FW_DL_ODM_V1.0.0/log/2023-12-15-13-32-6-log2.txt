@@ -1,0 +1,17 @@
+2023-12-15_13:31:52 <--> Barcode[1]:"NGSAMPLE"
+2023-12-15_13:31:52 <--> DL
+2023-12-15_13:31:52 <--> DL
+2023-12-15_13:31:52 <--> DL_State:2
+2023-12-15_13:31:52 <--> DL Start...
+2023-12-15_13:31:52 <--> Start Search"" First_Product to DB
+2023-12-15_13:31:52 <--> First_Product-2 "" Fail
+2023-12-15_13:31:52 <--> Find First_Product DB Complete-""
+2023-12-15_13:31:52 <--> ************IMEI:************
+2023-12-15_13:32:2 <--> FLHubTool Download FW ...
+2023-12-15_13:32:2 <--> FAIL: Unable to open FLHubTool_LOG.txt!
+2023-12-15_13:32:2 <--> FLHubTool Flash_FW Fail
+2023-12-15_13:32:2 <--> =====ERR-OC:QDC518GLSD-U60-AABAS=====
+2023-12-15_13:32:2 <--> Error_Code=,50332746
+2023-12-15_13:32:2 <--> SaveLog_Abstract=0
+2023-12-15_13:32:2 <--> RTN_SUCCESS=1
+2023-12-15_13:32:2 <--> DL_OBJ_State:2-7

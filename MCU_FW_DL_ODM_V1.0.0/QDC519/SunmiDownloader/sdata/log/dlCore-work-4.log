@@ -1,0 +1,1087 @@
+[20231129 21:06:32] [215795468] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:06:32] [215795468] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:06:32] [215795468] [MS] socketParsePackageThreadFunc
+[20231129 21:06:32] [215795468] [MS] keepAliveThreadFunc
+[20231129 21:06:32] [215795468] [MS] msgPackageSendThreadFunc
+[20231129 21:06:32] [215795484] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:06:32] [215795484] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:06:32] [215795484] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:06:33] [215796500] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=1016ms
+[20231129 21:06:33] [215796500] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:06:33] [215796500] [MS] moduleInit:model:4, work:5
+[20231129 21:06:33] [215796500] [GMD] init:model:4, work:5
+[20231129 21:06:33] [215796500] [BPT] cBaseProtocol create
+[20231129 21:06:33] [215796500] [CH341A] cCh341aPort create
+[20231129 21:06:33] [215796500] [CH341A-CORE] ch341aCoreInit
+[20231129 21:06:33] [215796500] [MH2T] cMh1902tDownload init
+[20231129 21:06:33] [215796515] [BPT] cBaseProtocol create
+[20231129 21:06:33] [215796515] [CH341A] cCh341aPort create
+[20231129 21:06:33] [215796515] [CH341A-CORE] ch341aCoreInit
+[20231129 21:06:33] [215796515] [SM] cSunmiDownload create
+[20231129 21:06:33] [215796515] [BPT] init: success!
+[20231129 21:06:33] [215796515] [BPT] init: success!
+[20231129 21:06:33] [215796515] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:06:39] [215802546] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=6046ms
+[20231129 21:06:39] [215802546] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:06:39] [215802546] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:06:39] [215802546] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:06:39] [215802546] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:06:41] [215804703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2157ms
+[20231129 21:06:41] [215804703] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:06:41] [215804703] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:06:41] [215804703] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:06:41] [215804703] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:06:45] [215808781] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=4078ms
+[20231129 21:06:45] [215808781] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:06:45] [215808781] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:06:45] [215808781] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:06:51] [215814218] [MAIN] [main start, version:V1.0.29T1, port=31280]
+
+[20231129 21:06:51] [215814218] [GMD] cGeneralModel create
+[20231129 21:06:51] [215814234] [MS] cMultiDownloadServer init
+[20231129 21:06:51] [215814250] [MS] socketInitThreadFunc
+[20231129 21:06:51] [215814250] [MS] socketSendThreadFunc
+[20231129 21:06:51] [215814250] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:06:51] [215814250] [MS] socketParsePackageThreadFunc
+[20231129 21:06:51] [215814250] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:06:51] [215814250] [MS] keepAliveThreadFunc
+[20231129 21:06:51] [215814250] [MS] msgPackageSendThreadFunc
+[20231129 21:06:51] [215814750] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:06:51] [215814750] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:06:51] [215814750] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:06:52] [215815265] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=515ms
+[20231129 21:06:52] [215815265] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:06:52] [215815265] [MS] moduleInit:model:4, work:5
+[20231129 21:06:52] [215815265] [GMD] init:model:4, work:5
+[20231129 21:06:52] [215815265] [BPT] cBaseProtocol create
+[20231129 21:06:52] [215815265] [CH341A] cCh341aPort create
+[20231129 21:06:52] [215815265] [CH341A-CORE] ch341aCoreInit
+[20231129 21:06:52] [215815265] [MH2T] cMh1902tDownload init
+[20231129 21:06:52] [215815281] [BPT] cBaseProtocol create
+[20231129 21:06:52] [215815281] [CH341A] cCh341aPort create
+[20231129 21:06:52] [215815281] [CH341A-CORE] ch341aCoreInit
+[20231129 21:06:52] [215815281] [SM] cSunmiDownload create
+[20231129 21:06:52] [215815281] [BPT] init: success!
+[20231129 21:06:52] [215815281] [BPT] init: success!
+[20231129 21:06:52] [215815281] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:06:52] [215815343] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=78ms
+[20231129 21:06:52] [215815343] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:06:52] [215815343] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:06:52] [215815343] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:06:52] [215815343] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:06:52] [215815421] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=78ms
+[20231129 21:06:52] [215815421] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:06:52] [215815421] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:06:52] [215815421] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:06:52] [215815484] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:06:52] [215815484] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:06:52] [215815484] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:06:52] [215815484] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:06:52] [215815546] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=62ms
+[20231129 21:06:52] [215815546] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:06:52] [215815546] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:06:52] [215815546] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:06:55] [215818359] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2813ms
+[20231129 21:06:55] [215818359] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:06:55] [215818359] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:06:55] [215818359] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:06:55] [215818359] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:06:55] [215818421] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:06:55] [215818421] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:06:55] [215818421] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:06:55] [215818421] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:06:55] [215818484] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:06:55] [215818484] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:06:55] [215818484] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:06:55] [215818484] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:06:55] [215818546] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=62ms
+[20231129 21:06:55] [215818546] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:06:55] [215818546] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:06:55] [215818546] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231129 21:07:10] [215833734] [MAIN] [main start, version:V1.0.29T1, port=31327]
+
+[20231129 21:07:10] [215833734] [GMD] cGeneralModel create
+[20231129 21:07:10] [215833750] [MS] cMultiDownloadServer init
+[20231129 21:07:10] [215833750] [MS] socketInitThreadFunc
+[20231129 21:07:10] [215833750] [MS] socketSendThreadFunc
+[20231129 21:07:10] [215833750] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:07:10] [215833750] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:07:10] [215833765] [MS] socketParsePackageThreadFunc
+[20231129 21:07:10] [215833765] [MS] keepAliveThreadFunc
+[20231129 21:07:10] [215833765] [MS] msgPackageSendThreadFunc
+[20231129 21:07:10] [215833781] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:07:10] [215833781] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:07:10] [215833781] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:07:11] [215834812] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=1031ms
+[20231129 21:07:11] [215834828] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:07:11] [215834828] [MS] moduleInit:model:4, work:5
+[20231129 21:07:11] [215834828] [GMD] init:model:4, work:5
+[20231129 21:07:11] [215834828] [BPT] cBaseProtocol create
+[20231129 21:07:11] [215834828] [CH341A] cCh341aPort create
+[20231129 21:07:11] [215834828] [CH341A-CORE] ch341aCoreInit
+[20231129 21:07:11] [215834828] [MH2T] cMh1902tDownload init
+[20231129 21:07:11] [215834828] [BPT] cBaseProtocol create
+[20231129 21:07:11] [215834828] [CH341A] cCh341aPort create
+[20231129 21:07:11] [215834828] [CH341A-CORE] ch341aCoreInit
+[20231129 21:07:11] [215834828] [SM] cSunmiDownload create
+[20231129 21:07:11] [215834828] [BPT] init: success!
+[20231129 21:07:11] [215834828] [BPT] init: success!
+[20231129 21:07:11] [215834828] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:07:11] [215834890] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=62ms
+[20231129 21:07:11] [215834890] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:07:11] [215834890] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:07:11] [215834890] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:07:11] [215834890] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:07:11] [215834953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=63ms
+[20231129 21:07:11] [215834953] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:07:11] [215834953] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:07:11] [215834953] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:07:11] [215835031] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=78ms
+[20231129 21:07:11] [215835031] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:07:11] [215835031] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:07:11] [215835031] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:07:11] [215835093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=62ms
+[20231129 21:07:11] [215835093] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:07:11] [215835093] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:07:11] [215835093] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:07:14] [215837906] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2813ms
+[20231129 21:07:14] [215837906] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:07:14] [215837906] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:07:14] [215837906] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:07:14] [215837906] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:07:14] [215837984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=78ms
+[20231129 21:07:14] [215837984] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:07:14] [215837984] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:07:14] [215837984] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:07:14] [215838046] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=62ms
+[20231129 21:07:14] [215838046] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:07:14] [215838046] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:07:14] [215838046] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:07:14] [215838109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=63ms
+[20231129 21:07:14] [215838109] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:07:14] [215838109] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:07:14] [215838109] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231129 21:09:32] [215975812] [MAIN] [main start, version:V1.0.29T1, port=31516]
+
+[20231129 21:09:32] [215975812] [GMD] cGeneralModel create
+[20231129 21:09:32] [215975843] [MS] cMultiDownloadServer init
+[20231129 21:09:32] [215975843] [MS] socketInitThreadFunc
+[20231129 21:09:32] [215975843] [MS] socketSendThreadFunc
+[20231129 21:09:32] [215975843] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:09:32] [215975859] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:09:32] [215975859] [MS] socketParsePackageThreadFunc
+[20231129 21:09:32] [215975859] [MS] keepAliveThreadFunc
+[20231129 21:09:32] [215975859] [MS] msgPackageSendThreadFunc
+[20231129 21:09:33] [215976343] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:09:33] [215976343] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:09:33] [215976343] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:09:33] [215976859] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=516ms
+[20231129 21:09:33] [215976859] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:09:33] [215976859] [MS] moduleInit:model:4, work:5
+[20231129 21:09:33] [215976859] [GMD] init:model:4, work:5
+[20231129 21:09:33] [215976859] [BPT] cBaseProtocol create
+[20231129 21:09:33] [215976859] [CH341A] cCh341aPort create
+[20231129 21:09:33] [215976859] [CH341A-CORE] ch341aCoreInit
+[20231129 21:09:33] [215976859] [MH2T] cMh1902tDownload init
+[20231129 21:09:33] [215976859] [BPT] cBaseProtocol create
+[20231129 21:09:33] [215976859] [CH341A] cCh341aPort create
+[20231129 21:09:33] [215976859] [CH341A-CORE] ch341aCoreInit
+[20231129 21:09:33] [215976859] [SM] cSunmiDownload create
+[20231129 21:09:33] [215976859] [BPT] init: success!
+[20231129 21:09:33] [215976859] [BPT] init: success!
+[20231129 21:09:33] [215976859] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:09:33] [215976921] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=62ms
+[20231129 21:09:33] [215976921] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:09:33] [215976921] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:09:33] [215976921] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:09:33] [215976937] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:09:33] [215977000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=79ms
+[20231129 21:09:33] [215977000] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:09:33] [215977000] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:09:33] [215977000] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:09:33] [215977062] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=62ms
+[20231129 21:09:33] [215977062] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:09:33] [215977062] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:09:33] [215977062] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:09:34] [215977140] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=78ms
+[20231129 21:09:34] [215977140] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:09:34] [215977140] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:09:34] [215977140] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:09:36] [215979953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2813ms
+[20231129 21:09:36] [215979953] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:09:36] [215979953] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:09:36] [215979953] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:09:36] [215979953] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:09:36] [215980015] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:09:36] [215980015] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:09:36] [215980015] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:09:36] [215980015] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:09:36] [215980078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:09:36] [215980093] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:09:36] [215980093] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:09:36] [215980093] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:09:37] [215980156] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=63ms
+[20231129 21:09:37] [215980156] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:09:37] [215980156] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:09:37] [215980156] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231129 21:09:57] [216000765] [MAIN] [main start, version:V1.0.29T1, port=31574]
+
+[20231129 21:09:57] [216000765] [GMD] cGeneralModel create
+[20231129 21:09:57] [216000781] [MS] cMultiDownloadServer init
+[20231129 21:09:57] [216000781] [MS] socketInitThreadFunc
+[20231129 21:09:57] [216000781] [MS] socketSendThreadFunc
+[20231129 21:09:57] [216000781] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:09:57] [216000781] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:09:57] [216000796] [MS] socketParsePackageThreadFunc
+[20231129 21:09:57] [216000796] [MS] keepAliveThreadFunc
+[20231129 21:09:57] [216000796] [MS] msgPackageSendThreadFunc
+[20231129 21:09:58] [216001281] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:09:58] [216001281] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:09:58] [216001281] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:09:58] [216001812] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=531ms
+[20231129 21:09:58] [216001812] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:09:58] [216001812] [MS] moduleInit:model:4, work:5
+[20231129 21:09:58] [216001812] [GMD] init:model:4, work:5
+[20231129 21:09:58] [216001812] [BPT] cBaseProtocol create
+[20231129 21:09:58] [216001812] [CH341A] cCh341aPort create
+[20231129 21:09:58] [216001812] [CH341A-CORE] ch341aCoreInit
+[20231129 21:09:58] [216001812] [MH2T] cMh1902tDownload init
+[20231129 21:09:58] [216001828] [BPT] cBaseProtocol create
+[20231129 21:09:58] [216001828] [CH341A] cCh341aPort create
+[20231129 21:09:58] [216001828] [CH341A-CORE] ch341aCoreInit
+[20231129 21:09:58] [216001828] [SM] cSunmiDownload create
+[20231129 21:09:58] [216001828] [BPT] init: success!
+[20231129 21:09:58] [216001828] [BPT] init: success!
+[20231129 21:09:58] [216001828] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:09:58] [216001890] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=78ms
+[20231129 21:09:58] [216001890] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:09:58] [216001890] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:09:58] [216001890] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:09:58] [216001890] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:09:58] [216001953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=63ms
+[20231129 21:09:58] [216001968] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:09:58] [216001968] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:09:58] [216001968] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:09:58] [216002015] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=47ms
+[20231129 21:09:58] [216002015] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:09:58] [216002015] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:09:58] [216002015] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:09:58] [216002078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=63ms
+[20231129 21:09:58] [216002078] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:09:58] [216002078] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:09:58] [216002078] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:10:01] [216004906] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2828ms
+[20231129 21:10:01] [216004906] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:10:01] [216004906] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:10:01] [216004906] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:10:01] [216004906] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:10:01] [216004968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:10:01] [216004968] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:10:01] [216004968] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:10:01] [216004968] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:10:01] [216005031] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:10:01] [216005031] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:10:01] [216005031] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:10:01] [216005031] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:10:01] [216005078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=47ms
+[20231129 21:10:01] [216005078] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:10:01] [216005078] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:10:01] [216005078] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231129 21:10:19] [216022765] [MAIN] [main start, version:V1.0.29T1, port=31631]
+
+[20231129 21:10:19] [216022765] [GMD] cGeneralModel create
+[20231129 21:10:19] [216022796] [MS] cMultiDownloadServer init
+[20231129 21:10:19] [216022796] [MS] socketInitThreadFunc
+[20231129 21:10:19] [216022796] [MS] socketSendThreadFunc
+[20231129 21:10:19] [216022796] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:10:19] [216022796] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:10:19] [216022796] [MS] socketParsePackageThreadFunc
+[20231129 21:10:19] [216022812] [MS] keepAliveThreadFunc
+[20231129 21:10:19] [216022812] [MS] msgPackageSendThreadFunc
+[20231129 21:10:20] [216023296] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:10:20] [216023296] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:10:20] [216023296] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:10:20] [216023781] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=485ms
+[20231129 21:10:20] [216023781] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:10:20] [216023781] [MS] moduleInit:model:4, work:5
+[20231129 21:10:20] [216023781] [GMD] init:model:4, work:5
+[20231129 21:10:20] [216023781] [BPT] cBaseProtocol create
+[20231129 21:10:20] [216023781] [CH341A] cCh341aPort create
+[20231129 21:10:20] [216023781] [CH341A-CORE] ch341aCoreInit
+[20231129 21:10:20] [216023781] [MH2T] cMh1902tDownload init
+[20231129 21:10:20] [216023781] [BPT] cBaseProtocol create
+[20231129 21:10:20] [216023781] [CH341A] cCh341aPort create
+[20231129 21:10:20] [216023781] [CH341A-CORE] ch341aCoreInit
+[20231129 21:10:20] [216023781] [SM] cSunmiDownload create
+[20231129 21:10:20] [216023781] [BPT] init: success!
+[20231129 21:10:20] [216023781] [BPT] init: success!
+[20231129 21:10:20] [216023781] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:10:20] [216023843] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=62ms
+[20231129 21:10:20] [216023859] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:10:20] [216023859] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:10:20] [216023859] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:10:20] [216023859] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:10:20] [216023921] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:10:20] [216023921] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:10:20] [216023921] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:10:20] [216023921] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:10:20] [216023984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:10:20] [216023984] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:10:20] [216023984] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:10:20] [216023984] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:10:20] [216024046] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=62ms
+[20231129 21:10:20] [216024046] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:10:20] [216024046] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:10:20] [216024046] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:10:23] [216026875] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2829ms
+[20231129 21:10:23] [216026875] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:10:23] [216026875] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:10:23] [216026875] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:10:23] [216026875] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:10:23] [216026937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:10:23] [216026937] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:10:23] [216026937] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:10:23] [216026937] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:10:23] [216027000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:10:23] [216027000] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:10:23] [216027000] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:10:23] [216027000] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:10:23] [216027062] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=62ms
+[20231129 21:10:23] [216027062] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:10:23] [216027062] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:10:23] [216027062] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231129 21:10:39] [216042671] [MAIN] [main start, version:V1.0.29T1, port=31675]
+
+[20231129 21:10:39] [216042671] [GMD] cGeneralModel create
+[20231129 21:10:39] [216042687] [MS] cMultiDownloadServer init
+[20231129 21:10:39] [216042687] [MS] socketInitThreadFunc
+[20231129 21:10:39] [216042687] [MS] socketSendThreadFunc
+[20231129 21:10:39] [216042687] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:10:39] [216042687] [MS] socketParsePackageThreadFunc
+[20231129 21:10:39] [216042687] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:10:39] [216042687] [MS] keepAliveThreadFunc
+[20231129 21:10:39] [216042703] [MS] msgPackageSendThreadFunc
+[20231129 21:10:40] [216043203] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:10:40] [216043203] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:10:40] [216043203] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:10:40] [216043718] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=515ms
+[20231129 21:10:40] [216043718] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:10:40] [216043718] [MS] moduleInit:model:4, work:5
+[20231129 21:10:40] [216043718] [GMD] init:model:4, work:5
+[20231129 21:10:40] [216043718] [BPT] cBaseProtocol create
+[20231129 21:10:40] [216043718] [CH341A] cCh341aPort create
+[20231129 21:10:40] [216043718] [CH341A-CORE] ch341aCoreInit
+[20231129 21:10:40] [216043718] [MH2T] cMh1902tDownload init
+[20231129 21:10:40] [216043718] [BPT] cBaseProtocol create
+[20231129 21:10:40] [216043718] [CH341A] cCh341aPort create
+[20231129 21:10:40] [216043718] [CH341A-CORE] ch341aCoreInit
+[20231129 21:10:40] [216043718] [SM] cSunmiDownload create
+[20231129 21:10:40] [216043718] [BPT] init: success!
+[20231129 21:10:40] [216043718] [BPT] init: success!
+[20231129 21:10:40] [216043718] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:10:40] [216043781] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=63ms
+[20231129 21:10:40] [216043781] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:10:40] [216043781] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:10:40] [216043781] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:10:40] [216043781] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:10:40] [216043843] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:10:40] [216043843] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:10:40] [216043843] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:10:40] [216043843] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:10:40] [216043906] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:10:40] [216043906] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:10:40] [216043906] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:10:40] [216043906] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:10:40] [216043984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=78ms
+[20231129 21:10:40] [216043984] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:10:40] [216043984] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:10:40] [216043984] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:10:43] [216046828] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2844ms
+[20231129 21:10:43] [216046828] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:10:43] [216046828] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:10:43] [216046828] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:10:43] [216046828] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:10:43] [216046890] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:10:43] [216046890] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:10:43] [216046890] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:10:43] [216046890] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:10:43] [216046953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:10:43] [216046953] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:10:43] [216046953] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:10:43] [216046953] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:10:43] [216047000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=47ms
+[20231129 21:10:43] [216047015] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:10:43] [216047015] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:10:43] [216047015] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231129 21:13:11] [216194718] [MAIN] [main start, version:V1.0.29T1, port=31899]
+
+[20231129 21:13:11] [216194718] [GMD] cGeneralModel create
+[20231129 21:13:11] [216194734] [MS] cMultiDownloadServer init
+[20231129 21:13:11] [216194734] [MS] socketInitThreadFunc
+[20231129 21:13:11] [216194750] [MS] socketSendThreadFunc
+[20231129 21:13:11] [216194750] [MS] [work-4294967295] socketSendThreadFunc
+[20231129 21:13:11] [216194750] [MS] [work-4294967295] socketRecvThreadFunc
+[20231129 21:13:11] [216194750] [MS] socketParsePackageThreadFunc
+[20231129 21:13:11] [216194750] [MS] keepAliveThreadFunc
+[20231129 21:13:11] [216194750] [MS] msgPackageSendThreadFunc
+[20231129 21:13:12] [216195250] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231129 21:13:12] [216195250] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231129 21:13:12] [216195250] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231129 21:13:12] [216195859] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=609ms
+[20231129 21:13:12] [216195859] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231129 21:13:12] [216195859] [MS] moduleInit:model:4, work:5
+[20231129 21:13:12] [216195859] [GMD] init:model:4, work:5
+[20231129 21:13:12] [216195859] [BPT] cBaseProtocol create
+[20231129 21:13:12] [216195859] [CH341A] cCh341aPort create
+[20231129 21:13:12] [216195859] [CH341A-CORE] ch341aCoreInit
+[20231129 21:13:12] [216195859] [MH2T] cMh1902tDownload init
+[20231129 21:13:12] [216195875] [BPT] cBaseProtocol create
+[20231129 21:13:12] [216195875] [CH341A] cCh341aPort create
+[20231129 21:13:12] [216195875] [CH341A-CORE] ch341aCoreInit
+[20231129 21:13:12] [216195875] [SM] cSunmiDownload create
+[20231129 21:13:12] [216195875] [BPT] init: success!
+[20231129 21:13:12] [216195875] [BPT] init: success!
+[20231129 21:13:12] [216195875] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231129 21:13:12] [216195937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=78ms
+[20231129 21:13:12] [216195937] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231129 21:13:12] [216195937] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:13:12] [216195937] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:13:12] [216195937] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231129 21:13:12] [216196015] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=78ms
+[20231129 21:13:12] [216196015] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231129 21:13:12] [216196015] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:13:12] [216196015] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231129 21:13:12] [216196093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=78ms
+[20231129 21:13:12] [216196093] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231129 21:13:12] [216196093] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:13:12] [216196093] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231129 21:13:13] [216196156] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=63ms
+[20231129 21:13:13] [216196156] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231129 21:13:13] [216196156] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:13:13] [216196156] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231129 21:13:15] [216198953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=2797ms
+[20231129 21:13:15] [216198953] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231129 21:13:15] [216198953] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231129 21:13:15] [216198953] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231129 21:13:15] [216198953] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231129 21:13:15] [216199015] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=62ms
+[20231129 21:13:15] [216199015] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231129 21:13:15] [216199015] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231129 21:13:15] [216199015] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231129 21:13:15] [216199078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231129 21:13:15] [216199078] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231129 21:13:15] [216199078] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231129 21:13:15] [216199078] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231129 21:13:15] [216199140] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=237Bytes, time cost=62ms
+[20231129 21:13:15] [216199140] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231129 21:13:15] [216199140] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231129 21:13:15] [216199140] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231130 11:23:58] [267241375] [MAIN] [main start, version:V1.0.29T1, port=42231]
+
+[20231130 11:23:58] [267241859] [GMD] cGeneralModel create
+[20231130 11:23:58] [267241875] [MS] cMultiDownloadServer init
+[20231130 11:23:58] [267241890] [MS] socketInitThreadFunc
+[20231130 11:23:58] [267241890] [MS] socketSendThreadFunc
+[20231130 11:23:58] [267241890] [MS] [work-4294967295] socketSendThreadFunc
+[20231130 11:23:58] [267241890] [MS] [work-4294967295] socketRecvThreadFunc
+[20231130 11:23:58] [267241890] [MS] socketParsePackageThreadFunc
+[20231130 11:23:58] [267241890] [MS] keepAliveThreadFunc
+[20231130 11:23:58] [267241890] [MS] msgPackageSendThreadFunc
+[20231130 11:23:58] [267241921] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231130 11:23:58] [267241921] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231130 11:23:58] [267241921] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231130 11:23:59] [267242562] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=641ms
+[20231130 11:23:59] [267242562] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231130 11:23:59] [267242562] [MS] moduleInit:model:4, work:5
+[20231130 11:23:59] [267242562] [GMD] init:model:4, work:5
+[20231130 11:23:59] [267242562] [BPT] cBaseProtocol create
+[20231130 11:23:59] [267242562] [CH341A] cCh341aPort create
+[20231130 11:23:59] [267242562] [CH341A-CORE] ch341aCoreInit
+[20231130 11:23:59] [267242562] [MH2T] cMh1902tDownload init
+[20231130 11:23:59] [267242562] [BPT] cBaseProtocol create
+[20231130 11:23:59] [267242562] [CH341A] cCh341aPort create
+[20231130 11:23:59] [267242562] [CH341A-CORE] ch341aCoreInit
+[20231130 11:23:59] [267242562] [SM] cSunmiDownload create
+[20231130 11:23:59] [267242562] [BPT] init: success!
+[20231130 11:23:59] [267242562] [BPT] init: success!
+[20231130 11:23:59] [267242562] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231130 11:23:59] [267242656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=212Bytes, time cost=94ms
+[20231130 11:23:59] [267242656] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231130 11:23:59] [267242656] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231130 11:23:59] [267242656] [BPT] setDownloadFilePath: file don't exist! path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231130 11:23:59] [267242656] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:-1000
+[20231130 11:23:59] [267242734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=78ms
+[20231130 11:23:59] [267242734] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231130 11:23:59] [267242734] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231130 11:23:59] [267242734] [BPT] setDownloadFilePath: file don't exist! path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231130 11:23:59] [267242734] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:-1000
+[20231130 11:23:59] [267242796] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=62ms
+[20231130 11:23:59] [267242796] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231130 11:23:59] [267242796] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231130 11:23:59] [267242796] [BPT] setDownloadFilePath: file don't exist! path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231130 11:23:59] [267242796] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:-1000
+[20231130 11:23:59] [267242859] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=63ms
+[20231130 11:23:59] [267242859] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231130 11:23:59] [267242859] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231130 11:23:59] [267242859] [BPT] setDownloadFilePath: file don't exist! path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM_debug\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231130 11:23:59] [267242859] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:-1000
+[20231130 11:24:02] [267245671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=206Bytes, time cost=2812ms
+[20231130 11:24:02] [267245671] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231130 11:24:02] [267245671] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231130 11:24:02] [267245671] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231130 11:24:02] [267245671] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231130 11:24:02] [267245734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=63ms
+[20231130 11:24:02] [267245734] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231130 11:24:02] [267245734] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231130 11:24:02] [267245734] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231130 11:24:02] [267245812] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=218Bytes, time cost=78ms
+[20231130 11:24:02] [267245812] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231130 11:24:02] [267245812] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231130 11:24:02] [267245812] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231130 11:24:02] [267245875] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=231Bytes, time cost=63ms
+[20231130 11:24:02] [267245875] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231130 11:24:02] [267245875] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231130 11:24:02] [267245875] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231130 11:24:48] [267291921] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=46046ms
+[20231130 11:24:48] [267291921] [MS] ipcDataParse: cmd:keepAlive, mask:11
+[20231130 11:24:48] [267291921] [MS] sendIpcAnswer: cmd[keepAlive], mask:11, ret:0
+[20231130 11:25:38] [267341921] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:25:38] [267341921] [MS] ipcDataParse: cmd:keepAlive, mask:12
+[20231130 11:25:38] [267341921] [MS] sendIpcAnswer: cmd[keepAlive], mask:12, ret:0
+[20231130 11:26:28] [267391921] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:26:28] [267391921] [MS] ipcDataParse: cmd:keepAlive, mask:13
+[20231130 11:26:28] [267391921] [MS] sendIpcAnswer: cmd[keepAlive], mask:13, ret:0
+[20231130 11:27:18] [267441937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 11:27:18] [267441937] [MS] ipcDataParse: cmd:keepAlive, mask:14
+[20231130 11:27:18] [267441937] [MS] sendIpcAnswer: cmd[keepAlive], mask:14, ret:0
+[20231130 11:28:08] [267491937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:28:08] [267491937] [MS] ipcDataParse: cmd:keepAlive, mask:15
+[20231130 11:28:08] [267491937] [MS] sendIpcAnswer: cmd[keepAlive], mask:15, ret:0
+[20231130 11:28:58] [267541937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:28:58] [267541937] [MS] ipcDataParse: cmd:keepAlive, mask:16
+[20231130 11:28:58] [267541937] [MS] sendIpcAnswer: cmd[keepAlive], mask:16, ret:0
+[20231130 11:29:48] [267591937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:29:48] [267591937] [MS] ipcDataParse: cmd:keepAlive, mask:17
+[20231130 11:29:48] [267591937] [MS] sendIpcAnswer: cmd[keepAlive], mask:17, ret:0
+[20231130 11:30:38] [267641937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:30:38] [267641937] [MS] ipcDataParse: cmd:keepAlive, mask:18
+[20231130 11:30:38] [267641937] [MS] sendIpcAnswer: cmd[keepAlive], mask:18, ret:0
+[20231130 11:31:28] [267691937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:31:28] [267691937] [MS] ipcDataParse: cmd:keepAlive, mask:19
+[20231130 11:31:28] [267691937] [MS] sendIpcAnswer: cmd[keepAlive], mask:19, ret:0
+[20231130 11:32:18] [267741937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:32:18] [267741937] [MS] ipcDataParse: cmd:keepAlive, mask:20
+[20231130 11:32:18] [267741937] [MS] sendIpcAnswer: cmd[keepAlive], mask:20, ret:0
+[20231130 11:33:08] [267791937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:33:08] [267791937] [MS] ipcDataParse: cmd:keepAlive, mask:21
+[20231130 11:33:08] [267791937] [MS] sendIpcAnswer: cmd[keepAlive], mask:21, ret:0
+[20231130 11:33:58] [267841937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:33:58] [267841937] [MS] ipcDataParse: cmd:keepAlive, mask:22
+[20231130 11:33:58] [267841937] [MS] sendIpcAnswer: cmd[keepAlive], mask:22, ret:0
+[20231130 11:34:48] [267891937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:34:48] [267891937] [MS] ipcDataParse: cmd:keepAlive, mask:23
+[20231130 11:34:48] [267891937] [MS] sendIpcAnswer: cmd[keepAlive], mask:23, ret:0
+[20231130 11:35:38] [267941937] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:35:38] [267941937] [MS] ipcDataParse: cmd:keepAlive, mask:24
+[20231130 11:35:38] [267941937] [MS] sendIpcAnswer: cmd[keepAlive], mask:24, ret:0
+[20231130 11:36:28] [267991953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 11:36:28] [267991953] [MS] ipcDataParse: cmd:keepAlive, mask:25
+[20231130 11:36:28] [267991953] [MS] sendIpcAnswer: cmd[keepAlive], mask:25, ret:0
+[20231130 11:37:18] [268041953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:37:18] [268041953] [MS] ipcDataParse: cmd:keepAlive, mask:26
+[20231130 11:37:18] [268041953] [MS] sendIpcAnswer: cmd[keepAlive], mask:26, ret:0
+[20231130 11:38:08] [268091953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:38:08] [268091953] [MS] ipcDataParse: cmd:keepAlive, mask:27
+[20231130 11:38:08] [268091953] [MS] sendIpcAnswer: cmd[keepAlive], mask:27, ret:0
+[20231130 11:38:58] [268141953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:38:58] [268141953] [MS] ipcDataParse: cmd:keepAlive, mask:28
+[20231130 11:38:58] [268141953] [MS] sendIpcAnswer: cmd[keepAlive], mask:28, ret:0
+[20231130 11:39:48] [268191953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:39:48] [268191953] [MS] ipcDataParse: cmd:keepAlive, mask:29
+[20231130 11:39:48] [268191953] [MS] sendIpcAnswer: cmd[keepAlive], mask:29, ret:0
+[20231130 11:40:38] [268241953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:40:38] [268241953] [MS] ipcDataParse: cmd:keepAlive, mask:30
+[20231130 11:40:38] [268241953] [MS] sendIpcAnswer: cmd[keepAlive], mask:30, ret:0
+[20231130 11:41:28] [268291953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:41:28] [268291953] [MS] ipcDataParse: cmd:keepAlive, mask:31
+[20231130 11:41:28] [268291953] [MS] sendIpcAnswer: cmd[keepAlive], mask:31, ret:0
+[20231130 11:42:18] [268341953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:42:18] [268341953] [MS] ipcDataParse: cmd:keepAlive, mask:32
+[20231130 11:42:18] [268341953] [MS] sendIpcAnswer: cmd[keepAlive], mask:32, ret:0
+[20231130 11:43:08] [268391953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:43:08] [268391953] [MS] ipcDataParse: cmd:keepAlive, mask:33
+[20231130 11:43:08] [268391953] [MS] sendIpcAnswer: cmd[keepAlive], mask:33, ret:0
+[20231130 11:43:58] [268441953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:43:58] [268441953] [MS] ipcDataParse: cmd:keepAlive, mask:34
+[20231130 11:43:58] [268441953] [MS] sendIpcAnswer: cmd[keepAlive], mask:34, ret:0
+[20231130 11:44:48] [268491953] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:44:48] [268491953] [MS] ipcDataParse: cmd:keepAlive, mask:35
+[20231130 11:44:48] [268491953] [MS] sendIpcAnswer: cmd[keepAlive], mask:35, ret:0
+[20231130 11:45:38] [268541968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20231130 11:45:38] [268541968] [MS] ipcDataParse: cmd:keepAlive, mask:36
+[20231130 11:45:38] [268541968] [MS] sendIpcAnswer: cmd[keepAlive], mask:36, ret:0
+[20231130 11:46:28] [268591968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:46:28] [268591968] [MS] ipcDataParse: cmd:keepAlive, mask:37
+[20231130 11:46:28] [268591968] [MS] sendIpcAnswer: cmd[keepAlive], mask:37, ret:0
+[20231130 11:47:18] [268641968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:47:18] [268641968] [MS] ipcDataParse: cmd:keepAlive, mask:38
+[20231130 11:47:18] [268641968] [MS] sendIpcAnswer: cmd[keepAlive], mask:38, ret:0
+[20231130 11:48:08] [268691968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:48:08] [268691968] [MS] ipcDataParse: cmd:keepAlive, mask:39
+[20231130 11:48:08] [268691968] [MS] sendIpcAnswer: cmd[keepAlive], mask:39, ret:0
+[20231130 11:48:58] [268741968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:48:58] [268741968] [MS] ipcDataParse: cmd:keepAlive, mask:40
+[20231130 11:48:58] [268741968] [MS] sendIpcAnswer: cmd[keepAlive], mask:40, ret:0
+[20231130 11:49:48] [268791968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:49:48] [268791968] [MS] ipcDataParse: cmd:keepAlive, mask:41
+[20231130 11:49:48] [268791968] [MS] sendIpcAnswer: cmd[keepAlive], mask:41, ret:0
+[20231130 11:50:38] [268841968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:50:38] [268841968] [MS] ipcDataParse: cmd:keepAlive, mask:42
+[20231130 11:50:38] [268841968] [MS] sendIpcAnswer: cmd[keepAlive], mask:42, ret:0
+[20231130 11:51:28] [268891968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:51:28] [268891968] [MS] ipcDataParse: cmd:keepAlive, mask:43
+[20231130 11:51:28] [268891968] [MS] sendIpcAnswer: cmd[keepAlive], mask:43, ret:0
+[20231130 11:52:18] [268941968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:52:18] [268941968] [MS] ipcDataParse: cmd:keepAlive, mask:44
+[20231130 11:52:18] [268941968] [MS] sendIpcAnswer: cmd[keepAlive], mask:44, ret:0
+[20231130 11:53:08] [268991968] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:53:08] [268991968] [MS] ipcDataParse: cmd:keepAlive, mask:45
+[20231130 11:53:08] [268991968] [MS] sendIpcAnswer: cmd[keepAlive], mask:45, ret:0
+[20231130 11:53:58] [269041984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 11:53:58] [269041984] [MS] ipcDataParse: cmd:keepAlive, mask:46
+[20231130 11:53:58] [269041984] [MS] sendIpcAnswer: cmd[keepAlive], mask:46, ret:0
+[20231130 11:54:48] [269091984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:54:48] [269091984] [MS] ipcDataParse: cmd:keepAlive, mask:47
+[20231130 11:54:48] [269091984] [MS] sendIpcAnswer: cmd[keepAlive], mask:47, ret:0
+[20231130 11:55:38] [269141984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:55:38] [269141984] [MS] ipcDataParse: cmd:keepAlive, mask:48
+[20231130 11:55:38] [269141984] [MS] sendIpcAnswer: cmd[keepAlive], mask:48, ret:0
+[20231130 11:56:28] [269191984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:56:28] [269191984] [MS] ipcDataParse: cmd:keepAlive, mask:49
+[20231130 11:56:28] [269191984] [MS] sendIpcAnswer: cmd[keepAlive], mask:49, ret:0
+[20231130 11:57:18] [269241984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:57:18] [269241984] [MS] ipcDataParse: cmd:keepAlive, mask:50
+[20231130 11:57:18] [269241984] [MS] sendIpcAnswer: cmd[keepAlive], mask:50, ret:0
+[20231130 11:58:08] [269291984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:58:08] [269291984] [MS] ipcDataParse: cmd:keepAlive, mask:51
+[20231130 11:58:08] [269291984] [MS] sendIpcAnswer: cmd[keepAlive], mask:51, ret:0
+[20231130 11:58:58] [269341984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:58:58] [269341984] [MS] ipcDataParse: cmd:keepAlive, mask:52
+[20231130 11:58:58] [269341984] [MS] sendIpcAnswer: cmd[keepAlive], mask:52, ret:0
+[20231130 11:59:48] [269391984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 11:59:48] [269391984] [MS] ipcDataParse: cmd:keepAlive, mask:53
+[20231130 11:59:48] [269391984] [MS] sendIpcAnswer: cmd[keepAlive], mask:53, ret:0
+[20231130 12:00:38] [269441984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:00:38] [269441984] [MS] ipcDataParse: cmd:keepAlive, mask:54
+[20231130 12:00:38] [269441984] [MS] sendIpcAnswer: cmd[keepAlive], mask:54, ret:0
+[20231130 12:01:28] [269491984] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:01:28] [269491984] [MS] ipcDataParse: cmd:keepAlive, mask:55
+[20231130 12:01:28] [269491984] [MS] sendIpcAnswer: cmd[keepAlive], mask:55, ret:0
+[20231130 12:02:18] [269542000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 12:02:18] [269542000] [MS] ipcDataParse: cmd:keepAlive, mask:56
+[20231130 12:02:18] [269542000] [MS] sendIpcAnswer: cmd[keepAlive], mask:56, ret:0
+[20231130 12:03:08] [269592000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:03:08] [269592000] [MS] ipcDataParse: cmd:keepAlive, mask:57
+[20231130 12:03:08] [269592000] [MS] sendIpcAnswer: cmd[keepAlive], mask:57, ret:0
+[20231130 12:03:58] [269642000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:03:58] [269642000] [MS] ipcDataParse: cmd:keepAlive, mask:58
+[20231130 12:03:58] [269642000] [MS] sendIpcAnswer: cmd[keepAlive], mask:58, ret:0
+[20231130 12:04:48] [269692000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:04:48] [269692000] [MS] ipcDataParse: cmd:keepAlive, mask:59
+[20231130 12:04:48] [269692000] [MS] sendIpcAnswer: cmd[keepAlive], mask:59, ret:0
+[20231130 12:05:38] [269742000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:05:38] [269742000] [MS] ipcDataParse: cmd:keepAlive, mask:60
+[20231130 12:05:38] [269742000] [MS] sendIpcAnswer: cmd[keepAlive], mask:60, ret:0
+[20231130 12:06:28] [269792000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:06:28] [269792000] [MS] ipcDataParse: cmd:keepAlive, mask:61
+[20231130 12:06:28] [269792000] [MS] sendIpcAnswer: cmd[keepAlive], mask:61, ret:0
+[20231130 12:07:18] [269842000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:07:18] [269842000] [MS] ipcDataParse: cmd:keepAlive, mask:62
+[20231130 12:07:18] [269842000] [MS] sendIpcAnswer: cmd[keepAlive], mask:62, ret:0
+[20231130 12:08:08] [269892000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:08:08] [269892000] [MS] ipcDataParse: cmd:keepAlive, mask:63
+[20231130 12:08:08] [269892000] [MS] sendIpcAnswer: cmd[keepAlive], mask:63, ret:0
+[20231130 12:08:58] [269942000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:08:58] [269942000] [MS] ipcDataParse: cmd:keepAlive, mask:64
+[20231130 12:08:58] [269942000] [MS] sendIpcAnswer: cmd[keepAlive], mask:64, ret:0
+[20231130 12:09:48] [269992000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:09:48] [269992000] [MS] ipcDataParse: cmd:keepAlive, mask:65
+[20231130 12:09:48] [269992000] [MS] sendIpcAnswer: cmd[keepAlive], mask:65, ret:0
+[20231130 12:10:38] [270042000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:10:38] [270042000] [MS] ipcDataParse: cmd:keepAlive, mask:66
+[20231130 12:10:38] [270042000] [MS] sendIpcAnswer: cmd[keepAlive], mask:66, ret:0
+[20231130 12:11:28] [270092000] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:11:28] [270092000] [MS] ipcDataParse: cmd:keepAlive, mask:67
+[20231130 12:11:28] [270092000] [MS] sendIpcAnswer: cmd[keepAlive], mask:67, ret:0
+[20231130 12:12:18] [270142015] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20231130 12:12:18] [270142078] [MS] ipcDataParse: cmd:keepAlive, mask:68
+[20231130 12:12:18] [270142078] [MS] sendIpcAnswer: cmd[keepAlive], mask:68, ret:0
+[20231130 12:13:08] [270192078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:13:08] [270192078] [MS] ipcDataParse: cmd:keepAlive, mask:69
+[20231130 12:13:08] [270192078] [MS] sendIpcAnswer: cmd[keepAlive], mask:69, ret:0
+[20231130 12:13:58] [270242078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:13:58] [270242078] [MS] ipcDataParse: cmd:keepAlive, mask:70
+[20231130 12:13:58] [270242078] [MS] sendIpcAnswer: cmd[keepAlive], mask:70, ret:0
+[20231130 12:14:48] [270292078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:14:48] [270292078] [MS] ipcDataParse: cmd:keepAlive, mask:71
+[20231130 12:14:48] [270292078] [MS] sendIpcAnswer: cmd[keepAlive], mask:71, ret:0
+[20231130 12:15:38] [270342078] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:15:38] [270342078] [MS] ipcDataParse: cmd:keepAlive, mask:72
+[20231130 12:15:38] [270342078] [MS] sendIpcAnswer: cmd[keepAlive], mask:72, ret:0
+[20231130 12:16:28] [270392093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20231130 12:16:28] [270392093] [MS] ipcDataParse: cmd:keepAlive, mask:73
+[20231130 12:16:28] [270392093] [MS] sendIpcAnswer: cmd[keepAlive], mask:73, ret:0
+[20231130 12:17:18] [270442093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:17:18] [270442093] [MS] ipcDataParse: cmd:keepAlive, mask:74
+[20231130 12:17:18] [270442093] [MS] sendIpcAnswer: cmd[keepAlive], mask:74, ret:0
+[20231130 12:18:08] [270492093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:18:08] [270492093] [MS] ipcDataParse: cmd:keepAlive, mask:75
+[20231130 12:18:08] [270492093] [MS] sendIpcAnswer: cmd[keepAlive], mask:75, ret:0
+[20231130 12:18:58] [270542093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:18:58] [270542093] [MS] ipcDataParse: cmd:keepAlive, mask:76
+[20231130 12:18:58] [270542093] [MS] sendIpcAnswer: cmd[keepAlive], mask:76, ret:0
+[20231130 12:19:48] [270592093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:19:48] [270592093] [MS] ipcDataParse: cmd:keepAlive, mask:77
+[20231130 12:19:48] [270592093] [MS] sendIpcAnswer: cmd[keepAlive], mask:77, ret:0
+[20231130 12:20:38] [270642093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:20:38] [270642093] [MS] ipcDataParse: cmd:keepAlive, mask:78
+[20231130 12:20:38] [270642093] [MS] sendIpcAnswer: cmd[keepAlive], mask:78, ret:0
+[20231130 12:21:28] [270692093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:21:28] [270692093] [MS] ipcDataParse: cmd:keepAlive, mask:79
+[20231130 12:21:28] [270692093] [MS] sendIpcAnswer: cmd[keepAlive], mask:79, ret:0
+[20231130 12:22:18] [270742093] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:22:18] [270742093] [MS] ipcDataParse: cmd:keepAlive, mask:80
+[20231130 12:22:18] [270742093] [MS] sendIpcAnswer: cmd[keepAlive], mask:80, ret:0
+[20231130 12:23:08] [270792109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 12:23:08] [270792109] [MS] ipcDataParse: cmd:keepAlive, mask:81
+[20231130 12:23:08] [270792109] [MS] sendIpcAnswer: cmd[keepAlive], mask:81, ret:0
+[20231130 12:23:58] [270842109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:23:58] [270842109] [MS] ipcDataParse: cmd:keepAlive, mask:82
+[20231130 12:23:58] [270842109] [MS] sendIpcAnswer: cmd[keepAlive], mask:82, ret:0
+[20231130 12:24:48] [270892109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:24:48] [270892109] [MS] ipcDataParse: cmd:keepAlive, mask:83
+[20231130 12:24:48] [270892109] [MS] sendIpcAnswer: cmd[keepAlive], mask:83, ret:0
+[20231130 12:25:38] [270942109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:25:38] [270942109] [MS] ipcDataParse: cmd:keepAlive, mask:84
+[20231130 12:25:38] [270942109] [MS] sendIpcAnswer: cmd[keepAlive], mask:84, ret:0
+[20231130 12:26:28] [270992109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:26:28] [270992109] [MS] ipcDataParse: cmd:keepAlive, mask:85
+[20231130 12:26:28] [270992109] [MS] sendIpcAnswer: cmd[keepAlive], mask:85, ret:0
+[20231130 12:27:18] [271042109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:27:18] [271042109] [MS] ipcDataParse: cmd:keepAlive, mask:86
+[20231130 12:27:18] [271042109] [MS] sendIpcAnswer: cmd[keepAlive], mask:86, ret:0
+[20231130 12:28:08] [271092109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:28:08] [271092109] [MS] ipcDataParse: cmd:keepAlive, mask:87
+[20231130 12:28:08] [271092109] [MS] sendIpcAnswer: cmd[keepAlive], mask:87, ret:0
+[20231130 12:28:58] [271142109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:28:58] [271142109] [MS] ipcDataParse: cmd:keepAlive, mask:88
+[20231130 12:28:58] [271142109] [MS] sendIpcAnswer: cmd[keepAlive], mask:88, ret:0
+[20231130 12:29:48] [271192109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:29:48] [271192109] [MS] ipcDataParse: cmd:keepAlive, mask:89
+[20231130 12:29:48] [271192109] [MS] sendIpcAnswer: cmd[keepAlive], mask:89, ret:0
+[20231130 12:30:38] [271242109] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:30:38] [271242109] [MS] ipcDataParse: cmd:keepAlive, mask:90
+[20231130 12:30:38] [271242109] [MS] sendIpcAnswer: cmd[keepAlive], mask:90, ret:0
+[20231130 12:31:28] [271292125] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 12:31:28] [271292125] [MS] ipcDataParse: cmd:keepAlive, mask:91
+[20231130 12:31:28] [271292125] [MS] sendIpcAnswer: cmd[keepAlive], mask:91, ret:0
+[20231130 12:32:18] [271342125] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:32:18] [271342125] [MS] ipcDataParse: cmd:keepAlive, mask:92
+[20231130 12:32:18] [271342125] [MS] sendIpcAnswer: cmd[keepAlive], mask:92, ret:0
+[20231130 12:33:08] [271392125] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:33:08] [271392125] [MS] ipcDataParse: cmd:keepAlive, mask:93
+[20231130 12:33:09] [271392640] [MS] sendIpcAnswer: cmd[keepAlive], mask:93, ret:0
+[20231130 12:33:59] [271442640] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50515ms
+[20231130 12:33:59] [271442640] [MS] ipcDataParse: cmd:keepAlive, mask:94
+[20231130 12:33:59] [271442640] [MS] sendIpcAnswer: cmd[keepAlive], mask:94, ret:0
+[20231130 12:34:49] [271492640] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:34:49] [271492640] [MS] ipcDataParse: cmd:keepAlive, mask:95
+[20231130 12:34:49] [271492640] [MS] sendIpcAnswer: cmd[keepAlive], mask:95, ret:0
+[20231130 12:35:39] [271542640] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:35:39] [271542640] [MS] ipcDataParse: cmd:keepAlive, mask:96
+[20231130 12:35:39] [271542640] [MS] sendIpcAnswer: cmd[keepAlive], mask:96, ret:0
+[20231130 12:36:29] [271592640] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:36:29] [271592640] [MS] ipcDataParse: cmd:keepAlive, mask:97
+[20231130 12:36:29] [271592640] [MS] sendIpcAnswer: cmd[keepAlive], mask:97, ret:0
+[20231130 12:37:19] [271642640] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 12:37:19] [271642640] [MS] ipcDataParse: cmd:keepAlive, mask:98
+[20231130 12:37:19] [271642640] [MS] sendIpcAnswer: cmd[keepAlive], mask:98, ret:0
+[20231130 12:38:09] [271692656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 12:38:09] [271692656] [MS] ipcDataParse: cmd:keepAlive, mask:99
+[20231130 12:38:09] [271692656] [MS] sendIpcAnswer: cmd[keepAlive], mask:99, ret:0
+[20231130 12:38:59] [271742656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:38:59] [271742656] [MS] ipcDataParse: cmd:keepAlive, mask:100
+[20231130 12:38:59] [271742656] [MS] sendIpcAnswer: cmd[keepAlive], mask:100, ret:0
+[20231130 12:39:49] [271792656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:39:49] [271792656] [MS] ipcDataParse: cmd:keepAlive, mask:101
+[20231130 12:39:49] [271792656] [MS] sendIpcAnswer: cmd[keepAlive], mask:101, ret:0
+[20231130 12:40:39] [271842656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:40:39] [271842656] [MS] ipcDataParse: cmd:keepAlive, mask:102
+[20231130 12:40:39] [271842656] [MS] sendIpcAnswer: cmd[keepAlive], mask:102, ret:0
+[20231130 12:41:29] [271892656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:41:29] [271892656] [MS] ipcDataParse: cmd:keepAlive, mask:103
+[20231130 12:41:29] [271892656] [MS] sendIpcAnswer: cmd[keepAlive], mask:103, ret:0
+[20231130 12:42:19] [271942656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:42:19] [271942656] [MS] ipcDataParse: cmd:keepAlive, mask:104
+[20231130 12:42:19] [271942656] [MS] sendIpcAnswer: cmd[keepAlive], mask:104, ret:0
+[20231130 12:43:09] [271992656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:43:09] [271992656] [MS] ipcDataParse: cmd:keepAlive, mask:105
+[20231130 12:43:09] [271992656] [MS] sendIpcAnswer: cmd[keepAlive], mask:105, ret:0
+[20231130 12:43:59] [272042656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:43:59] [272042656] [MS] ipcDataParse: cmd:keepAlive, mask:106
+[20231130 12:43:59] [272042656] [MS] sendIpcAnswer: cmd[keepAlive], mask:106, ret:0
+[20231130 12:44:49] [272092656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:44:49] [272092656] [MS] ipcDataParse: cmd:keepAlive, mask:107
+[20231130 12:44:49] [272092656] [MS] sendIpcAnswer: cmd[keepAlive], mask:107, ret:0
+[20231130 12:45:39] [272142656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:45:39] [272142656] [MS] ipcDataParse: cmd:keepAlive, mask:108
+[20231130 12:45:39] [272142656] [MS] sendIpcAnswer: cmd[keepAlive], mask:108, ret:0
+[20231130 12:46:29] [272192656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:46:29] [272192656] [MS] ipcDataParse: cmd:keepAlive, mask:109
+[20231130 12:46:29] [272192656] [MS] sendIpcAnswer: cmd[keepAlive], mask:109, ret:0
+[20231130 12:47:19] [272242656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:47:19] [272242656] [MS] ipcDataParse: cmd:keepAlive, mask:110
+[20231130 12:47:19] [272242656] [MS] sendIpcAnswer: cmd[keepAlive], mask:110, ret:0
+[20231130 12:48:09] [272292656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:48:09] [272292656] [MS] ipcDataParse: cmd:keepAlive, mask:111
+[20231130 12:48:09] [272292656] [MS] sendIpcAnswer: cmd[keepAlive], mask:111, ret:0
+[20231130 12:48:59] [272342656] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:48:59] [272342656] [MS] ipcDataParse: cmd:keepAlive, mask:112
+[20231130 12:48:59] [272342656] [MS] sendIpcAnswer: cmd[keepAlive], mask:112, ret:0
+[20231130 12:49:49] [272392671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20231130 12:49:49] [272392671] [MS] ipcDataParse: cmd:keepAlive, mask:113
+[20231130 12:49:49] [272392671] [MS] sendIpcAnswer: cmd[keepAlive], mask:113, ret:0
+[20231130 12:50:39] [272442671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:50:39] [272442671] [MS] ipcDataParse: cmd:keepAlive, mask:114
+[20231130 12:50:39] [272442671] [MS] sendIpcAnswer: cmd[keepAlive], mask:114, ret:0
+[20231130 12:51:29] [272492671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:51:29] [272492671] [MS] ipcDataParse: cmd:keepAlive, mask:115
+[20231130 12:51:29] [272492671] [MS] sendIpcAnswer: cmd[keepAlive], mask:115, ret:0
+[20231130 12:52:19] [272542671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:52:19] [272542671] [MS] ipcDataParse: cmd:keepAlive, mask:116
+[20231130 12:52:19] [272542671] [MS] sendIpcAnswer: cmd[keepAlive], mask:116, ret:0
+[20231130 12:53:09] [272592671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:53:09] [272592671] [MS] ipcDataParse: cmd:keepAlive, mask:117
+[20231130 12:53:09] [272592671] [MS] sendIpcAnswer: cmd[keepAlive], mask:117, ret:0
+[20231130 12:53:59] [272642671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:53:59] [272642671] [MS] ipcDataParse: cmd:keepAlive, mask:118
+[20231130 12:53:59] [272642671] [MS] sendIpcAnswer: cmd[keepAlive], mask:118, ret:0
+[20231130 12:54:49] [272692671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:54:49] [272692671] [MS] ipcDataParse: cmd:keepAlive, mask:119
+[20231130 12:54:49] [272692671] [MS] sendIpcAnswer: cmd[keepAlive], mask:119, ret:0
+[20231130 12:55:39] [272742671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:55:39] [272742671] [MS] ipcDataParse: cmd:keepAlive, mask:120
+[20231130 12:55:39] [272742671] [MS] sendIpcAnswer: cmd[keepAlive], mask:120, ret:0
+[20231130 12:56:29] [272792671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:56:29] [272792671] [MS] ipcDataParse: cmd:keepAlive, mask:121
+[20231130 12:56:29] [272792671] [MS] sendIpcAnswer: cmd[keepAlive], mask:121, ret:0
+[20231130 12:57:19] [272842671] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:57:19] [272842671] [MS] ipcDataParse: cmd:keepAlive, mask:122
+[20231130 12:57:19] [272842671] [MS] sendIpcAnswer: cmd[keepAlive], mask:122, ret:0
+[20231130 12:58:09] [272892687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20231130 12:58:09] [272892687] [MS] ipcDataParse: cmd:keepAlive, mask:123
+[20231130 12:58:09] [272892687] [MS] sendIpcAnswer: cmd[keepAlive], mask:123, ret:0
+[20231130 12:58:59] [272942687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:58:59] [272942687] [MS] ipcDataParse: cmd:keepAlive, mask:124
+[20231130 12:58:59] [272942687] [MS] sendIpcAnswer: cmd[keepAlive], mask:124, ret:0
+[20231130 12:59:49] [272992687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 12:59:49] [272992687] [MS] ipcDataParse: cmd:keepAlive, mask:125
+[20231130 12:59:49] [272992687] [MS] sendIpcAnswer: cmd[keepAlive], mask:125, ret:0
+[20231130 13:00:39] [273042687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:00:39] [273042687] [MS] ipcDataParse: cmd:keepAlive, mask:126
+[20231130 13:00:39] [273042687] [MS] sendIpcAnswer: cmd[keepAlive], mask:126, ret:0
+[20231130 13:01:29] [273092687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:01:29] [273092687] [MS] ipcDataParse: cmd:keepAlive, mask:127
+[20231130 13:01:29] [273092687] [MS] sendIpcAnswer: cmd[keepAlive], mask:127, ret:0
+[20231130 13:02:19] [273142687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:02:19] [273142687] [MS] ipcDataParse: cmd:keepAlive, mask:128
+[20231130 13:02:19] [273142687] [MS] sendIpcAnswer: cmd[keepAlive], mask:128, ret:0
+[20231130 13:03:09] [273192687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:03:09] [273192687] [MS] ipcDataParse: cmd:keepAlive, mask:129
+[20231130 13:03:09] [273192687] [MS] sendIpcAnswer: cmd[keepAlive], mask:129, ret:0
+[20231130 13:03:59] [273242687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:03:59] [273242687] [MS] ipcDataParse: cmd:keepAlive, mask:130
+[20231130 13:03:59] [273242687] [MS] sendIpcAnswer: cmd[keepAlive], mask:130, ret:0
+[20231130 13:04:49] [273292687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:04:49] [273292687] [MS] ipcDataParse: cmd:keepAlive, mask:131
+[20231130 13:04:49] [273292687] [MS] sendIpcAnswer: cmd[keepAlive], mask:131, ret:0
+[20231130 13:05:39] [273342687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:05:39] [273342687] [MS] ipcDataParse: cmd:keepAlive, mask:132
+[20231130 13:05:39] [273342687] [MS] sendIpcAnswer: cmd[keepAlive], mask:132, ret:0
+[20231130 13:06:29] [273392687] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:06:29] [273392687] [MS] ipcDataParse: cmd:keepAlive, mask:133
+[20231130 13:06:29] [273392687] [MS] sendIpcAnswer: cmd[keepAlive], mask:133, ret:0
+[20231130 13:07:19] [273442703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20231130 13:07:19] [273442703] [MS] ipcDataParse: cmd:keepAlive, mask:134
+[20231130 13:07:19] [273442703] [MS] sendIpcAnswer: cmd[keepAlive], mask:134, ret:0
+[20231130 13:08:09] [273492703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:08:09] [273492703] [MS] ipcDataParse: cmd:keepAlive, mask:135
+[20231130 13:08:09] [273492703] [MS] sendIpcAnswer: cmd[keepAlive], mask:135, ret:0
+[20231130 13:08:59] [273542703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:08:59] [273542703] [MS] ipcDataParse: cmd:keepAlive, mask:136
+[20231130 13:08:59] [273542703] [MS] sendIpcAnswer: cmd[keepAlive], mask:136, ret:0
+[20231130 13:09:49] [273592703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:09:49] [273592703] [MS] ipcDataParse: cmd:keepAlive, mask:137
+[20231130 13:09:49] [273592703] [MS] sendIpcAnswer: cmd[keepAlive], mask:137, ret:0
+[20231130 13:10:39] [273642703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:10:39] [273642703] [MS] ipcDataParse: cmd:keepAlive, mask:138
+[20231130 13:10:39] [273642703] [MS] sendIpcAnswer: cmd[keepAlive], mask:138, ret:0
+[20231130 13:11:29] [273692703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:11:29] [273692703] [MS] ipcDataParse: cmd:keepAlive, mask:139
+[20231130 13:11:29] [273692703] [MS] sendIpcAnswer: cmd[keepAlive], mask:139, ret:0
+[20231130 13:12:19] [273742703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:12:19] [273742703] [MS] ipcDataParse: cmd:keepAlive, mask:140
+[20231130 13:12:19] [273742703] [MS] sendIpcAnswer: cmd[keepAlive], mask:140, ret:0
+[20231130 13:13:09] [273792703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:13:09] [273792703] [MS] ipcDataParse: cmd:keepAlive, mask:141
+[20231130 13:13:09] [273792703] [MS] sendIpcAnswer: cmd[keepAlive], mask:141, ret:0
+[20231130 13:13:59] [273842703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:13:59] [273842703] [MS] ipcDataParse: cmd:keepAlive, mask:142
+[20231130 13:13:59] [273842703] [MS] sendIpcAnswer: cmd[keepAlive], mask:142, ret:0
+[20231130 13:14:49] [273892703] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:14:49] [273892703] [MS] ipcDataParse: cmd:keepAlive, mask:143
+[20231130 13:14:49] [273892703] [MS] sendIpcAnswer: cmd[keepAlive], mask:143, ret:0
+[20231130 13:15:39] [273942718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20231130 13:15:39] [273942718] [MS] ipcDataParse: cmd:keepAlive, mask:144
+[20231130 13:15:39] [273942718] [MS] sendIpcAnswer: cmd[keepAlive], mask:144, ret:0
+[20231130 13:16:29] [273992718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:16:29] [273992718] [MS] ipcDataParse: cmd:keepAlive, mask:145
+[20231130 13:16:29] [273992718] [MS] sendIpcAnswer: cmd[keepAlive], mask:145, ret:0
+[20231130 13:17:19] [274042718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:17:19] [274042718] [MS] ipcDataParse: cmd:keepAlive, mask:146
+[20231130 13:17:19] [274042718] [MS] sendIpcAnswer: cmd[keepAlive], mask:146, ret:0
+[20231130 13:18:09] [274092718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:18:09] [274092718] [MS] ipcDataParse: cmd:keepAlive, mask:147
+[20231130 13:18:09] [274092718] [MS] sendIpcAnswer: cmd[keepAlive], mask:147, ret:0
+[20231130 13:18:59] [274142718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:18:59] [274142718] [MS] ipcDataParse: cmd:keepAlive, mask:148
+[20231130 13:18:59] [274142718] [MS] sendIpcAnswer: cmd[keepAlive], mask:148, ret:0
+[20231130 13:19:49] [274192718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:19:49] [274192718] [MS] ipcDataParse: cmd:keepAlive, mask:149
+[20231130 13:19:49] [274192718] [MS] sendIpcAnswer: cmd[keepAlive], mask:149, ret:0
+[20231130 13:20:39] [274242718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:20:39] [274242718] [MS] ipcDataParse: cmd:keepAlive, mask:150
+[20231130 13:20:39] [274242718] [MS] sendIpcAnswer: cmd[keepAlive], mask:150, ret:0
+[20231130 13:21:29] [274292718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:21:29] [274292718] [MS] ipcDataParse: cmd:keepAlive, mask:151
+[20231130 13:21:29] [274292718] [MS] sendIpcAnswer: cmd[keepAlive], mask:151, ret:0
+[20231130 13:22:19] [274342718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:22:19] [274342718] [MS] ipcDataParse: cmd:keepAlive, mask:152
+[20231130 13:22:19] [274342718] [MS] sendIpcAnswer: cmd[keepAlive], mask:152, ret:0
+[20231130 13:23:09] [274392718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:23:09] [274392718] [MS] ipcDataParse: cmd:keepAlive, mask:153
+[20231130 13:23:09] [274392718] [MS] sendIpcAnswer: cmd[keepAlive], mask:153, ret:0
+[20231130 13:23:59] [274442718] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:23:59] [274442718] [MS] ipcDataParse: cmd:keepAlive, mask:154
+[20231130 13:23:59] [274442734] [MS] sendIpcAnswer: cmd[keepAlive], mask:154, ret:0
+[20231130 13:24:49] [274492734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20231130 13:24:49] [274492734] [MS] ipcDataParse: cmd:keepAlive, mask:155
+[20231130 13:24:49] [274492734] [MS] sendIpcAnswer: cmd[keepAlive], mask:155, ret:0
+[20231130 13:25:39] [274542734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:25:39] [274542734] [MS] ipcDataParse: cmd:keepAlive, mask:156
+[20231130 13:25:39] [274542734] [MS] sendIpcAnswer: cmd[keepAlive], mask:156, ret:0
+[20231130 13:26:29] [274592734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:26:29] [274592734] [MS] ipcDataParse: cmd:keepAlive, mask:157
+[20231130 13:26:29] [274592734] [MS] sendIpcAnswer: cmd[keepAlive], mask:157, ret:0
+[20231130 13:27:19] [274642734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:27:19] [274642734] [MS] ipcDataParse: cmd:keepAlive, mask:158
+[20231130 13:27:19] [274642734] [MS] sendIpcAnswer: cmd[keepAlive], mask:158, ret:0
+[20231130 13:28:09] [274692734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:28:09] [274692734] [MS] ipcDataParse: cmd:keepAlive, mask:159
+[20231130 13:28:09] [274692734] [MS] sendIpcAnswer: cmd[keepAlive], mask:159, ret:0
+[20231130 13:28:59] [274742734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:28:59] [274742734] [MS] ipcDataParse: cmd:keepAlive, mask:160
+[20231130 13:28:59] [274742734] [MS] sendIpcAnswer: cmd[keepAlive], mask:160, ret:0
+[20231130 13:29:49] [274792734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:29:49] [274792734] [MS] ipcDataParse: cmd:keepAlive, mask:161
+[20231130 13:29:49] [274792734] [MS] sendIpcAnswer: cmd[keepAlive], mask:161, ret:0
+[20231130 13:30:39] [274842734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:30:39] [274842734] [MS] ipcDataParse: cmd:keepAlive, mask:162
+[20231130 13:30:39] [274842734] [MS] sendIpcAnswer: cmd[keepAlive], mask:162, ret:0
+[20231130 13:31:29] [274892734] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:31:29] [274892734] [MS] ipcDataParse: cmd:keepAlive, mask:163
+[20231130 13:31:29] [274892734] [MS] sendIpcAnswer: cmd[keepAlive], mask:163, ret:0
+[20231130 13:32:19] [274942750] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20231130 13:32:19] [274942750] [MS] ipcDataParse: cmd:keepAlive, mask:164
+[20231130 13:32:19] [274942750] [MS] sendIpcAnswer: cmd[keepAlive], mask:164, ret:0
+[20231130 13:33:09] [274992750] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20231130 13:33:09] [274992750] [MS] ipcDataParse: cmd:keepAlive, mask:165
+[20231130 13:33:09] [274992750] [MS] sendIpcAnswer: cmd[keepAlive], mask:165, ret:0
+[20231130 14:14:44] [277487984] [MAIN] [main start, version:V1.0.29T1, port=54432]
+
+[20231130 14:14:44] [277488046] [GMD] cGeneralModel create
+[20231130 14:14:45] [277488250] [MS] cMultiDownloadServer init
+[20231130 14:14:45] [277488265] [MS] socketInitThreadFunc
+[20231130 14:14:45] [277488265] [MS] socketSendThreadFunc
+[20231130 14:14:45] [277488265] [MS] [work-4294967295] socketRecvThreadFunc
+[20231130 14:14:45] [277488265] [MS] socketParsePackageThreadFunc
+[20231130 14:14:45] [277488265] [MS] keepAliveThreadFunc
+[20231130 14:14:45] [277488265] [MS] msgPackageSendThreadFunc
+[20231130 14:14:45] [277488265] [MS] [work-4294967295] socketSendThreadFunc
+[20231130 14:14:45] [277488437] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20231130 14:14:45] [277488437] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20231130 14:14:45] [277488437] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20231130 14:14:46] [277489218] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=69Bytes, time cost=781ms
+[20231130 14:14:46] [277489218] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20231130 14:14:46] [277489218] [MS] moduleInit:model:4, work:5
+[20231130 14:14:46] [277489218] [GMD] init:model:4, work:5
+[20231130 14:14:46] [277489218] [BPT] cBaseProtocol create
+[20231130 14:14:46] [277489218] [CH341A] cCh341aPort create
+[20231130 14:14:46] [277489218] [CH341A-CORE] ch341aCoreInit
+[20231130 14:14:46] [277489218] [MH2T] cMh1902tDownload init
+[20231130 14:14:46] [277489234] [BPT] cBaseProtocol create
+[20231130 14:14:46] [277489234] [CH341A] cCh341aPort create
+[20231130 14:14:46] [277489234] [CH341A-CORE] ch341aCoreInit
+[20231130 14:14:46] [277489234] [SM] cSunmiDownload create
+[20231130 14:14:46] [277489234] [BPT] init: success!
+[20231130 14:14:46] [277489234] [BPT] init: success!
+[20231130 14:14:46] [277489234] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20231130 14:14:46] [277489312] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=206Bytes, time cost=94ms
+[20231130 14:14:46] [277489312] [MS] ipcDataParse: cmd:setParam, mask:3
+[20231130 14:14:46] [277489312] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231130 14:14:46] [277489312] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231130 14:14:46] [277489312] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20231130 14:14:46] [277489390] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=78ms
+[20231130 14:14:46] [277489390] [MS] ipcDataParse: cmd:setParam, mask:4
+[20231130 14:14:46] [277489390] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231130 14:14:46] [277489390] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20231130 14:14:46] [277489453] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=218Bytes, time cost=63ms
+[20231130 14:14:46] [277489453] [MS] ipcDataParse: cmd:setParam, mask:5
+[20231130 14:14:46] [277489453] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231130 14:14:46] [277489453] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20231130 14:14:46] [277489531] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=230Bytes, time cost=78ms
+[20231130 14:14:46] [277489531] [MS] ipcDataParse: cmd:setParam, mask:6
+[20231130 14:14:46] [277489531] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231130 14:14:46] [277489531] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20231130 14:14:50] [277493296] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=206Bytes, time cost=3765ms
+[20231130 14:14:50] [277493296] [MS] ipcDataParse: cmd:setParam, mask:7
+[20231130 14:14:50] [277493296] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_PUK.rsa
+[20231130 14:14:50] [277493296] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20231130 14:14:50] [277493296] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20231130 14:14:50] [277493453] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=224Bytes, time cost=157ms
+[20231130 14:14:50] [277493453] [MS] ipcDataParse: cmd:setParam, mask:8
+[20231130 14:14:50] [277493453] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_BOOT_V2.0.10_20220906.sig
+[20231130 14:14:50] [277493453] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20231130 14:14:50] [277493515] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=218Bytes, time cost=62ms
+[20231130 14:14:50] [277493515] [MS] ipcDataParse: cmd:setParam, mask:9
+[20231130 14:14:50] [277493515] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\CT621_CFG_V2.03.dat.bin.sig
+[20231130 14:14:50] [277493515] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20231130 14:14:50] [277493578] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=231Bytes, time cost=63ms
+[20231130 14:14:50] [277493578] [MS] ipcDataParse: cmd:setParam, mask:10
+[20231130 14:14:50] [277493578] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_V2.1.30_20230711\MH1902T_LiteOS_V2.1.30_20230711.bin.sig
+[20231130 14:14:50] [277493578] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20231130 14:15:35] [277538437] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=44859ms
+[20231130 14:15:35] [277538437] [MS] ipcDataParse: cmd:keepAlive, mask:11
+[20231130 14:15:35] [277538437] [MS] sendIpcAnswer: cmd[keepAlive], mask:11, ret:0
+[20231130 14:16:25] [277588453] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20231130 14:16:25] [277588453] [MS] ipcDataParse: cmd:keepAlive, mask:12
+[20231130 14:16:25] [277588453] [MS] sendIpcAnswer: cmd[keepAlive], mask:12, ret:0
+[20231130 14:17:15] [277638453] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 14:17:15] [277638453] [MS] ipcDataParse: cmd:keepAlive, mask:13
+[20231130 14:17:15] [277638453] [MS] sendIpcAnswer: cmd[keepAlive], mask:13, ret:0
+[20231130 14:18:05] [277688453] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 14:18:05] [277688453] [MS] ipcDataParse: cmd:keepAlive, mask:14
+[20231130 14:18:05] [277688453] [MS] sendIpcAnswer: cmd[keepAlive], mask:14, ret:0
+[20231130 14:18:55] [277738453] [MS] [work-4] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20231130 14:18:55] [277738453] [MS] ipcDataParse: cmd:keepAlive, mask:15
+[20231130 14:18:55] [277738453] [MS] sendIpcAnswer: cmd[keepAlive], mask:15, ret:0

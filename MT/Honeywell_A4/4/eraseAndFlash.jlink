@@ -1,0 +1,11 @@
+device STM32F030CCT6TR
+usb 0
+si 1
+speed 9600
+erase
+sleep 400
+loadfile "D:\2_Code\FW_Download_And_Format\MCU_FW_DL\MT\QDE006\QDE006_MCU2_V1.0.bin"
+sleep 100
+r
+g
+q

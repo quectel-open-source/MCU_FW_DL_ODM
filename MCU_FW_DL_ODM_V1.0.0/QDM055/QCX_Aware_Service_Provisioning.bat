@@ -1,0 +1,2 @@
+cd /d F:\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\Factory Scripts\Factory\QCX216\QCX_Aware_Service_Provisioning\QCX-Aware-Service-Provisioning-Tool-2.9.1
+QCX_Aware_Service_Provisioning_factory.bat -t QCX216 -f "F:\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\Aware_Configs" -s "F:\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,364_2023-10-19_12-40-07.csv" --env DEMO -pf "F:\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\Factory Scripts\Factory\QCX216\QCX_Aware_Service_Provisioning\QCX-Aware-Service-Provisioning-Tool-2.9.1\Docs\1.csv" -p COM43

@@ -1,0 +1,586 @@
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+INFO: function: rx_data:340 Received 5 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 0C D2 7A 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 04 0E 00 0D D3 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 4B 04 0E 00 28 49 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 0E DF 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 00 D9 19 7E 
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+INFO: function: rx_data:340 Received 5 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 0C D2 7A 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 04 0E 00 0D D3 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 4B 04 0E 00 28 49 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 0E DF 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 00 D9 19 7E 
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+INFO: function: rx_data:340 Received 5 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 0C D2 7A 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 04 0E 00 0D D3 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 4B 04 0E 00 28 49 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 0E DF 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 00 D9 19 7E 
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+INFO: function: rx_data:340 Received 5 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 0C D2 7A 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 04 0E 00 0D D3 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 4B 04 0E 00 28 49 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 0E DF 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 00 D9 19 7E 
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+ERROR: function: port_connect:145 Failed to open com port handle
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+ERROR: function: tx_data:259 Error occurred while writing to COM port
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+ERROR: function: main:260 cann't find diagnose port!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: main:171 QWinExplorer Version: 1.0.0
+
+INFO: function: main:172 Builded: Apr 23 2020 16:37:48
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+
+INFO: function: tx_data:249 Transmitting 4 bytes
+
+INFO: function: print_buffer:89 First few bytes: 0C 14 3A 7E 
+
+INFO: function: rx_data:340 Received 5 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 0C D2 7A 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 04 0E 00 0D D3 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 13 4B 04 0E 00 28 49 7E 
+
+INFO: function: tx_data:249 Transmitting 7 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 0E DF 7E 
+
+INFO: function: rx_data:340 Received 8 bytes
+
+INFO: function: print_buffer:89 First few bytes: 4B 08 02 00 00 D9 19 7E 
+
+ERROR: function: main:293 ping module error!
+
+INFO: function: port_disconnect:104 Disconnecting from com port
+

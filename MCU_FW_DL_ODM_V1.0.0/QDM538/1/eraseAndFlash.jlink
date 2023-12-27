@@ -1,0 +1,11 @@
+device FM33LG04x
+usb 0
+si 1
+speed 2000
+erase
+sleep 400
+loadfile "E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDM538_FM33LG045_01.001.01.004\QDM538_FM33LG045_01.001.01.004.hex" 0x08000000
+sleep 100
+r
+g
+q

@@ -1,0 +1,13 @@
+device STM32F302K8
+usb 0
+si 1
+speed 4000
+erase
+sleep 400
+loadfile "D:\4_Firmware\EG91EXGBR08A03M4G_OCPU_NCLD_01.001.01.001\update\QDM002_MCU_NC_FBL_V1.1.bin" 0x08000000
+sleep 100
+loadfile "D:\4_Firmware\EG91EXGBR08A03M4G_OCPU_NCLD_01.001.01.001\update\QDM002_MCU_NC_FCAN_V1.1.bin" 0x08007800
+sleep 100
+r
+g
+q

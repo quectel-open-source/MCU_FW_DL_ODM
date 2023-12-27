@@ -1,0 +1,1 @@
+S_CCU_FW_ESP32_G_QUECTEL_V1_1.0.5.bin：4ecce7cd9a2bb8f4aa20b9ae59f45ae4

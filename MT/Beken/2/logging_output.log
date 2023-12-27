@@ -1,0 +1,483 @@
+2020-11-25 16:06:24,588 INFO     [FlashTop]    init
+2020-11-25 16:06:24,596 [Process-161516] INFO     [FlashTop]    do_main: cmd loadpara
+2020-11-25 16:06:24,597 [Process-161516] INFO     [Para]    exe path: C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolCLI_v3.0.3_p01_20201117\FlashToolCLI3.0.3
+2020-11-25 16:06:24,601 [Process-161516] INFO     [Para]    update digest file :C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolCLI_v3.0.3_p01_20201117\FlashToolCLI3.0.3\cfg.digest, digest:b'\x66\x62\x13\x86\x14\xd0\x7b\x1a\xe4\xd5\x80\x5f\x1a\xa5\xbe\x6e\x0a\x68\x14\x8b\xfd\xcf\x43\x5d\x89\xcc\xae\x44\xbc\x96\xbc\x10' 
+2020-11-25 16:06:24,602 [Process-161516] INFO     [Para]    LoadPara from cfgfile(C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolCLI_v3.0.3_p01_20201117\FlashToolCLI3.0.3\config_ec616s.ini) 
+2020-11-25 16:06:24,605 [Process-161516] WARNING  [Para]    Load para curdigest b'\x66\x62\x13\x86\x14\xd0\x7b\x1a\xe4\xd5\x80\x5f\x1a\xa5\xbe\x6e\x0a\x68\x14\x8b\xfd\xcf\x43\x5d\x89\xcc\xae\x44\xbc\x96\xbc\x10'
+2020-11-25 16:06:24,605 [Process-161516] INFO     [FlashTop]    Load para sync success
+2020-11-25 16:06:24,606 [Process-161516] INFO     [FlashTop]    do_main: cmd burnag, Thread0[204624]
+2020-11-25 16:06:24,607 [Process-161516] INFO     [Thread0]    ProcessStart[204624]
+2020-11-25 16:06:24,728 [Process-161516] INFO     [FlashTop]    ResetBoard(Reset Pin) finish
+2020-11-25 16:06:24,729 [Process-161516] INFO     [Thread0]    ResetBoard(Reset Pin) ser stay open
+2020-11-25 16:06:24,737 [Process-161516] INFO     [Thread0]    BootSyncDetLoop 0
+2020-11-25 16:06:24,739 [Process-161516] INFO     [Thread0]    BootSyncDetATReset args.atreset empty, cancel atreset
+2020-11-25 16:06:24,741 [Process-161516] INFO     [BootDetect]    BootDetectProc start 
+2020-11-25 16:06:24,747 [Process-161516] INFO     [BootDetect]    BootPreemptDet start 
+2020-11-25 16:06:26,899 [Process-161516] INFO     [BootDetect]    BootPreemptDet success
+2020-11-25 16:06:27,029 [Process-161516] INFO     [BootDetect]    BootDetVagueEstProc start
+2020-11-25 16:06:28,235 [Process-161516] INFO     [BootDetect]    BootDetVagueEstProc Send
+2020-11-25 16:06:28,240 [Process-161516] INFO     [BootDetect]    BootDetVagueEstProc Received Rsp(0)
+2020-11-25 16:06:28,266 [Process-161516] INFO     [BootDetect]    BootDetectProc success 
+2020-11-25 16:06:28,268 [Process-161516] INFO     [Image]    pullup_qspi 1
+2020-11-25 16:06:28,269 [Process-161516] INFO     [Image]    SetBaud 921600
+2020-11-25 16:06:28,270 [Process-161516] INFO     [Thread0]    TryDownload C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolCLI_v3.0.3_p01_20201117\FlashToolCLI3.0.3\agentboot.bin start
+2020-11-25 16:06:28,271 [Process-161516] INFO     [Thread0]    image size=27688, hdsize=272
+2020-11-25 16:06:28,271 [Process-161516] INFO     [Thread0]    GetBootVagEstPara 1
+2020-11-25 16:06:28,272 [Process-161516] INFO     [Thread0]    Download->DownloadVagueEst start
+2020-11-25 16:06:28,384 [Process-161516] INFO     [Thread0]    Download->DownloadVagueEst end
+2020-11-25 16:06:28,397 [Process-161516] INFO     [Thread0]    Preamble Send
+2020-11-25 16:06:28,416 [Process-161516] INFO     [Thread0]    Preamble Received Rsp
+2020-11-25 16:06:31,488 [Process-161516] INFO     [Thread0]    TryDownload agentboot success
+2020-11-25 16:06:31,604 [Process-161516] INFO     [Thread0]    agbaud: 921600
+2020-11-25 16:06:31,731 [Process-161516] INFO     [Thread0]    Burn OK!
+2020-11-25 16:06:31,732 [Process-161516] INFO     [Thread0]    ProcessEnd[204624]
+2020-11-30 14:25:21,291 INFO     [FlashTop]    init
+2020-11-30 14:25:21,301 [Process-18068] INFO     [FlashTop]    do_main: cmd loadpara
+2020-11-30 14:25:21,301 [Process-18068] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1
+2020-11-30 14:25:21,311 [Process-18068] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\cfg.digest, digest:b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01' 
+2020-11-30 14:25:21,311 [Process-18068] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\config.ini) 
+2020-11-30 14:25:21,312 [Process-18068] WARNING  [Para]    Load para curdigest b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01'
+2020-11-30 14:25:21,313 [Process-18068] INFO     [FlashTop]    Load para sync success
+2020-11-30 14:25:21,314 [Process-18068] INFO     [FlashTop]    do_main: cmd burnag, Thread0[1188]
+2020-11-30 14:25:21,314 [Process-18068] INFO     [Thread0]    ProcessStart[1188]
+2020-11-30 14:25:21,628 [Process-18068] INFO     [FlashTop]    ResetBoard(Reset Pin) finish
+2020-11-30 14:25:21,628 [Process-18068] INFO     [Thread0]    ResetBoard(Reset Pin) ser stay open
+2020-11-30 14:25:21,629 [Process-18068] INFO     [Thread0]    BootSyncDetLoop 0
+2020-11-30 14:25:21,664 [Process-18068] INFO     [Thread0]    ATResetOpen:baud  9600
+2020-11-30 14:25:21,740 [Process-18068] INFO     [Thread0]    b'at+ecrst=delay,200\r\nat+ecrst=delay,200\r\n'
+2020-11-30 14:25:22,242 [Process-18068] INFO     [Thread0]    AT Reset Response check
+2020-11-30 14:25:22,242 [Process-18068] INFO     [Thread0]    AT Reset Response 44 bytes 
+2020-11-30 14:25:22,242 [Process-18068] INFO     [Thread0]    AT Reset Response  str b"at+ecrst=delay,200at+ecrst=delay,200\r\nOK\r\n'\xfa" 
+2020-11-30 14:25:22,286 [Process-18068] INFO     [Thread0]    args.ser.port :COM99
+2020-11-30 14:25:22,362 [Process-18068] INFO     [Thread0]    ATReset finish
+2020-11-30 14:25:22,362 [Process-18068] INFO     [BootDetect]    BootDetectProc start 
+2020-11-30 14:25:22,362 [Process-18068] INFO     [BootDetect]    BootPreemptDet start 
+2020-11-30 14:25:28,523 [Process-18068] INFO     [BootDetect]    BootPreemptDet success
+2020-11-30 14:25:28,616 [Process-18068] INFO     [BootDetect]    BootDetVagueEstProc start
+2020-11-30 14:25:29,848 [Process-18068] INFO     [BootDetect]    BootDetVagueEstProc Send
+2020-11-30 14:25:29,850 [Process-18068] INFO     [BootDetect]    BootDetVagueEstProc Received Rsp(0)
+2020-11-30 14:25:29,912 [Process-18068] INFO     [BootDetect]    BootDetectProc success 
+2020-11-30 14:25:29,919 [Process-18068] INFO     [Image]    pullup_qspi 1
+2020-11-30 14:25:29,919 [Process-18068] INFO     [Image]    SetBaud 921600
+2020-11-30 14:25:29,921 [Process-18068] INFO     [Thread0]    TryDownload D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\agentboot.bin start
+2020-11-30 14:25:29,922 [Process-18068] INFO     [Thread0]    image size=27692, hdsize=272
+2020-11-30 14:25:29,922 [Process-18068] INFO     [Thread0]    GetBootVagEstPara 1
+2020-11-30 14:25:29,922 [Process-18068] INFO     [Thread0]    Download->DownloadVagueEst start
+2020-11-30 14:25:29,958 [Process-18068] INFO     [Thread0]    Download->DownloadVagueEst end
+2020-11-30 14:25:29,958 [Process-18068] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:30,021 [Process-18068] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:25:32,590 [Process-18068] INFO     [Thread0]    TryDownload agentboot success
+2020-11-30 14:25:32,626 [Process-18068] INFO     [Thread0]    agbaud: 921600
+2020-11-30 14:25:32,739 [Process-18068] INFO     [Thread0]    Burn OK!
+2020-11-30 14:25:32,739 [Process-18068] INFO     [Thread0]    ProcessEnd[1188]
+2020-11-30 14:25:33,969 INFO     [FlashTop]    init
+2020-11-30 14:25:33,974 [Process-17356] INFO     [FlashTop]    do_main: cmd loadpara
+2020-11-30 14:25:33,974 [Process-17356] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1
+2020-11-30 14:25:33,981 [Process-17356] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\cfg.digest, digest:b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01' 
+2020-11-30 14:25:33,982 [Process-17356] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\config.ini) 
+2020-11-30 14:25:33,983 [Process-17356] WARNING  [Para]    Load para curdigest b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01'
+2020-11-30 14:25:33,984 [Process-17356] INFO     [FlashTop]    Load para sync success
+2020-11-30 14:25:33,985 [Process-17356] INFO     [FlashTop]    do_main: cmd flasherase, Thread0[23456]
+2020-11-30 14:25:33,985 [Process-17356] INFO     [Thread0]    ProcessStart[23456]
+2020-11-30 14:25:33,986 [Process-17356] INFO     [Thread0]    ResetBoard skip for straight download
+2020-11-30 14:25:33,986 [Process-17356] INFO     [Thread0]    args.ser.port :COM99
+2020-11-30 14:25:34,064 [Process-17356] INFO     [Thread0]    TryDownload agentboot skip
+2020-11-30 14:25:34,098 [Process-17356] INFO     [Thread0]    agbaud: 921600
+2020-11-30 14:25:34,175 [Process-17356] INFO     [Thread0]    LPC Preamble Send
+2020-11-30 14:25:34,238 [Process-17356] INFO     [Thread0]    LPC Preamble Received Rsp
+2020-11-30 14:25:34,269 [Process-17356] INFO     [Thread0]    LPCSetSyncStat(1)
+2020-11-30 14:25:34,269 [Process-17356] INFO     [Thread0]    Erase start, set wait time to :0x2 
+2020-11-30 14:25:34,269 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x0, mem len:0x10000 
+2020-11-30 14:25:34,628 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x0, mem len:0x10000 
+2020-11-30 14:25:34,628 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x10000, mem len:0x10000 
+2020-11-30 14:25:34,982 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x10000, mem len:0x10000 
+2020-11-30 14:25:34,982 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x20000, mem len:0x10000 
+2020-11-30 14:25:35,321 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x20000, mem len:0x10000 
+2020-11-30 14:25:35,322 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x30000, mem len:0x10000 
+2020-11-30 14:25:35,671 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x30000, mem len:0x10000 
+2020-11-30 14:25:35,672 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x40000, mem len:0x10000 
+2020-11-30 14:25:36,019 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x40000, mem len:0x10000 
+2020-11-30 14:25:36,019 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x50000, mem len:0x10000 
+2020-11-30 14:25:36,365 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x50000, mem len:0x10000 
+2020-11-30 14:25:36,365 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x60000, mem len:0x10000 
+2020-11-30 14:25:36,701 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x60000, mem len:0x10000 
+2020-11-30 14:25:36,702 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x70000, mem len:0x10000 
+2020-11-30 14:25:37,037 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x70000, mem len:0x10000 
+2020-11-30 14:25:37,037 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x80000, mem len:0x10000 
+2020-11-30 14:25:37,388 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x80000, mem len:0x10000 
+2020-11-30 14:25:37,389 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x90000, mem len:0x10000 
+2020-11-30 14:25:37,741 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x90000, mem len:0x10000 
+2020-11-30 14:25:37,741 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0xa0000, mem len:0x10000 
+2020-11-30 14:25:38,093 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0xa0000, mem len:0x10000 
+2020-11-30 14:25:38,093 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0xb0000, mem len:0x10000 
+2020-11-30 14:25:38,429 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0xb0000, mem len:0x10000 
+2020-11-30 14:25:38,429 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0xc0000, mem len:0x10000 
+2020-11-30 14:25:38,759 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0xc0000, mem len:0x10000 
+2020-11-30 14:25:38,759 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0xd0000, mem len:0x10000 
+2020-11-30 14:25:39,099 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0xd0000, mem len:0x10000 
+2020-11-30 14:25:39,099 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0xe0000, mem len:0x10000 
+2020-11-30 14:25:39,451 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0xe0000, mem len:0x10000 
+2020-11-30 14:25:39,451 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0xf0000, mem len:0x10000 
+2020-11-30 14:25:39,795 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0xf0000, mem len:0x10000 
+2020-11-30 14:25:39,795 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x100000, mem len:0x10000 
+2020-11-30 14:25:40,129 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x100000, mem len:0x10000 
+2020-11-30 14:25:40,129 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x110000, mem len:0x10000 
+2020-11-30 14:25:40,472 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x110000, mem len:0x10000 
+2020-11-30 14:25:40,472 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x120000, mem len:0x10000 
+2020-11-30 14:25:40,809 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x120000, mem len:0x10000 
+2020-11-30 14:25:40,810 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x130000, mem len:0x10000 
+2020-11-30 14:25:41,150 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x130000, mem len:0x10000 
+2020-11-30 14:25:41,151 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x140000, mem len:0x10000 
+2020-11-30 14:25:41,511 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x140000, mem len:0x10000 
+2020-11-30 14:25:41,511 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x150000, mem len:0x10000 
+2020-11-30 14:25:41,858 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x150000, mem len:0x10000 
+2020-11-30 14:25:41,858 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x160000, mem len:0x10000 
+2020-11-30 14:25:42,205 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x160000, mem len:0x10000 
+2020-11-30 14:25:42,206 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x170000, mem len:0x10000 
+2020-11-30 14:25:42,547 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x170000, mem len:0x10000 
+2020-11-30 14:25:42,547 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x180000, mem len:0x10000 
+2020-11-30 14:25:42,901 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x180000, mem len:0x10000 
+2020-11-30 14:25:42,901 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x190000, mem len:0x10000 
+2020-11-30 14:25:43,255 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x190000, mem len:0x10000 
+2020-11-30 14:25:43,255 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x1a0000, mem len:0x10000 
+2020-11-30 14:25:43,608 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x1a0000, mem len:0x10000 
+2020-11-30 14:25:43,608 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x1b0000, mem len:0x10000 
+2020-11-30 14:25:43,957 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x1b0000, mem len:0x10000 
+2020-11-30 14:25:43,957 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x1c0000, mem len:0x10000 
+2020-11-30 14:25:44,297 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x1c0000, mem len:0x10000 
+2020-11-30 14:25:44,297 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x1d0000, mem len:0x10000 
+2020-11-30 14:25:44,638 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x1d0000, mem len:0x10000 
+2020-11-30 14:25:44,639 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x1e0000, mem len:0x10000 
+2020-11-30 14:25:44,987 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x1e0000, mem len:0x10000 
+2020-11-30 14:25:44,988 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x1f0000, mem len:0x10000 
+2020-11-30 14:25:45,331 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x1f0000, mem len:0x10000 
+2020-11-30 14:25:45,331 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x200000, mem len:0x10000 
+2020-11-30 14:25:45,681 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x200000, mem len:0x10000 
+2020-11-30 14:25:45,681 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x210000, mem len:0x10000 
+2020-11-30 14:25:46,024 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x210000, mem len:0x10000 
+2020-11-30 14:25:46,024 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x220000, mem len:0x10000 
+2020-11-30 14:25:46,171 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x220000, mem len:0x10000 
+2020-11-30 14:25:46,171 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x230000, mem len:0x10000 
+2020-11-30 14:25:46,315 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x230000, mem len:0x10000 
+2020-11-30 14:25:46,315 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x240000, mem len:0x10000 
+2020-11-30 14:25:46,463 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x240000, mem len:0x10000 
+2020-11-30 14:25:46,463 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x250000, mem len:0x10000 
+2020-11-30 14:25:46,604 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x250000, mem len:0x10000 
+2020-11-30 14:25:46,604 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x260000, mem len:0x10000 
+2020-11-30 14:25:46,751 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x260000, mem len:0x10000 
+2020-11-30 14:25:46,751 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x270000, mem len:0x10000 
+2020-11-30 14:25:46,890 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x270000, mem len:0x10000 
+2020-11-30 14:25:46,890 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x280000, mem len:0x10000 
+2020-11-30 14:25:47,033 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x280000, mem len:0x10000 
+2020-11-30 14:25:47,033 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x290000, mem len:0x10000 
+2020-11-30 14:25:47,170 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x290000, mem len:0x10000 
+2020-11-30 14:25:47,170 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x2a0000, mem len:0x10000 
+2020-11-30 14:25:47,311 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x2a0000, mem len:0x10000 
+2020-11-30 14:25:47,311 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x2b0000, mem len:0x10000 
+2020-11-30 14:25:47,460 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x2b0000, mem len:0x10000 
+2020-11-30 14:25:47,460 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x2c0000, mem len:0x10000 
+2020-11-30 14:25:47,608 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x2c0000, mem len:0x10000 
+2020-11-30 14:25:47,608 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x2d0000, mem len:0x10000 
+2020-11-30 14:25:47,782 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x2d0000, mem len:0x10000 
+2020-11-30 14:25:47,782 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x2e0000, mem len:0x10000 
+2020-11-30 14:25:47,926 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x2e0000, mem len:0x10000 
+2020-11-30 14:25:47,927 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x2f0000, mem len:0x10000 
+2020-11-30 14:25:48,064 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x2f0000, mem len:0x10000 
+2020-11-30 14:25:48,064 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x300000, mem len:0x10000 
+2020-11-30 14:25:48,209 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x300000, mem len:0x10000 
+2020-11-30 14:25:48,210 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x310000, mem len:0x10000 
+2020-11-30 14:25:48,365 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x310000, mem len:0x10000 
+2020-11-30 14:25:48,365 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x320000, mem len:0x10000 
+2020-11-30 14:25:48,511 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x320000, mem len:0x10000 
+2020-11-30 14:25:48,511 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x330000, mem len:0x10000 
+2020-11-30 14:25:48,658 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x330000, mem len:0x10000 
+2020-11-30 14:25:48,658 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x340000, mem len:0x10000 
+2020-11-30 14:25:48,899 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x340000, mem len:0x10000 
+2020-11-30 14:25:48,899 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x350000, mem len:0x10000 
+2020-11-30 14:25:49,106 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x350000, mem len:0x10000 
+2020-11-30 14:25:49,107 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x360000, mem len:0x10000 
+2020-11-30 14:25:49,181 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x360000, mem len:0x10000 
+2020-11-30 14:25:49,182 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x370000, mem len:0x10000 
+2020-11-30 14:25:49,256 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x370000, mem len:0x10000 
+2020-11-30 14:25:49,256 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x380000, mem len:0x10000 
+2020-11-30 14:25:49,331 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x380000, mem len:0x10000 
+2020-11-30 14:25:49,331 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x390000, mem len:0x10000 
+2020-11-30 14:25:49,685 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x390000, mem len:0x10000 
+2020-11-30 14:25:49,685 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x3a0000, mem len:0x10000 
+2020-11-30 14:25:50,039 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x3a0000, mem len:0x10000 
+2020-11-30 14:25:50,039 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x3b0000, mem len:0x10000 
+2020-11-30 14:25:50,392 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x3b0000, mem len:0x10000 
+2020-11-30 14:25:50,392 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x3c0000, mem len:0x10000 
+2020-11-30 14:25:50,539 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x3c0000, mem len:0x10000 
+2020-11-30 14:25:50,539 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x3d0000, mem len:0x10000 
+2020-11-30 14:25:50,684 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x3d0000, mem len:0x10000 
+2020-11-30 14:25:50,684 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x3e0000, mem len:0x10000 
+2020-11-30 14:25:50,828 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x3e0000, mem len:0x10000 
+2020-11-30 14:25:50,828 [Process-17356] INFO     [Thread0]    Erase start, mem addr:0x3f0000, mem len:0x10000 
+2020-11-30 14:25:50,979 [Process-17356] INFO     [Thread0]    Erase success, mem addr:0x3f0000, mem len:0x10000 
+2020-11-30 14:25:50,979 [Process-17356] INFO     [Thread0]    Erase OK, [0x0, 0x400000]
+2020-11-30 14:25:51,011 [Process-17356] INFO     [FlashTop]    flasherase finish, Thread0[23456]
+2020-11-30 14:25:51,011 [Process-17356] INFO     [Thread0]    ProcessEnd[23456]
+2020-11-30 14:25:52,221 INFO     [FlashTop]    init
+2020-11-30 14:25:52,225 [Process-2316] INFO     [FlashTop]    do_main: cmd loadpara
+2020-11-30 14:25:52,225 [Process-2316] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1
+2020-11-30 14:25:52,232 [Process-2316] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\cfg.digest, digest:b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01' 
+2020-11-30 14:25:52,232 [Process-2316] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\config.ini) 
+2020-11-30 14:25:52,233 [Process-2316] WARNING  [Para]    Load para curdigest b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01'
+2020-11-30 14:25:52,234 [Process-2316] INFO     [FlashTop]    Load para sync success
+2020-11-30 14:25:52,235 [Process-2316] INFO     [FlashTop]    do_main: cmd burn, Thread0[22728]
+2020-11-30 14:25:52,235 [Process-2316] INFO     [Thread0]    ProcessStart[22728]
+2020-11-30 14:25:52,238 [Process-2316] INFO     [Thread0]    ResetBoard skip for straight download
+2020-11-30 14:25:52,238 [Process-2316] INFO     [Thread0]    args.ser.port :COM99
+2020-11-30 14:25:52,314 [Process-2316] INFO     [Thread0]    TryDownload agentboot skip
+2020-11-30 14:25:52,349 [Process-2316] INFO     [Thread0]    agbaud: 921600
+2020-11-30 14:25:54,426 [Process-2316] INFO     [Thread0]    LPCSyncDetect try recovery
+2020-11-30 14:25:54,426 [Process-2316] INFO     [Thread0]    LPC Preamble Send
+2020-11-30 14:25:54,492 [Process-2316] INFO     [Thread0]    LPC Preamble Received Rsp
+2020-11-30 14:25:54,523 [Process-2316] INFO     [Thread0]    LPCSetSyncStat(1)
+2020-11-30 14:25:54,523 [Process-2316] INFO     [Thread0]    LPCSyncDetect: success
+2020-11-30 14:25:54,527 [Process-2316] INFO     [Thread0]    TryDownload:headpath=, bodypath=D:\4_Firmware\BC950FCNAAR01A02V02\BC950FCNAAR01A02V02\Bootloader_BC950FCNAAR01A02.bin
+2020-11-30 14:25:54,527 [Process-2316] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2020-11-30 14:25:54,532 [Process-2316] INFO     [Thread0]    LPCBurnOneTrig success
+2020-11-30 14:25:54,532 [Process-2316] INFO     [Thread0]    DLDPreSync Preamble Send
+2020-11-30 14:25:55,096 [Process-2316] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2020-11-30 14:25:55,127 [Process-2316] INFO     [Thread0]    image size=56008, hdsize=272
+2020-11-30 14:25:55,127 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:55,127 [Process-2316] INFO     [Thread0]    imginfo.size=56008, RemainLen=56008, Offset=0
+2020-11-30 14:25:55,128 [Process-2316] INFO     [Thread0]    {Bootloader_BC950FCNAAR01A02.bin-percent files transferred   0%}
+2020-11-30 14:25:55,129 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:55,129 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:55,197 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:25:55,236 [Process-2316] INFO     [Thread0]    imginfo.size=56008, RemainLen=55736, Offset=272
+2020-11-30 14:25:55,237 [Process-2316] INFO     [Thread0]    {Bootloader_BC950FCNAAR01A02.bin-percent files transferred   0%}
+2020-11-30 14:25:55,237 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:55,237 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:55,629 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:25:56,455 [Process-2316] INFO     [Thread0]    imginfo.size=56008, RemainLen=0, Offset=272
+2020-11-30 14:25:56,456 [Process-2316] INFO     [Thread0]    {Bootloader_BC950FCNAAR01A02.bin-percent files transferred   100%}
+2020-11-30 14:25:56,456 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:56,456 [Process-2316] INFO     [Thread0]    TryDownload finish
+2020-11-30 14:25:56,467 [Process-2316] INFO     [Thread0]    TryDownload success:headpath=, bodypath=D:\4_Firmware\BC950FCNAAR01A02V02\BC950FCNAAR01A02V02\Bootloader_BC950FCNAAR01A02.bin
+2020-11-30 14:25:56,626 [Process-2316] INFO     [Thread0]    TryDownload:headpath=, bodypath=D:\4_Firmware\BC950FCNAAR01A02V02\BC950FCNAAR01A02V02\BC950FCNAAR01A02.bin
+2020-11-30 14:25:56,626 [Process-2316] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2020-11-30 14:25:56,631 [Process-2316] INFO     [Thread0]    LPCBurnOneTrig success
+2020-11-30 14:25:56,631 [Process-2316] INFO     [Thread0]    DLDPreSync Preamble Send
+2020-11-30 14:25:57,193 [Process-2316] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2020-11-30 14:25:57,225 [Process-2316] INFO     [Thread0]    image size=2069468, hdsize=272
+2020-11-30 14:25:57,225 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:57,225 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=2069468, Offset=0
+2020-11-30 14:25:57,226 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   0%}
+2020-11-30 14:25:57,227 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:57,227 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:57,295 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:25:57,333 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=2069196, Offset=272
+2020-11-30 14:25:57,334 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   0%}
+2020-11-30 14:25:57,334 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:57,334 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:57,430 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:25:58,370 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=2003660, Offset=65808
+2020-11-30 14:25:58,371 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   3%}
+2020-11-30 14:25:58,371 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:58,371 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:58,433 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:25:59,371 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1938124, Offset=131344
+2020-11-30 14:25:59,372 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   6%}
+2020-11-30 14:25:59,372 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:25:59,372 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:25:59,434 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:00,373 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1872588, Offset=196880
+2020-11-30 14:26:00,374 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   9%}
+2020-11-30 14:26:00,374 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:00,374 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:00,436 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:01,376 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1807052, Offset=262416
+2020-11-30 14:26:01,377 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   12%}
+2020-11-30 14:26:01,377 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:01,377 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:01,440 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:02,378 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1741516, Offset=327952
+2020-11-30 14:26:02,379 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   15%}
+2020-11-30 14:26:02,379 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:02,379 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:02,441 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:03,379 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1675980, Offset=393488
+2020-11-30 14:26:03,380 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   19%}
+2020-11-30 14:26:03,380 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:03,380 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:03,442 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:04,381 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1610444, Offset=459024
+2020-11-30 14:26:04,382 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   22%}
+2020-11-30 14:26:04,383 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:04,383 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:04,445 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:05,384 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1544908, Offset=524560
+2020-11-30 14:26:05,385 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   25%}
+2020-11-30 14:26:05,385 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:05,385 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:05,449 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:06,387 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1479372, Offset=590096
+2020-11-30 14:26:06,388 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   28%}
+2020-11-30 14:26:06,388 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:06,388 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:06,450 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:07,388 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1413836, Offset=655632
+2020-11-30 14:26:07,389 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   31%}
+2020-11-30 14:26:07,390 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:07,390 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:07,453 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:08,393 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1348300, Offset=721168
+2020-11-30 14:26:08,394 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   34%}
+2020-11-30 14:26:08,394 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:08,394 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:08,456 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:09,396 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1282764, Offset=786704
+2020-11-30 14:26:09,397 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   38%}
+2020-11-30 14:26:09,397 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:09,397 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:09,459 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:10,398 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1217228, Offset=852240
+2020-11-30 14:26:10,399 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   41%}
+2020-11-30 14:26:10,399 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:10,399 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:10,461 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:11,400 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1151692, Offset=917776
+2020-11-30 14:26:11,402 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   44%}
+2020-11-30 14:26:11,402 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:11,402 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:11,465 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:12,405 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1086156, Offset=983312
+2020-11-30 14:26:12,406 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   47%}
+2020-11-30 14:26:12,406 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:12,406 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:12,468 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:13,407 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=1020620, Offset=1048848
+2020-11-30 14:26:13,409 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   50%}
+2020-11-30 14:26:13,409 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:13,409 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:13,471 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:14,409 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=955084, Offset=1114384
+2020-11-30 14:26:14,410 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   53%}
+2020-11-30 14:26:14,410 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:14,410 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:14,473 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:15,414 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=889548, Offset=1179920
+2020-11-30 14:26:15,415 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   57%}
+2020-11-30 14:26:15,415 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:15,415 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:15,478 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:16,418 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=824012, Offset=1245456
+2020-11-30 14:26:16,419 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   60%}
+2020-11-30 14:26:16,419 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:16,419 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:16,482 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:17,421 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=758476, Offset=1310992
+2020-11-30 14:26:17,422 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   63%}
+2020-11-30 14:26:17,422 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:17,422 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:17,484 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:18,424 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=692940, Offset=1376528
+2020-11-30 14:26:18,425 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   66%}
+2020-11-30 14:26:18,425 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:18,425 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:18,487 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:19,425 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=627404, Offset=1442064
+2020-11-30 14:26:19,426 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   69%}
+2020-11-30 14:26:19,426 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:19,427 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:19,489 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:20,428 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=561868, Offset=1507600
+2020-11-30 14:26:20,429 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   72%}
+2020-11-30 14:26:20,429 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:20,430 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:20,492 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:21,433 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=496332, Offset=1573136
+2020-11-30 14:26:21,434 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   76%}
+2020-11-30 14:26:21,434 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:21,434 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:21,497 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:22,437 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=430796, Offset=1638672
+2020-11-30 14:26:22,438 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   79%}
+2020-11-30 14:26:22,438 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:22,438 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:22,501 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:23,439 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=365260, Offset=1704208
+2020-11-30 14:26:23,440 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   82%}
+2020-11-30 14:26:23,440 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:23,440 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:23,502 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:24,442 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=299724, Offset=1769744
+2020-11-30 14:26:24,443 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   85%}
+2020-11-30 14:26:24,443 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:24,443 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:24,505 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:25,445 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=234188, Offset=1835280
+2020-11-30 14:26:25,446 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   88%}
+2020-11-30 14:26:25,446 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:25,446 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:25,509 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:26,448 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=168652, Offset=1900816
+2020-11-30 14:26:26,449 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   91%}
+2020-11-30 14:26:26,449 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:26,449 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:26,513 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:27,452 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=103116, Offset=1966352
+2020-11-30 14:26:27,453 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   95%}
+2020-11-30 14:26:27,453 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:27,453 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:27,516 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:28,454 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=37580, Offset=2031888
+2020-11-30 14:26:28,455 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   98%}
+2020-11-30 14:26:28,455 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:28,455 [Process-2316] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:28,627 [Process-2316] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:29,244 [Process-2316] INFO     [Thread0]    imginfo.size=2069468, RemainLen=0, Offset=2031888
+2020-11-30 14:26:29,245 [Process-2316] INFO     [Thread0]    {BC950FCNAAR01A02.bin-percent files transferred   100%}
+2020-11-30 14:26:29,245 [Process-2316] INFO     [Thread0]    
+2020-11-30 14:26:29,245 [Process-2316] INFO     [Thread0]    TryDownload finish
+2020-11-30 14:26:29,246 [Process-2316] INFO     [Thread0]    TryDownload success:headpath=, bodypath=D:\4_Firmware\BC950FCNAAR01A02V02\BC950FCNAAR01A02V02\BC950FCNAAR01A02.bin
+2020-11-30 14:26:29,281 [Process-2316] INFO     [Thread0]    Burn OK!
+2020-11-30 14:26:29,281 [Process-2316] INFO     [Thread0]    ProcessEnd[22728]
+2020-11-30 14:26:30,541 INFO     [FlashTop]    init
+2020-11-30 14:26:30,545 [Process-21864] INFO     [FlashTop]    do_main: cmd loadpara
+2020-11-30 14:26:30,545 [Process-21864] INFO     [Para]    exe path: D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1
+2020-11-30 14:26:30,552 [Process-21864] INFO     [Para]    update digest file :D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\cfg.digest, digest:b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01' 
+2020-11-30 14:26:30,552 [Process-21864] INFO     [Para]    LoadPara from cfgfile(D:\2_Code\QFlash_V4.19_FW_Download_And_Format_V5.5.5\FW_Download_And_Format_V5.5.5\EFlashTool\1\config.ini) 
+2020-11-30 14:26:30,554 [Process-21864] WARNING  [Para]    Load para curdigest b'\xf7\x3c\xb6\xa6\x6c\x0b\xdf\xaf\xea\x36\x31\x2d\xf1\xd6\xc2\x92\x84\x92\x3b\x38\x77\x53\xdf\xd9\xc2\xb7\x73\x41\x06\xbf\x9a\x01'
+2020-11-30 14:26:30,554 [Process-21864] INFO     [FlashTop]    Load para sync success
+2020-11-30 14:26:30,555 [Process-21864] INFO     [FlashTop]    do_main: cmd burnone, Thread0[18528]
+2020-11-30 14:26:30,556 [Process-21864] INFO     [Thread0]    ProcessStart[18528]
+2020-11-30 14:26:30,558 [Process-21864] INFO     [Thread0]    ResetBoard skip for straight download
+2020-11-30 14:26:30,559 [Process-21864] INFO     [Thread0]    args.ser.port :COM99
+2020-11-30 14:26:30,635 [Process-21864] INFO     [Thread0]    TryDownload agentboot skip
+2020-11-30 14:26:30,672 [Process-21864] INFO     [Thread0]    agbaud: 921600
+2020-11-30 14:26:32,748 [Process-21864] INFO     [Thread0]    LPCSyncDetect try recovery
+2020-11-30 14:26:32,749 [Process-21864] INFO     [Thread0]    LPC Preamble Send
+2020-11-30 14:26:32,816 [Process-21864] INFO     [Thread0]    LPC Preamble Received Rsp
+2020-11-30 14:26:32,847 [Process-21864] INFO     [Thread0]    LPCSetSyncStat(1)
+2020-11-30 14:26:32,847 [Process-21864] INFO     [Thread0]    LPCSyncDetect: success
+2020-11-30 14:26:32,847 [Process-21864] INFO     [Thread0]    DownloadBurnOne imgtype(flexfile0)
+2020-11-30 14:26:32,847 [Process-21864] INFO     [Thread0]    DownloadBurnOne imgtype(flexfile0), burnaddr(0x3a4000), imgid(0x464c5849)
+2020-11-30 14:26:32,847 [Process-21864] INFO     [Thread0]    DownloadBurnOne file D:\4_Firmware\BC950FCNAAR01A02V02\BC950FCNAAR01A02V02\MergeRfTable.bin 
+2020-11-30 14:26:32,953 [Process-21864] INFO     [Thread0]    TryDownload D:\4_Firmware\BC950FCNAAR01A02V02\BC950FCNAAR01A02V02\MergeRfTable.bin start
+2020-11-30 14:26:32,954 [Process-21864] INFO     [Thread0]    LPCBurnOneTrig start       			******
+2020-11-30 14:26:32,959 [Process-21864] INFO     [Thread0]    LPCBurnOneTrig success
+2020-11-30 14:26:32,959 [Process-21864] INFO     [Thread0]    DLDPreSync Preamble Send
+2020-11-30 14:26:33,522 [Process-21864] INFO     [Thread0]    DLDPreSync Preamble Received Rsp
+2020-11-30 14:26:33,553 [Process-21864] INFO     [Thread0]    image size=33040, hdsize=272
+2020-11-30 14:26:33,553 [Process-21864] INFO     [Thread0]    
+2020-11-30 14:26:33,553 [Process-21864] INFO     [Thread0]    imginfo.size=33040, RemainLen=33040, Offset=0
+2020-11-30 14:26:33,555 [Process-21864] INFO     [Thread0]    {MergeRfTable.bin-percent files transferred   0%}
+2020-11-30 14:26:33,555 [Process-21864] INFO     [Thread0]    
+2020-11-30 14:26:33,555 [Process-21864] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:33,623 [Process-21864] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:33,661 [Process-21864] INFO     [Thread0]    imginfo.size=33040, RemainLen=32768, Offset=272
+2020-11-30 14:26:33,662 [Process-21864] INFO     [Thread0]    {MergeRfTable.bin-percent files transferred   0%}
+2020-11-30 14:26:33,662 [Process-21864] INFO     [Thread0]    
+2020-11-30 14:26:33,662 [Process-21864] INFO     [Thread0]    Preamble Send
+2020-11-30 14:26:33,982 [Process-21864] INFO     [Thread0]    Preamble Received Rsp
+2020-11-30 14:26:34,544 [Process-21864] INFO     [Thread0]    imginfo.size=33040, RemainLen=0, Offset=272
+2020-11-30 14:26:34,545 [Process-21864] INFO     [Thread0]    {MergeRfTable.bin-percent files transferred   100%}
+2020-11-30 14:26:34,545 [Process-21864] INFO     [Thread0]    
+2020-11-30 14:26:34,546 [Process-21864] INFO     [Thread0]    TryDownload success
+2020-11-30 14:26:34,580 [Process-21864] INFO     [Thread0]    Burn OK!
+2020-11-30 14:26:34,580 [Process-21864] INFO     [Thread0]    ProcessEnd[18528]

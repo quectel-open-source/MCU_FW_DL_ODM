@@ -1,0 +1,12 @@
+device STM32F030CC
+usb 0
+si 1
+speed 9600
+sleep 400
+loadfile "E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM_V1.0.0\QDE006\REL_01.00.40-70833c20.hex"
+sleep 100
+loadfile "E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM_V1.0.0\QDE006\REL_01.00.40-70833c20.hex"
+sleep 100
+r
+g
+q

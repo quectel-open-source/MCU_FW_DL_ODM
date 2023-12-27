@@ -1,0 +1,1 @@
+serial_sender.exe -s COM5 -v -t 10 DownloadFiles\packet.list

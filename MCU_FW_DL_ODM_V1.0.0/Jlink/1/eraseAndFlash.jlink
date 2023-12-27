@@ -1,0 +1,11 @@
+device STM32F030C8
+usb 0
+si 1
+speed 4000
+erase
+sleep 400
+loadfile "E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\SPD-G14726_V0.17.4\spd1680.hex" 
+sleep 100
+r
+g
+q

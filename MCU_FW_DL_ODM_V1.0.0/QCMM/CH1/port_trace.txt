@@ -1,0 +1,719 @@
+
+10:41:34: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+fh_loader.exe --port=\\.\COM107 --sendxml=provision_samsung.xml --search_path=D:\4_Firmware\SC662NCEPAR01A01_BP01.005V01_Android9.0.0.01.019V01_UFS_factory\SC66_ufs --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=UFS --skipstorageinit 
+************************************************
+
+10:41:34: DEBUG: Binary build date: Apr 27 2018 @ 03:04:29
+
+10:41:34: DEBUG: Build Version: 18.04.27.03.04.29
+
+10:41:34: INFO: Current working dir (cwd): D:\2_Code\QFlash_V4.12_FW_Download_And_Format_V4.54.49_ASR_Test_BLF_SC66\Release_Multi\QCMM\CH1\
+10:41:34: INFO: Showing network mappings to allow debugging
+10:41:34: DEBUG: 会记录新的网络连接。
+
+10:41:34: DEBUG: 
+
+10:41:34: DEBUG: 
+
+10:41:34: DEBUG: 状态       本地        远程                      网络
+
+10:41:34: DEBUG: 
+
+10:41:34: DEBUG: -------------------------------------------------------------------------------
+
+10:41:34: DEBUG: OK           P:        \\192.168.11.252\person\jack.zhu 
+
+10:41:34: DEBUG:                                                 Microsoft Windows Network
+
+10:41:34: DEBUG: OK           Z:        \\192.168.11.252\quectel  Microsoft Windows Network
+
+10:41:34: DEBUG: 命令成功完成。
+
+10:41:34: DEBUG: 
+
+10:41:34: INFO: 
+
+
+
+10:41:34: INFO: Trying to store 'provision_samsung.xml' in string table
+10:41:34: DEBUG: ==================================================================================
+10:41:34: DEBUG: ==================================================================================
+10:41:34: INFO: Looking for file 'provision_samsung.xml'
+10:41:34: DEBUG: 1. Calling stat('D:\4_Firmware\SC662NCEPAR01A01_BP01.005V01_Android9.0.0.01.019V01_UFS_factory\SC66_ufs\provision_samsung.xml')
+10:41:34: DEBUG: 2. Calling fopen('D:\4_Firmware\SC662NCEPAR01A01_BP01.005V01_Android9.0.0.01.019V01_UFS_factory\SC66_ufs\provision_samsung.xml') with AccessMode='rb'
+10:41:34: DEBUG: Trying get filesize, calling fseek()
+10:41:34: DEBUG: Found 'D:\4_Firmware\SC662NCEPAR01A01_BP01.005V01_Android9.0.0.01.019V01_UFS_factory\SC66_ufs\provision_samsung.xml' (2174 bytes)
+10:41:34: DEBUG: 2. Calling fopen('D:\4_Firmware\SC662NCEPAR01A01_BP01.005V01_Android9.0.0.01.019V01_UFS_factory\SC66_ufs\provision_samsung.xml') with AccessMode='r'
+10:41:34: DEBUG: Trying get filesize, calling fseek()
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: User set ZLPAWAREHOST to 1
+
+10:41:34: DEBUG: User wants skipstorageinit - Will not initialize storage with <configure> i.e. handleConfigure()
+
+10:41:34: INFO: User wants to talk to port '\\.\COM107'
+10:41:34: DEBUG: port_fd=0xCC
+
+10:41:34: INFO: Took       0.00000000 seconds to open port
+10:41:34: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+10:41:34: INFO: If  you don't want this, use --dontsorttags
+
+10:41:34: INFO: Sending <configure>
+10:41:34: DEBUG: CHANNEL DATA (P0000) (H00202) (    227 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="ufs" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="1" />
+</data>
+
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+10:41:34: DEBUG: CHANNEL DATA (580 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 580
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 580 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 73 6B 69 70 70 log value="skipp
+10:41:34: DEBUG: printBuffer:6058 69 6E 67 20 73 74 6F 72 61 67 65 20 69 6E 69 74 ing storage init
+10:41:34: DEBUG: printBuffer:6058 20 72 65 71 75 65 73 74 65 64 20 62 79 20 75 73  requested by us
+10:41:34: DEBUG: printBuffer:6058 65 72 22 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78 er"/>.</data><?x
+10:41:34: DEBUG: printBuffer:6058 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 ml version="1.0"
+10:41:34: DEBUG: printBuffer:6058 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38  encoding="UTF-8
+10:41:34: DEBUG: printBuffer:6058 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 6C 6F 67 " ?>.<data>.<log
+10:41:34: DEBUG: printBuffer:6058 20 76 61 6C 75 65 3D 22 43 61 6C 6C 69 6E 67 20  value="Calling 
+10:41:34: DEBUG: printBuffer:6058 75 73 62 5F 61 6C 5F 62 75 6C 6B 5F 73 65 74 5F usb_al_bulk_set_
+10:41:34: DEBUG: printBuffer:6058 7A 6C 70 5F 6D 6F 64 65 28 54 52 55 45 29 20 73 zlp_mode(TRUE) s
+10:41:34: DEBUG: printBuffer:6058 69 6E 63 65 20 5A 6C 70 41 77 61 72 65 48 6F 73 ince ZlpAwareHos
+10:41:34: DEBUG: printBuffer:6058 74 3D 27 31 27 22 2F 3E 0A 3C 2F 64 61 74 61 3E t='1'"/>.</data>
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D 22 response value="
+10:41:34: DEBUG: printBuffer:6058 41 43 4B 22 20 4D 69 6E 56 65 72 73 69 6F 6E 53 ACK" MinVersionS
+10:41:34: DEBUG: printBuffer:6058 75 70 70 6F 72 74 65 64 3D 22 31 22 20 4D 65 6D upported="1" Mem
+10:41:34: DEBUG: printBuffer:6058 6F 72 79 4E 61 6D 65 3D 22 55 46 53 22 20 4D 61 oryName="UFS" Ma
+10:41:34: DEBUG: printBuffer:6058 78 50 61 79 6C 6F 61 64 53 69 7A 65 46 72 6F 6D xPayloadSizeFrom
+10:41:34: DEBUG: printBuffer:6058 54 61 72 67 65 74 49 6E 42 79 74 65 73 3D 22 34 TargetInBytes="4
+10:41:34: DEBUG: printBuffer:6058 30 39 36 22 20 4D 61 78 50 61 79 6C 6F 61 64 53 096" MaxPayloadS
+10:41:34: DEBUG: printBuffer:6058 69 7A 65 54 6F 54 61 72 67 65 74 49 6E 42 79 74 izeToTargetInByt
+10:41:34: DEBUG: printBuffer:6058 65 73 3D 22 31 30 34 38 35 37 36 22 20 4D 61 78 es="1048576" Max
+10:41:34: DEBUG: printBuffer:6058 50 61 79 6C 6F 61 64 53 69 7A 65 54 6F 54 61 72 PayloadSizeToTar
+10:41:34: DEBUG: printBuffer:6058 67 65 74 49 6E 42 79 74 65 73 53 75 70 70 6F 72 getInBytesSuppor
+10:41:34: DEBUG: printBuffer:6058 74 65 64 3D 22 31 30 34 38 35 37 36 22 20 4D 61 ted="1048576" Ma
+10:41:34: DEBUG: printBuffer:6058 78 58 4D 4C 53 69 7A 65 49 6E 42 79 74 65 73 3D xXMLSizeInBytes=
+10:41:34: DEBUG: printBuffer:6058 22 34 30 39 36 22 20 56 65 72 73 69 6F 6E 3D 22 "4096" Version="
+10:41:34: DEBUG: printBuffer:6058 31 22 20 54 61 72 67 65 74 4E 61 6D 65 3D 22 4D 1" TargetName="M
+10:41:34: DEBUG: printBuffer:6058 53 4D 38 39 39 36 22 20 44 61 74 65 54 69 6D 65 SM8996" DateTime
+10:41:34: DEBUG: printBuffer:6058 3D 22 41 70 72 20 31 30 20 32 30 31 39 20 2D 20 ="Apr 10 2019 - 
+10:41:34: DEBUG: printBuffer:6058 31 30 3A 31 38 3A 34 30 22 20 2F 3E 0A 3C 2F 64 10:18:40" />.</d
+10:41:34: DEBUG: printBuffer:6058 61 74 61 3E                                     ata>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (109 bytes): CharsInBuffer=580-109=471
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="skipping storage init requested by user"/>
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'skipping storage init requested by user'
+10:41:34: DEBUG: XML FILE (131 bytes): CharsInBuffer=471-131=340
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="Calling usb_al_bulk_set_zlp_mode(TRUE) since ZlpAwareHost='1'"/>
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'Calling usb_al_bulk_set_zlp_mode(TRUE) since ZlpAwareHost='1''
+10:41:34: DEBUG: XML FILE (340 bytes): CharsInBuffer=340-340=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" MinVersionSupported="1" MemoryName="UFS" MaxPayloadSizeFromTargetInBytes="4096" MaxPayloadSizeToTargetInBytes="1048576" MaxPayloadSizeToTargetInBytesSupported="1048576" MaxXMLSizeInBytes="4096" Version="1" TargetName="MSM8996" DateTime="Apr 10 2019 - 10:18:40" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+10:41:34: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+10:41:34: DEBUG: Got the ACK for the <configure>
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0001) (H00203) (    244 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs bNumberLU="6" bBootEnable="1" bDescrAccessEn="0" bInitPowerMode="1" bHighPriorityLUN="0x5" bSecureRemovalType="0" bInitActiveICCLevel="0" wPeriodicRTCUpdate="0" bConfigDescrLock="0" />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (312 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 312
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 312 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 62 4E 75 6D 62 log value="bNumb
+10:41:34: DEBUG: printBuffer:6058 65 72 4C 55 3D 36 20 62 42 6F 6F 74 45 6E 61 62 erLU=6 bBootEnab
+10:41:34: DEBUG: printBuffer:6058 6C 65 3D 31 20 62 44 65 73 63 72 41 63 63 65 73 le=1 bDescrAcces
+10:41:34: DEBUG: printBuffer:6058 73 45 6E 3D 30 20 62 49 6E 69 74 50 6F 77 65 72 sEn=0 bInitPower
+10:41:34: DEBUG: printBuffer:6058 4D 6F 64 65 3D 31 20 62 48 69 67 68 50 72 69 6F Mode=1 bHighPrio
+10:41:34: DEBUG: printBuffer:6058 72 69 74 79 4C 55 4E 3D 35 20 62 53 65 63 75 72 rityLUN=5 bSecur
+10:41:34: DEBUG: printBuffer:6058 65 52 65 6D 6F 76 61 6C 54 79 70 65 3D 30 20 62 eRemovalType=0 b
+10:41:34: DEBUG: printBuffer:6058 49 6E 69 74 41 63 74 69 76 65 49 43 43 4C 65 76 InitActiveICCLev
+10:41:34: DEBUG: printBuffer:6058 65 6C 3D 30 20 77 50 65 72 69 6F 64 69 63 52 54 el=0 wPeriodicRT
+10:41:34: DEBUG: printBuffer:6058 43 55 70 64 61 74 65 3D 30 20 62 43 6F 6E 66 69 CUpdate=0 bConfi
+10:41:34: DEBUG: printBuffer:6058 67 44 65 73 63 72 4C 6F 63 6B 3D 30 20 22 20 2F gDescrLock=0 " /
+10:41:34: DEBUG: printBuffer:6058 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 >.</data><?xml v
+10:41:34: DEBUG: printBuffer:6058 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 ersion="1.0" enc
+10:41:34: DEBUG: printBuffer:6058 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 3F 3E oding="UTF-8" ?>
+10:41:34: DEBUG: printBuffer:6058 0A 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F 6E 73 .<data>.<respons
+10:41:34: DEBUG: printBuffer:6058 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 2F 3E e value="ACK" />
+10:41:34: DEBUG: printBuffer:6058 0A 3C 2F 64 61 74 61 3E                         .</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (233 bytes): CharsInBuffer=312-233=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="bNumberLU=6 bBootEnable=1 bDescrAccessEn=0 bInitPowerMode=1 bHighPriorityLUN=5 bSecureRemovalType=0 bInitActiveICCLevel=0 wPeriodicRTCUpdate=0 bConfigDescrLock=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'bNumberLU=6 bBootEnable=1 bDescrAccessEn=0 bInitPowerMode=1 bHighPriorityLUN=5 bSecureRemovalType=0 bInitActiveICCLevel=0 wPeriodicRTCUpdate=0 bConfigDescrLock=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0002) (H00204) (    297 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="0" bLUEnable="1" bBootLunID="0" size_in_kb="4096"     bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="2" wContextCapabilities="0" desc="LU 0 - User LUN - Rest of the device"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (314 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 314
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 314 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 30 20 62 4C 55 45 6E 61 62 6C 65 3D 31 20 62 =0 bLUEnable=1 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 30 20 62 4C 55 57 BootLunID=0 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 30 20 62 4D riteProtect=0 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 30 20 73 69 7A 65 emoryType=0 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 34 30 39 36 20 62 44 61 74 _in_KB=4096 bDat
+10:41:34: DEBUG: printBuffer:6058 61 52 65 6C 69 61 62 69 6C 69 74 79 3D 30 20 62 aReliability=0 b
+10:41:34: DEBUG: printBuffer:6058 4C 6F 67 69 63 61 6C 42 6C 6F 63 6B 53 69 7A 65 LogicalBlockSize
+10:41:34: DEBUG: printBuffer:6058 3D 31 32 20 62 50 72 6F 76 69 73 69 6F 6E 69 6E =12 bProvisionin
+10:41:34: DEBUG: printBuffer:6058 67 54 79 70 65 3D 32 20 77 43 6F 6E 74 65 78 74 gType=2 wContext
+10:41:34: DEBUG: printBuffer:6058 43 61 70 61 62 69 6C 69 74 69 65 73 3D 30 20 22 Capabilities=0 "
+10:41:34: DEBUG: printBuffer:6058 20 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C  />.</data><?xml
+10:41:34: DEBUG: printBuffer:6058 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65  version="1.0" e
+10:41:34: DEBUG: printBuffer:6058 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 ncoding="UTF-8" 
+10:41:34: DEBUG: printBuffer:6058 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F ?>.<data>.<respo
+10:41:34: DEBUG: printBuffer:6058 6E 73 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 nse value="ACK" 
+10:41:34: DEBUG: printBuffer:6058 2F 3E 0A 3C 2F 64 61 74 61 3E                   />.</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (235 bytes): CharsInBuffer=314-235=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=0 bLUEnable=1 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=4096 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=0 bLUEnable=1 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=4096 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0003) (H00205) (    282 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="1" bLUEnable="1" bBootLunID="1" size_in_kb="4096"     bDataReliability="0" bLUWriteProtect="1" bMemoryType="3" bLogicalBlockSize="0x0c" bProvisioningType="2" wContextCapabilities="0" desc="LU 1 - Boot LUN A-4MB"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (314 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 314
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 314 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 31 20 62 4C 55 45 6E 61 62 6C 65 3D 31 20 62 =1 bLUEnable=1 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 31 20 62 4C 55 57 BootLunID=1 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 31 20 62 4D riteProtect=1 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 33 20 73 69 7A 65 emoryType=3 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 34 30 39 36 20 62 44 61 74 _in_KB=4096 bDat
+10:41:34: DEBUG: printBuffer:6058 61 52 65 6C 69 61 62 69 6C 69 74 79 3D 30 20 62 aReliability=0 b
+10:41:34: DEBUG: printBuffer:6058 4C 6F 67 69 63 61 6C 42 6C 6F 63 6B 53 69 7A 65 LogicalBlockSize
+10:41:34: DEBUG: printBuffer:6058 3D 31 32 20 62 50 72 6F 76 69 73 69 6F 6E 69 6E =12 bProvisionin
+10:41:34: DEBUG: printBuffer:6058 67 54 79 70 65 3D 32 20 77 43 6F 6E 74 65 78 74 gType=2 wContext
+10:41:34: DEBUG: printBuffer:6058 43 61 70 61 62 69 6C 69 74 69 65 73 3D 30 20 22 Capabilities=0 "
+10:41:34: DEBUG: printBuffer:6058 20 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C  />.</data><?xml
+10:41:34: DEBUG: printBuffer:6058 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65  version="1.0" e
+10:41:34: DEBUG: printBuffer:6058 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 ncoding="UTF-8" 
+10:41:34: DEBUG: printBuffer:6058 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F ?>.<data>.<respo
+10:41:34: DEBUG: printBuffer:6058 6E 73 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 nse value="ACK" 
+10:41:34: DEBUG: printBuffer:6058 2F 3E 0A 3C 2F 64 61 74 61 3E                   />.</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (235 bytes): CharsInBuffer=314-235=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=1 bLUEnable=1 bBootLunID=1 bLUWriteProtect=1 bMemoryType=3 size_in_KB=4096 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=1 bLUEnable=1 bBootLunID=1 bLUWriteProtect=1 bMemoryType=3 size_in_KB=4096 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0004) (H00206) (    282 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="2" bLUEnable="1" bBootLunID="2" size_in_kb="4096"     bDataReliability="0" bLUWriteProtect="1" bMemoryType="3" bLogicalBlockSize="0x0c" bProvisioningType="2" wContextCapabilities="0" desc="LU 2 - Boot LUN B-4MB"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (314 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 314
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 314 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 32 20 62 4C 55 45 6E 61 62 6C 65 3D 31 20 62 =2 bLUEnable=1 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 32 20 62 4C 55 57 BootLunID=2 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 31 20 62 4D riteProtect=1 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 33 20 73 69 7A 65 emoryType=3 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 34 30 39 36 20 62 44 61 74 _in_KB=4096 bDat
+10:41:34: DEBUG: printBuffer:6058 61 52 65 6C 69 61 62 69 6C 69 74 79 3D 30 20 62 aReliability=0 b
+10:41:34: DEBUG: printBuffer:6058 4C 6F 67 69 63 61 6C 42 6C 6F 63 6B 53 69 7A 65 LogicalBlockSize
+10:41:34: DEBUG: printBuffer:6058 3D 31 32 20 62 50 72 6F 76 69 73 69 6F 6E 69 6E =12 bProvisionin
+10:41:34: DEBUG: printBuffer:6058 67 54 79 70 65 3D 32 20 77 43 6F 6E 74 65 78 74 gType=2 wContext
+10:41:34: DEBUG: printBuffer:6058 43 61 70 61 62 69 6C 69 74 69 65 73 3D 30 20 22 Capabilities=0 "
+10:41:34: DEBUG: printBuffer:6058 20 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C  />.</data><?xml
+10:41:34: DEBUG: printBuffer:6058 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65  version="1.0" e
+10:41:34: DEBUG: printBuffer:6058 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 ncoding="UTF-8" 
+10:41:34: DEBUG: printBuffer:6058 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F ?>.<data>.<respo
+10:41:34: DEBUG: printBuffer:6058 6E 73 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 nse value="ACK" 
+10:41:34: DEBUG: printBuffer:6058 2F 3E 0A 3C 2F 64 61 74 61 3E                   />.</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (235 bytes): CharsInBuffer=314-235=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=2 bLUEnable=1 bBootLunID=2 bLUWriteProtect=1 bMemoryType=3 size_in_KB=4096 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=2 bLUEnable=1 bBootLunID=2 bLUWriteProtect=1 bMemoryType=3 size_in_KB=4096 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0005) (H00207) (    281 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="3" bLUEnable="1" bBootLunID="0" size_in_kb="131072"   bDataReliability="0" bLUWriteProtect="1" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="2" wContextCapabilities="0" desc="LU 3 - OTP LUN-128MB"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (316 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 316
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 316 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 33 20 62 4C 55 45 6E 61 62 6C 65 3D 31 20 62 =3 bLUEnable=1 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 30 20 62 4C 55 57 BootLunID=0 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 31 20 62 4D riteProtect=1 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 30 20 73 69 7A 65 emoryType=0 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 31 33 31 30 37 32 20 62 44 _in_KB=131072 bD
+10:41:34: DEBUG: printBuffer:6058 61 74 61 52 65 6C 69 61 62 69 6C 69 74 79 3D 30 ataReliability=0
+10:41:34: DEBUG: printBuffer:6058 20 62 4C 6F 67 69 63 61 6C 42 6C 6F 63 6B 53 69  bLogicalBlockSi
+10:41:34: DEBUG: printBuffer:6058 7A 65 3D 31 32 20 62 50 72 6F 76 69 73 69 6F 6E ze=12 bProvision
+10:41:34: DEBUG: printBuffer:6058 69 6E 67 54 79 70 65 3D 32 20 77 43 6F 6E 74 65 ingType=2 wConte
+10:41:34: DEBUG: printBuffer:6058 78 74 43 61 70 61 62 69 6C 69 74 69 65 73 3D 30 xtCapabilities=0
+10:41:34: DEBUG: printBuffer:6058 20 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78  " />.</data><?x
+10:41:34: DEBUG: printBuffer:6058 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 ml version="1.0"
+10:41:34: DEBUG: printBuffer:6058 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38  encoding="UTF-8
+10:41:34: DEBUG: printBuffer:6058 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 72 65 73 " ?>.<data>.<res
+10:41:34: DEBUG: printBuffer:6058 70 6F 6E 73 65 20 76 61 6C 75 65 3D 22 41 43 4B ponse value="ACK
+10:41:34: DEBUG: printBuffer:6058 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E             " />.</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (237 bytes): CharsInBuffer=316-237=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=3 bLUEnable=1 bBootLunID=0 bLUWriteProtect=1 bMemoryType=0 size_in_KB=131072 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=3 bLUEnable=1 bBootLunID=0 bLUWriteProtect=1 bMemoryType=0 size_in_KB=131072 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0006) (H00208) (    297 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="4" bLUEnable="1" bBootLunID="0" size_in_kb="4194304"  bDataReliability="0" bLUWriteProtect="1" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="2" wContextCapabilities="0" desc="LU 4 - Protected Read-only LUN-512MB"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (317 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 317
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 317 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 34 20 62 4C 55 45 6E 61 62 6C 65 3D 31 20 62 =4 bLUEnable=1 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 30 20 62 4C 55 57 BootLunID=0 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 31 20 62 4D riteProtect=1 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 30 20 73 69 7A 65 emoryType=0 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 34 31 39 34 33 30 34 20 62 _in_KB=4194304 b
+10:41:34: DEBUG: printBuffer:6058 44 61 74 61 52 65 6C 69 61 62 69 6C 69 74 79 3D DataReliability=
+10:41:34: DEBUG: printBuffer:6058 30 20 62 4C 6F 67 69 63 61 6C 42 6C 6F 63 6B 53 0 bLogicalBlockS
+10:41:34: DEBUG: printBuffer:6058 69 7A 65 3D 31 32 20 62 50 72 6F 76 69 73 69 6F ize=12 bProvisio
+10:41:34: DEBUG: printBuffer:6058 6E 69 6E 67 54 79 70 65 3D 32 20 77 43 6F 6E 74 ningType=2 wCont
+10:41:34: DEBUG: printBuffer:6058 65 78 74 43 61 70 61 62 69 6C 69 74 69 65 73 3D extCapabilities=
+10:41:34: DEBUG: printBuffer:6058 30 20 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 0 " />.</data><?
+10:41:34: DEBUG: printBuffer:6058 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 xml version="1.0
+10:41:34: DEBUG: printBuffer:6058 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D " encoding="UTF-
+10:41:34: DEBUG: printBuffer:6058 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 72 65 8" ?>.<data>.<re
+10:41:34: DEBUG: printBuffer:6058 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D 22 41 43 sponse value="AC
+10:41:34: DEBUG: printBuffer:6058 4B 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E          K" />.</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (238 bytes): CharsInBuffer=317-238=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=4 bLUEnable=1 bBootLunID=0 bLUWriteProtect=1 bMemoryType=0 size_in_KB=4194304 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=4 bLUEnable=1 bBootLunID=0 bLUWriteProtect=1 bMemoryType=0 size_in_KB=4194304 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0007) (H00209) (    296 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="5" bLUEnable="1" bBootLunID="0" size_in_kb="1572864"  bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="2" wContextCapabilities="0" desc="LU 5 - Protected Read-write LUN-4GB"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (317 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 317
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 317 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 35 20 62 4C 55 45 6E 61 62 6C 65 3D 31 20 62 =5 bLUEnable=1 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 30 20 62 4C 55 57 BootLunID=0 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 30 20 62 4D riteProtect=0 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 30 20 73 69 7A 65 emoryType=0 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 31 35 37 32 38 36 34 20 62 _in_KB=1572864 b
+10:41:34: DEBUG: printBuffer:6058 44 61 74 61 52 65 6C 69 61 62 69 6C 69 74 79 3D DataReliability=
+10:41:34: DEBUG: printBuffer:6058 30 20 62 4C 6F 67 69 63 61 6C 42 6C 6F 63 6B 53 0 bLogicalBlockS
+10:41:34: DEBUG: printBuffer:6058 69 7A 65 3D 31 32 20 62 50 72 6F 76 69 73 69 6F ize=12 bProvisio
+10:41:34: DEBUG: printBuffer:6058 6E 69 6E 67 54 79 70 65 3D 32 20 77 43 6F 6E 74 ningType=2 wCont
+10:41:34: DEBUG: printBuffer:6058 65 78 74 43 61 70 61 62 69 6C 69 74 69 65 73 3D extCapabilities=
+10:41:34: DEBUG: printBuffer:6058 30 20 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 0 " />.</data><?
+10:41:34: DEBUG: printBuffer:6058 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 xml version="1.0
+10:41:34: DEBUG: printBuffer:6058 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D " encoding="UTF-
+10:41:34: DEBUG: printBuffer:6058 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C 72 65 8" ?>.<data>.<re
+10:41:34: DEBUG: printBuffer:6058 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D 22 41 43 sponse value="AC
+10:41:34: DEBUG: printBuffer:6058 4B 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E          K" />.</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (238 bytes): CharsInBuffer=317-238=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=5 bLUEnable=1 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=1572864 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=5 bLUEnable=1 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=1572864 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=2 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0008) (H00210) (    285 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="6" bLUEnable="0" bBootLunID="0" size_in_kb="0"        bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="0" wContextCapabilities="0" desc="LU 6 - Place Holder1 LUN"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (311 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 311
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 311 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 36 20 62 4C 55 45 6E 61 62 6C 65 3D 30 20 62 =6 bLUEnable=0 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 30 20 62 4C 55 57 BootLunID=0 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 30 20 62 4D riteProtect=0 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 30 20 73 69 7A 65 emoryType=0 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 30 20 62 44 61 74 61 52 65 _in_KB=0 bDataRe
+10:41:34: DEBUG: printBuffer:6058 6C 69 61 62 69 6C 69 74 79 3D 30 20 62 4C 6F 67 liability=0 bLog
+10:41:34: DEBUG: printBuffer:6058 69 63 61 6C 42 6C 6F 63 6B 53 69 7A 65 3D 31 32 icalBlockSize=12
+10:41:34: DEBUG: printBuffer:6058 20 62 50 72 6F 76 69 73 69 6F 6E 69 6E 67 54 79  bProvisioningTy
+10:41:34: DEBUG: printBuffer:6058 70 65 3D 30 20 77 43 6F 6E 74 65 78 74 43 61 70 pe=0 wContextCap
+10:41:34: DEBUG: printBuffer:6058 61 62 69 6C 69 74 69 65 73 3D 30 20 22 20 2F 3E abilities=0 " />
+10:41:34: DEBUG: printBuffer:6058 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 65 .</data><?xml ve
+10:41:34: DEBUG: printBuffer:6058 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F rsion="1.0" enco
+10:41:34: DEBUG: printBuffer:6058 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 3F 3E 0A ding="UTF-8" ?>.
+10:41:34: DEBUG: printBuffer:6058 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F 6E 73 65 <data>.<response
+10:41:34: DEBUG: printBuffer:6058 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 2F 3E 0A  value="ACK" />.
+10:41:34: DEBUG: printBuffer:6058 3C 2F 64 61 74 61 3E                            </data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (232 bytes): CharsInBuffer=311-232=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=6 bLUEnable=0 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=0 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=0 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=6 bLUEnable=0 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=0 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=0 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0009) (H00211) (    285 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNum="7" bLUEnable="0" bBootLunID="0" size_in_kb="0"        bDataReliability="0" bLUWriteProtect="0" bMemoryType="0" bLogicalBlockSize="0x0c" bProvisioningType="0" wContextCapabilities="0" desc="LU 7 - Place Holder2 LUN"  />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (311 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 311
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 311 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 4C 55 4E 75 6D log value="LUNum
+10:41:34: DEBUG: printBuffer:6058 3D 37 20 62 4C 55 45 6E 61 62 6C 65 3D 30 20 62 =7 bLUEnable=0 b
+10:41:34: DEBUG: printBuffer:6058 42 6F 6F 74 4C 75 6E 49 44 3D 30 20 62 4C 55 57 BootLunID=0 bLUW
+10:41:34: DEBUG: printBuffer:6058 72 69 74 65 50 72 6F 74 65 63 74 3D 30 20 62 4D riteProtect=0 bM
+10:41:34: DEBUG: printBuffer:6058 65 6D 6F 72 79 54 79 70 65 3D 30 20 73 69 7A 65 emoryType=0 size
+10:41:34: DEBUG: printBuffer:6058 5F 69 6E 5F 4B 42 3D 30 20 62 44 61 74 61 52 65 _in_KB=0 bDataRe
+10:41:34: DEBUG: printBuffer:6058 6C 69 61 62 69 6C 69 74 79 3D 30 20 62 4C 6F 67 liability=0 bLog
+10:41:34: DEBUG: printBuffer:6058 69 63 61 6C 42 6C 6F 63 6B 53 69 7A 65 3D 31 32 icalBlockSize=12
+10:41:34: DEBUG: printBuffer:6058 20 62 50 72 6F 76 69 73 69 6F 6E 69 6E 67 54 79  bProvisioningTy
+10:41:34: DEBUG: printBuffer:6058 70 65 3D 30 20 77 43 6F 6E 74 65 78 74 43 61 70 pe=0 wContextCap
+10:41:34: DEBUG: printBuffer:6058 61 62 69 6C 69 74 69 65 73 3D 30 20 22 20 2F 3E abilities=0 " />
+10:41:34: DEBUG: printBuffer:6058 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 65 .</data><?xml ve
+10:41:34: DEBUG: printBuffer:6058 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F rsion="1.0" enco
+10:41:34: DEBUG: printBuffer:6058 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 3F 3E 0A ding="UTF-8" ?>.
+10:41:34: DEBUG: printBuffer:6058 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F 6E 73 65 <data>.<response
+10:41:34: DEBUG: printBuffer:6058 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 2F 3E 0A  value="ACK" />.
+10:41:34: DEBUG: printBuffer:6058 3C 2F 64 61 74 61 3E                            </data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (232 bytes): CharsInBuffer=311-232=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="LUNum=7 bLUEnable=0 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=0 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=0 wContextCapabilities=0 " />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'LUNum=7 bLUEnable=0 bBootLunID=0 bLUWriteProtect=0 bMemoryType=0 size_in_KB=0 bDataReliability=0 bLogicalBlockSize=12 bProvisioningType=0 wContextCapabilities=0 '
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: **INFO Unrecognized tag 'ufs', so I will simply look for ACK or NAK
+10:41:34: DEBUG: CHANNEL DATA (P0010) (H00212) (     87 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<ufs LUNtoGrow="0" commit="1" />
+</data>
+============================================================================================================
+
+10:41:34: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+10:41:34: DEBUG: CHANNEL DATA (184 bytes) <-- TARGET to HOST
+10:41:34: DEBUG: CharsInBuffer = 184
+10:41:34: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 184 bytes
+
+10:41:34: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+10:41:34: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+10:41:34: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+10:41:34: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 53 65 74 20 73 log value="Set s
+10:41:34: DEBUG: printBuffer:6058 74 6F 72 61 67 65 20 70 61 72 61 6D 65 74 65 72 torage parameter
+10:41:34: DEBUG: printBuffer:6058 73 20 73 75 63 63 65 73 73 66 75 6C 6C 79 22 2F s successfully"/
+10:41:34: DEBUG: printBuffer:6058 3E 0A 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 >.</data><?xml v
+10:41:34: DEBUG: printBuffer:6058 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 ersion="1.0" enc
+10:41:34: DEBUG: printBuffer:6058 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 3F 3E oding="UTF-8" ?>
+10:41:34: DEBUG: printBuffer:6058 0A 3C 64 61 74 61 3E 0A 3C 72 65 73 70 6F 6E 73 .<data>.<respons
+10:41:34: DEBUG: printBuffer:6058 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 2F 3E e value="ACK" />
+10:41:34: DEBUG: printBuffer:6058 0A 3C 2F 64 61 74 61 3E                         .</data>
+10:41:34: DEBUG: printBuffer:6071 
+
+
+10:41:34: DEBUG: XML FILE (105 bytes): CharsInBuffer=184-105=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="Set storage parameters successfully"/>
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: INFO: TARGET SAID: 'Set storage parameters successfully'
+10:41:34: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+10:41:34: DEBUG: Response was 'ACK'
+10:41:34: INFO: Response was success in running to unrecognized TAG (response)
+10:41:34: INFO: ==============================================================
+10:41:34: INFO: Files used and their paths
+10:41:34: INFO:   1 'D:\2_Code\QFlash_V4.12_FW_Download_And_Format_V4.54.49_ASR_Test_BLF_SC66\Release_Multi\QCMM\CH1\port_trace.txt'
+10:41:34: INFO:   2 'D:\4_Firmware\SC662NCEPAR01A01_BP01.005V01_Android9.0.0.01.019V01_UFS_factory\SC66_ufs\provision_samsung.xml'
+10:41:34: INFO:      _             (done)
+10:41:34: INFO:     | |                 
+10:41:34: INFO:   __| | ___  _ __   ___ 
+10:41:34: INFO:  / _` |/ _ \| '_ \ / _ \
+10:41:34: INFO: | (_| | (_) | | | |  __/
+10:41:34: INFO:  \__,_|\___/|_| |_|\___|
+10:41:34: INFO: {All Finished Successfully}
+
+10:41:34: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.343 seconds (0.00 Bps)

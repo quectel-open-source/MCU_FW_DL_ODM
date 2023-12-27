@@ -1,0 +1,111 @@
+
+13:05:04: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\2_Code\FW_Download_And_Format\FW_Download_And_Format_V5.7.5\FW_Download_And_Format_V5.7.5\QCMM\CH1\fh_loader.exe --port=\\.\COM210 --sendxml=patch_p2K_b128K.xml --search_path=D:\47-EG065\65_F(1)\65_F\UPDATE\FIREHOSE --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=nand 
+************************************************
+
+13:05:04: DEBUG: Binary build date: Apr 27 2018 @ 03:04:29
+
+13:05:04: DEBUG: Build Version: 18.04.27.03.04.29
+
+13:05:04: INFO: Current working dir (cwd): D:\2_Code\FW_Download_And_Format\FW_Download_And_Format_V5.7.5\FW_Download_And_Format_V5.7.5\
+13:05:04: INFO: Showing network mappings to allow debugging
+13:05:04: DEBUG: 会记录新的网络连接。
+
+13:05:04: DEBUG: 
+
+13:05:04: DEBUG: 
+
+13:05:04: DEBUG: 状态       本地        远程                      网络
+
+13:05:04: DEBUG: 
+
+13:05:04: DEBUG: -------------------------------------------------------------------------------
+
+13:05:04: DEBUG: 已断开连接   X:        \\192.168.11.252\QUECTEL  Microsoft Windows Network
+
+13:05:04: DEBUG: 命令成功完成。
+
+13:05:04: DEBUG: 
+
+13:05:04: INFO: 
+
+
+
+13:05:04: INFO: Trying to store 'patch_p2K_b128K.xml' in string table
+13:05:04: DEBUG: ==================================================================================
+13:05:04: DEBUG: ==================================================================================
+13:05:04: INFO: Looking for file 'patch_p2K_b128K.xml'
+13:05:04: DEBUG: 1. Calling stat('D:\47-EG065\65_F(1)\65_F\UPDATE\FIREHOSE\patch_p2K_b128K.xml')
+13:05:04: DEBUG: 2. Calling fopen('D:\47-EG065\65_F(1)\65_F\UPDATE\FIREHOSE\patch_p2K_b128K.xml') with AccessMode='rb'
+13:05:04: DEBUG: Trying get filesize, calling fseek()
+13:05:04: DEBUG: Found 'D:\47-EG065\65_F(1)\65_F\UPDATE\FIREHOSE\patch_p2K_b128K.xml' (740 bytes)
+13:05:04: DEBUG: 2. Calling fopen('D:\47-EG065\65_F(1)\65_F\UPDATE\FIREHOSE\patch_p2K_b128K.xml') with AccessMode='r'
+13:05:04: DEBUG: Trying get filesize, calling fseek()
+13:05:04: DEBUG: User set ZLPAWAREHOST to 1
+
+13:05:04: INFO: User wants to talk to port '\\.\COM210'
+13:05:04: DEBUG: port_fd=0xF4
+
+13:05:04: INFO: Took       0.00000000 seconds to open port
+13:05:04: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+13:05:04: INFO: If  you don't want this, use --dontsorttags
+
+13:05:04: INFO: Sending <configure>
+13:05:04: DEBUG: CHANNEL DATA (P0000) (H00202) (    228 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="nand" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="0" />
+</data>
+
+============================================================================================================
+
+13:05:04: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+13:05:04: DEBUG: CHANNEL DATA (237 bytes) <-- TARGET to HOST
+13:05:04: DEBUG: CharsInBuffer = 237
+13:05:04: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 237 bytes
+
+13:05:04: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+13:05:04: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+13:05:04: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+13:05:04: DEBUG: printBuffer:6058 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D 22 response value="
+13:05:04: DEBUG: printBuffer:6058 4E 41 4B 22 20 4D 65 6D 6F 72 79 4E 61 6D 65 3D NAK" MemoryName=
+13:05:04: DEBUG: printBuffer:6058 22 4E 41 4E 44 22 20 4D 61 78 50 61 79 6C 6F 61 "NAND" MaxPayloa
+13:05:04: DEBUG: printBuffer:6058 64 53 69 7A 65 46 72 6F 6D 54 61 72 67 65 74 49 dSizeFromTargetI
+13:05:04: DEBUG: printBuffer:6058 6E 42 79 74 65 73 3D 22 32 30 34 38 22 20 4D 61 nBytes="2048" Ma
+13:05:04: DEBUG: printBuffer:6058 78 50 61 79 6C 6F 61 64 53 69 7A 65 54 6F 54 61 xPayloadSizeToTa
+13:05:04: DEBUG: printBuffer:6058 72 67 65 74 49 6E 42 79 74 65 73 3D 22 38 31 39 rgetInBytes="819
+13:05:04: DEBUG: printBuffer:6058 32 22 20 4D 61 78 50 61 79 6C 6F 61 64 53 69 7A 2" MaxPayloadSiz
+13:05:04: DEBUG: printBuffer:6058 65 54 6F 54 61 72 67 65 74 49 6E 42 79 74 65 73 eToTargetInBytes
+13:05:04: DEBUG: printBuffer:6058 53 75 70 70 6F 72 74 65 64 3D 22 38 31 39 32 22 Supported="8192"
+13:05:04: DEBUG: printBuffer:6058 20 54 61 72 67 65 74 4E 61 6D 65 3D 22 39 78 35  TargetName="9x5
+13:05:04: DEBUG: printBuffer:6058 35 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E          5" />.</data>
+13:05:04: DEBUG: printBuffer:6071 
+
+
+13:05:04: DEBUG: XML FILE (237 bytes): CharsInBuffer=237-237=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="NAK" MemoryName="NAND" MaxPayloadSizeFromTargetInBytes="2048" MaxPayloadSizeToTargetInBytes="8192" MaxPayloadSizeToTargetInBytesSupported="8192" TargetName="9x55" />
+</data>
+-------------------------------------------------------------------------------------------
+
+13:05:04: DEBUG: Response was 'NAK'
+13:05:04: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 8192
+13:05:04: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 8192
+13:05:04: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+13:05:04: INFO: ==============================================================
+13:05:04: INFO: Files used and their paths
+13:05:04: INFO:   1 'D:\2_Code\FW_Download_And_Format\FW_Download_And_Format_V5.7.5\FW_Download_And_Format_V5.7.5\port_trace.txt'
+13:05:04: INFO:   2 'D:\47-EG065\65_F(1)\65_F\UPDATE\FIREHOSE\patch_p2K_b128K.xml'
+13:05:04: INFO:      _             (done)
+13:05:04: INFO:     | |                 
+13:05:04: INFO:   __| | ___  _ __   ___ 
+13:05:04: INFO:  / _` |/ _ \| '_ \ / _ \
+13:05:04: INFO: | (_| | (_) | | | |  __/
+13:05:04: INFO:  \__,_|\___/|_| |_|\___|
+13:05:04: INFO: {All Finished Successfully}
+
+13:05:04: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.031 seconds (0.00 Bps)

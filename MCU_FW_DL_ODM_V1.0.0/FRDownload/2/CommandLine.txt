@@ -1,0 +1,7 @@
+FRDownload.exe -c8 -b115200  -t800X -h1 -f"E:\1111\Debug\QDM523_CMD_FR8003A_01.001.01.001_V04.bin"
+
+-c	COM
+-b	Baud rate
+-t	芯片类型 801H  800X  508X
+-h             通道log，用于多通道一起测试区分log, eg: Ch1_Log.txt
+-f	烧录的文件绝对路径

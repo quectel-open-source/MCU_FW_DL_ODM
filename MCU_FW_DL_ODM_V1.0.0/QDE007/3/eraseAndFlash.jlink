@@ -1,0 +1,11 @@
+device LPC1768
+usb 0
+si 1
+speed 4000
+erase
+sleep 400
+loadfile "D:\30_Test\20210517\QDE007NAEFM21_34DX017135_factory\QDE007NAEFM21_34DX017135_factory\update\QDE007_V1.1.hex"
+sleep 100
+r
+g
+q

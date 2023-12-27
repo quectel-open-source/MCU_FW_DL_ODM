@@ -1,0 +1,54 @@
+2023-12-5_21:28:11 <--> Note: not set PLC Port!
+2023-12-5_21:28:11 <--> Link DB(MO:HGGQ1000127422)......
+2023-12-5_21:28:25 <--> Link DB Pass
+2023-12-5_21:28:25 <--> Q6-T0151-S1-QDCSQ1Y5196R08:not need set 120M
+2023-12-5_21:28:25 <--> DB(MO:HGGQ1000127422,OC:QDC519SASE-E53-AAASM,FW_Ver:QDC519SASEE53_BP01.012_Android11.0.0.01.008U)......
+2023-12-5_21:28:36 <--> MO_Name:HGGQ1000127422, Tool_Name:{"TestFlow":[{"Id":"1","Station":"SilverLabel","Status":"AUTO_SN_GEN","SNFlag":"","TestTool":"ODM_MOB_Label_Print"},{"Id":"2","Station":"Binding_TP","Status":"AUTO_BINDTP","SNFlag":"","TestTool":"ODM_Accessory_Binding_TP"},{"Id":"3","Station":"ODM_FCT2","Status":"AUTO_FCT","SNFlag":"","TestTool":"ODM_FCT_Test_MOB_ASM"},{"Id":"4","Station":"RF_FT","Status":"AUTO_FT","SNFlag":"","TestTool":"ODM_RF_FT_QCM_LTE_ASM"},{"Id":"5","Station":"Binding_SIM","Status":"AUTO_BINDSIM","SNFlag":"","TestTool":"ODM_Accessory_Binding_SIM"},{"Id":"6","Station":"Device_WR","Status":"AUTO_WRITE","SNFlag":"","TestTool":"ODM_Device_Writer_Tool"},{"Id":"7","Station":"AttLabel","Status":"Auto_Att_Label","SNFlag":"","TestTool":"ODM_Extend_Label_Print"},{"Id":"8","Station":"LABEL_PLATE","Status":"AUTO_LB_PL","SNFlag":"","TestTool":"ODM_Extend_Label_Name_Plate_Print"},{"Id":"9","Station":"DL_FW","Status":"AUTO_DL_FW","SNFlag":"","TestTool":"FW_DL_And_Format_ODM"},{"Id":"10","Station":"DL_MCU","Status":"AUTO_DL_MCU","SNFlag":"","TestTool":"MCU_FW_DL_ODM"},{"Id":"11","Station":"DC_Check","Status":"AUTO_DCCHECK","SNFlag":"","TestTool":"ODM_DC_Check"},{"Id":"12","Station":"POWER_OFF","Status":"AUTO_POWER_OFF","SNFlag":"","TestTool":"ODM_Power_off"},{"Id":"13","Station":"Binding_BAT","Status":"AUTO_BINDBAT","SNFlag":"","TestTool":"ODM_Accessory_Binding_Battery"},{"Id":"14","Station":"COLOR_BOX","Status":"AUTO_COLORBOX","SNFlag":"","TestTool":"ODM_Extend_Label_ColorBox_Print"},{"Id":"15","Station":"Check_Color_Box","Status":"AUTO_CHECKCOLOR","SNFlag":"","TestTool":"ODM_Check_Color_Box_Label"},{"Id":"16","Station":"Collect","Status":"AUTO_PACK","SNFlag":"","TestTool":"ODM_Collect"},{"Id":"17","Station":"Ship","Status":"AUTO_SHIP","SNFlag":"","TestTool":"
+2023-12-5_21:28:36 <--> Get_SQL_ATT_Custom_Test_Flow Pass
+2023-12-5_21:28:36 <--> Custom_Test_Flow_Allow_Status:"AUTO_DL_FW","AUTO_DL_MCU","AUTO_DCCHECK","AUTO_POWER_OFF","AUTO_BINDBAT","AUTO_COLORBOX","AUTO_CHECKCOLOR"
+2023-12-5_21:28:36 <--> Custom_Test_Flow_Allow_SNFlag:"","","","","","",""
+2023-12-5_21:28:36 <--> Custom_Test_Flow_Write_Status:"AUTO_DL_MCU"
+2023-12-5_21:28:36 <--> Custom_Test_Flow_Write_SNFlag:""
+2023-12-5_21:28:36 <--> LastStatus:"AUTO_DL_FW"
+2023-12-5_21:28:36 <--> Check_CustomTestFlow Pass
+2023-12-5_21:28:45 <--> MO_Name:HGGQ1000127422, Tool_Name:MCU_FW_DL_ODM-V1.2.07
+2023-12-5_21:28:45 <--> DB Tool Ver:V1.2.07
+2023-12-5_21:28:45 <--> Local Tool Ver:V1.2.08
+2023-12-5_21:28:45 <--> OC(QDC519SASE-E53-AAASM)-Produ_Name(QDC519-SASE-ASM)-Produ_Type(7)-Produ_Ver(0)
+2023-12-5_21:28:45 <--> =====PRODU_TYPE_MOB======
+2023-12-5_21:28:45 <--> GetOcpVal m_eu_BB_Chip: 118
+2023-12-5_21:28:45 <--> Note:Produ_Name:QDC519-SASE-ASM-Voltage:7.200000-Current:3.000000
+2023-12-5_21:28:45 <--> LTE Product
+2023-12-5_21:28:45 <--> Need Log_Level-L6
+2023-12-5_21:28:45 <--> Need DL MCU_Ver-QDC519SASEE53_SunmiCfgcrp.0.0.01.001C
+2023-12-5_21:28:45 <--> NOT REP MO
+2023-12-5_21:28:45 <--> Not Nend GetO_Mo-1
+2023-12-5_21:28:57 <--> HGG
+2023-12-5_21:28:57 <--> /ikotek/DCC/ikotek-hgg
+2023-12-5_21:28:57 <--> Delete Local FW Dir...
+2023-12-5_21:28:57 <--> Not Need Delete File
+2023-12-5_21:28:57 <--> Find FW Path...
+2023-12-5_21:28:57 <--> FW_Name=FIR is exist
+2023-12-5_21:28:57 <--> Find Fir Path Pass
+2023-12-5_21:28:57 <--> MD5 and FW Files Lost
+2023-12-5_21:28:57 <--> FTP Internet Session(md5)...
+2023-12-5_21:29:7 <--> QDC519SASEE53_SunmiCfgcrp.0.0.01.001C.md5 Loading
+2023-12-5_21:29:13 <--> QDC519SASEE53_SunmiCfgcrp.0.0.01.001C.md5 Loading Pass
+2023-12-5_21:29:13 <--> Md5 File DL Pass
+2023-12-5_21:29:13 <--> FW File FTP DL Start...
+2023-12-5_21:29:13 <--> FTP Internet Session(FW)...
+2023-12-5_21:29:19 <--> QDC519SASEE53_SunmiCfgcrp.0.0.01.001C.zip Loading
+2023-12-5_21:31:33 <--> QDC519SASEE53_SunmiCfgcrp.0.0.01.001C.zip Loading Pass
+2023-12-5_21:31:33 <--> FW File DL Pass
+2023-12-5_21:31:33 <--> MD5 Check...
+2023-12-5_21:31:33 <--> MD5 Check Pass
+2023-12-5_21:31:33 <--> Local FW Unzip...
+2023-12-5_21:31:33 <--> Local FW Dir not exist
+2023-12-5_21:31:33 <--> Exact Package......
+2023-12-5_21:31:33 <--> Local FW Unzip Pass
+2023-12-5_21:31:33 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDC519SASEE53_SunmiCfgcrp.0.0.01.001C\*
+2023-12-5_21:31:33 <--> Find_Fw_File QDC519SASE-E53-AAASM MCU Pass
+2023-12-5_21:31:33 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDC519SASEE53_SunmiCfgcrp.0.0.01.001C\QDC519SASEE53_SunmiCfgcrp.0.0.01.001C\SKU01_X30R_0AW_RD5_01EU_V0.1_20231204_SIG.txt
+2023-12-5_21:31:33 <--> Get_Platform m_eu_BB_Chip: 118
+2023-12-5_21:31:33 <--> FW:E:\CASECODE\CODES\MCU_FW_DL_ODM_CODE\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\FIR\QDC519SASEE53_SUNMICFGCRP.0.0.01.001C\QDC519SASEE53_SUNMICFGCRP.0.0.01.001C\SKU01_X30R_0AW_RD5_01EU_V0.1_20231204_SIG.TXT
+2023-12-5_21:31:33 <--> m_eu_BB_Chip: 118

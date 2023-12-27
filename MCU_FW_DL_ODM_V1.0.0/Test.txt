@@ -1,0 +1,8 @@
+AfxMessageBox(_T("1"));
+	Upload_FTP_Daily_Record_Log_File(_T("IKOTEK_XQCN"), _T(".\\test.txt"), 1);
+
+	CString strInfo;
+	if (FALSE == m_UpdateDataFlag)
+	{
+		UpdateData(TRUE);//20180426
+	}

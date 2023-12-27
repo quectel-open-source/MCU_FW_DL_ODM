@@ -1,0 +1,1 @@
+esptool.exe -p COM1 -b 115200 write_flash 0x00 quectel_ESP32_main.bin 0x180000 audio-esp.bin

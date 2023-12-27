@@ -1,0 +1,4 @@
+2023-12-5_21:27:24 <--> Note: not set PLC Port!
+2023-12-5_21:27:24 <--> Fixture Number Length Error
+2023-12-5_21:27:24 <--> Link DB(MO:HGGQ1000127422)......
+2023-12-5_21:27:24 <--> FAIL, Read MO HGGQ1000127422 Fail!

@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<contents>
+  <product_info>
+    <product_name>SDX55.LE.1.0</product_name>
+    <hlos_type cmm_var="HLOS_TYPE">LE</hlos_type>
+    <chipid cmm_var="CHIPID">SDX55</chipid>
+  </product_info>
+  <builds_flat>
+    <build>
+      <name>common</name>
+      <role>common</role>
+      <chipset>SDX55</chipset>
+	  <build_id></build_id>
+      <windows_root_path>.\</windows_root_path>
+      <linux_root_path>./</linux_root_path>
+      <image_dir>update</image_dir>
+      <partition_file>
+        <!-- The partition_file section points to the main partition xml file
+        This is used by QPST during its download operation -->
+        <file_name >partition_nand.xml</file_name>
+        <file_path>update/</file_path>
+      </partition_file>
+    </build>
+    <build>
+      <name>glue</name>
+      <role>glue</role>
+      <chipset>SDX55</chipset>
+      <build_id></build_id>
+      <windows_root_path>.\</windows_root_path>
+      <linux_root_path>./</linux_root_path>
+      <release_path/>
+      <image_dir>update</image_dir>
+    </build>
+    <build>
+      <name>apps</name>
+      <role>apps</role>
+      <chipset>SDX55</chipset>
+      <build_id></build_id>
+      <windows_root_path cmm_root_path_var="APSS_BUILDROOT">.\</windows_root_path>
+      <linux_root_path cmm_root_path_var="APSS_BUILDROOT">./</linux_root_path>
+      <image_dir>update</image_dir>
+      <release_path/>
+      <download_file cmm_file_var="APSS_BINARY" minimized="true">
+        <file_name>sdxprairie-sysfs.ubi</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="APSS_BINARY" minimized="true">
+        <file_name>sdxprairie-boot.img</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="ABL_ELF" fastboot_complete="abl" minimized="true">
+        <file_name>abl.elf</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+    </build>
+    <build>
+      <name>tz</name>
+      <role>tz</role>
+      <chipset>SDX55</chipset>
+      <build_id></build_id>
+      <windows_root_path cmm_root_path_var="TZ_BUILDROOT">.\</windows_root_path>
+      <linux_root_path cmm_root_path_var="TZ_BUILDROOT">./</linux_root_path>
+      <image_dir>update</image_dir>
+      <download_file cmm_file_var="TZ_BINARY" get_binary="True" fastboot_complete="tz" minimized="true">
+        <file_name>tz.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="HYP_BINARY" get_binary="True" fastboot_complete="qhee" minimized="true">
+        <file_name>hyp.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="DEVCFG_BINARY" get_binary="true" fastboot_complete="tz_devcfg" minimized="true">
+        <file_name>devcfg.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="CMNLIB_BINARY" pil_split="cmnlib" minimized="true">
+        <file_name>cmnlib.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="CMNLIB64_BINARY" pil_split="cmnlib64" minimized="true">
+        <file_name>cmnlib64.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+    </build>
+    <build>
+      <name>boot</name>
+      <role>boot</role>
+      <chipset>SDX55</chipset>
+      <build_id></build_id>
+      <windows_root_path cmm_root_path_var="BOOT_BUILDROOT">.\</windows_root_path>
+      <linux_root_path cmm_root_path_var="BOOT_BUILDROOT">./</linux_root_path>
+      <image_dir>update</image_dir>
+	  <flash_programmer get_binary="True" minimized="true">                                                                                                                                                                              
+       <file_name>sbl1.mbn</file_name>
+       <file_path>update/</file_path>
+     </flash_programmer>
+      <download_file minimized="true">
+        <file_name>sbl1.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file minimized="true">
+        <file_name>hwio.cmm</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file cmm_file_var="BOOT_BINARY" get_binary="True" fastboot_complete="sbl" minimized="true">
+        <file_name>sbl1.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+    </build>
+    <build>
+      <name>boot_uefi</name>
+      <role>boot</role>
+      <chipset>SDX55</chipset>
+      <build_id></build_id>
+      <windows_root_path cmm_root_path_var="BOOT_UEFI_BUILDROOT">.\</windows_root_path>
+      <linux_root_path cmm_root_path_var="BOOT_UEFI_BUILDROOT">./</linux_root_path>
+      <image_dir>update</image_dir>
+      <download_file cmm_file_var="UEFI_ELF" fastboot_complete="uefi" minimized="true">
+        <file_name>uefi.elf</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+      <download_file fastboot_complete="toolsfv" minimized="true">
+        <file_name>tools.fv</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+    </build>
+    <build>
+      <name>aop</name>
+      <role>aop</role>
+      <chipset>SDX55</chipset>
+      <build_id></build_id>
+      <windows_root_path cmm_root_path_var="AOP_BUILDROOT">.\</windows_root_path>
+      <linux_root_path cmm_root_path_var="AOP_BUILDROOT">./</linux_root_path>
+      <image_dir>update</image_dir>
+      <download_file cmm_file_var="AOP_BINARY" get_binary="True" fastboot_complete="aop" minimized="true">
+        <file_name>aop.mbn</file_name>
+        <file_path>update/</file_path>
+      </download_file>
+    </build>
+  </builds_flat>
+</contents>

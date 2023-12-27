@@ -1,0 +1,1038 @@
+[20230613 13:34:09] [589549859] [MAIN] [main start, version:V1.0.29T1, port=63446]
+
+[20230613 13:34:09] [589549859] [GMD] cGeneralModel create
+[20230613 13:34:09] [589549875] [MS] cMultiDownloadServer init
+[20230613 13:34:09] [589549875] [MS] socketInitThreadFunc
+[20230613 13:34:09] [589549875] [MS] socketSendThreadFunc
+[20230613 13:34:09] [589549875] [MS] [work-4294967295] socketSendThreadFunc
+[20230613 13:34:09] [589549890] [MS] [work-4294967295] socketRecvThreadFunc
+[20230613 13:34:09] [589549890] [MS] socketParsePackageThreadFunc
+[20230613 13:34:09] [589549890] [MS] keepAliveThreadFunc
+[20230613 13:34:09] [589549937] [MS] msgPackageSendThreadFunc
+[20230613 13:34:10] [589550281] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=70Bytes, time cost=0ms
+[20230613 13:34:10] [589550281] [MS] ipcDataParse: cmd:moduleInit, mask:1
+[20230613 13:34:10] [589550281] [MS] moduleInit:model:4, work:10
+[20230613 13:34:10] [589550281] [GMD] init:model:4, work:10
+[20230613 13:34:10] [589550281] [BPT] cBaseProtocol create
+[20230613 13:34:10] [589550281] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20230613 13:34:10] [589550281] [CH341A] cCh341aPort create
+[20230613 13:34:10] [589550281] [CH341A-CORE] ch341aCoreInit
+[20230613 13:34:10] [589550281] [MH2T] cMh1902tDownload init
+[20230613 13:34:10] [589550328] [BPT] cBaseProtocol create
+[20230613 13:34:10] [589550328] [CH341A] cCh341aPort create
+[20230613 13:34:10] [589550328] [CH341A-CORE] ch341aCoreInit
+[20230613 13:34:10] [589550328] [SM] cSunmiDownload create
+[20230613 13:34:10] [589550328] [BPT] init: success!
+[20230613 13:34:10] [589550328] [BPT] init: success!
+[20230613 13:34:10] [589550328] [MS] sendIpcAnswer: cmd[moduleInit], mask:1, ret:0
+[20230613 13:34:10] [589550328] [MS] ipcDataParse: cmd:keepAlive, mask:2
+[20230613 13:34:10] [589550328] [MS] sendIpcAnswer: cmd[keepAlive], mask:2, ret:0
+[20230613 13:34:10] [589550328] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=0ms
+[20230613 13:34:10] [589550328] [MS] ipcDataParse: cmd:setParam, mask:3
+[20230613 13:34:10] [589550328] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:34:10] [589550328] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20230613 13:34:10] [589550328] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20230613 13:34:10] [589550343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=246Bytes, time cost=15ms
+[20230613 13:34:10] [589550343] [MS] ipcDataParse: cmd:setParam, mask:4
+[20230613 13:34:10] [589550343] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_BOOT_V2.0.10_20220906.sig
+[20230613 13:34:10] [589550343] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20230613 13:34:10] [589550343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=0ms
+[20230613 13:34:10] [589550343] [MS] ipcDataParse: cmd:setParam, mask:5
+[20230613 13:34:10] [589550343] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\CT621_CFG_V2.02.dat.sig
+[20230613 13:34:10] [589550343] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20230613 13:34:10] [589550343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=0ms
+[20230613 13:34:10] [589550343] [MS] ipcDataParse: cmd:setParam, mask:6
+[20230613 13:34:10] [589550343] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:34:10] [589550343] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20230613 13:34:43] [589583921] [MAIN] [main start, version:V1.0.29T1, port=63550]
+
+[20230613 13:34:43] [589583921] [GMD] cGeneralModel create
+[20230613 13:34:43] [589583937] [MS] cMultiDownloadServer init
+[20230613 13:34:43] [589583968] [MS] [work-4294967295] socketRecvThreadFunc
+[20230613 13:34:43] [589583968] [MS] socketParsePackageThreadFunc
+[20230613 13:34:43] [589583968] [MS] socketInitThreadFunc
+[20230613 13:34:43] [589583968] [MS] socketSendThreadFunc
+[20230613 13:34:43] [589583968] [MS] [work-4294967295] socketSendThreadFunc
+[20230613 13:34:43] [589583984] [MS] keepAliveThreadFunc
+[20230613 13:34:43] [589583984] [MS] msgPackageSendThreadFunc
+[20230613 13:34:44] [589584328] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20230613 13:34:44] [589584328] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20230613 13:34:44] [589584328] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20230613 13:34:46] [589587015] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=70Bytes, time cost=2687ms
+[20230613 13:34:46] [589587015] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20230613 13:34:46] [589587015] [MS] moduleInit:model:4, work:10
+[20230613 13:34:46] [589587015] [GMD] init:model:4, work:10
+[20230613 13:34:46] [589587015] [BPT] cBaseProtocol create
+[20230613 13:34:46] [589587015] [CH341A] cCh341aPort create
+[20230613 13:34:46] [589587015] [CH341A-CORE] ch341aCoreInit
+[20230613 13:34:46] [589587015] [MH2T] cMh1902tDownload init
+[20230613 13:34:46] [589587046] [BPT] cBaseProtocol create
+[20230613 13:34:46] [589587046] [CH341A] cCh341aPort create
+[20230613 13:34:46] [589587046] [CH341A-CORE] ch341aCoreInit
+[20230613 13:34:46] [589587046] [SM] cSunmiDownload create
+[20230613 13:34:46] [589587046] [BPT] init: success!
+[20230613 13:34:46] [589587046] [BPT] init: success!
+[20230613 13:34:46] [589587046] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20230613 13:34:47] [589587296] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=281ms
+[20230613 13:34:47] [589587296] [MS] ipcDataParse: cmd:setParam, mask:3
+[20230613 13:34:47] [589587296] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:34:47] [589587296] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20230613 13:34:47] [589587296] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20230613 13:34:47] [589587546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=246Bytes, time cost=250ms
+[20230613 13:34:47] [589587546] [MS] ipcDataParse: cmd:setParam, mask:4
+[20230613 13:34:47] [589587546] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_BOOT_V2.0.10_20220906.sig
+[20230613 13:34:47] [589587546] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20230613 13:34:47] [589587875] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=329ms
+[20230613 13:34:47] [589587875] [MS] ipcDataParse: cmd:setParam, mask:5
+[20230613 13:34:47] [589587875] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\CT621_CFG_V2.02.dat.sig
+[20230613 13:34:47] [589587875] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20230613 13:34:48] [589588234] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=359ms
+[20230613 13:34:48] [589588234] [MS] ipcDataParse: cmd:setParam, mask:6
+[20230613 13:34:48] [589588234] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:34:48] [589588234] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20230613 13:34:50] [589590265] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=2031ms
+[20230613 13:34:50] [589590265] [MS] ipcDataParse: cmd:setParam, mask:7
+[20230613 13:34:50] [589590265] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:34:50] [589590265] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20230613 13:34:50] [589590265] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20230613 13:34:50] [589590390] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=246Bytes, time cost=125ms
+[20230613 13:34:50] [589590390] [MS] ipcDataParse: cmd:setParam, mask:8
+[20230613 13:34:50] [589590390] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_BOOT_V2.0.10_20220906.sig
+[20230613 13:34:50] [589590390] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20230613 13:34:50] [589590531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=141ms
+[20230613 13:34:50] [589590531] [MS] ipcDataParse: cmd:setParam, mask:9
+[20230613 13:34:50] [589590531] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\CT621_CFG_V2.02.dat.sig
+[20230613 13:34:50] [589590531] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20230613 13:34:50] [589590687] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=229Bytes, time cost=156ms
+[20230613 13:34:50] [589590687] [MS] ipcDataParse: cmd:setParam, mask:10
+[20230613 13:34:50] [589590687] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:34:50] [589590687] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20230613 13:35:34] [589634328] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=43641ms
+[20230613 13:35:34] [589634328] [MS] ipcDataParse: cmd:keepAlive, mask:11
+[20230613 13:35:34] [589634328] [MS] sendIpcAnswer: cmd[keepAlive], mask:11, ret:0
+[20230613 13:36:24] [589684343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:36:24] [589684343] [MS] ipcDataParse: cmd:keepAlive, mask:12
+[20230613 13:36:24] [589684343] [MS] sendIpcAnswer: cmd[keepAlive], mask:12, ret:0
+[20230613 13:37:14] [589734343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:37:14] [589734593] [MS] ipcDataParse: cmd:keepAlive, mask:13
+[20230613 13:37:14] [589734593] [MS] sendIpcAnswer: cmd[keepAlive], mask:13, ret:0
+[20230613 13:38:04] [589784609] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:38:04] [589784609] [MS] ipcDataParse: cmd:keepAlive, mask:14
+[20230613 13:38:04] [589784609] [MS] sendIpcAnswer: cmd[keepAlive], mask:14, ret:0
+[20230613 13:38:54] [589834625] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:38:54] [589834625] [MS] ipcDataParse: cmd:keepAlive, mask:15
+[20230613 13:38:54] [589834625] [MS] sendIpcAnswer: cmd[keepAlive], mask:15, ret:0
+[20230613 13:39:44] [589884640] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:39:44] [589884640] [MS] ipcDataParse: cmd:keepAlive, mask:16
+[20230613 13:39:44] [589884640] [MS] sendIpcAnswer: cmd[keepAlive], mask:16, ret:0
+[20230613 13:40:34] [589934656] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:40:34] [589934656] [MS] ipcDataParse: cmd:keepAlive, mask:17
+[20230613 13:40:34] [589934656] [MS] sendIpcAnswer: cmd[keepAlive], mask:17, ret:0
+[20230613 13:41:24] [589984671] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:41:24] [589984671] [MS] ipcDataParse: cmd:keepAlive, mask:18
+[20230613 13:41:24] [589984671] [MS] sendIpcAnswer: cmd[keepAlive], mask:18, ret:0
+[20230613 13:42:14] [590034671] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:42:14] [590034671] [MS] ipcDataParse: cmd:keepAlive, mask:19
+[20230613 13:42:14] [590034671] [MS] sendIpcAnswer: cmd[keepAlive], mask:19, ret:0
+[20230613 13:43:04] [590084687] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:43:04] [590084687] [MS] ipcDataParse: cmd:keepAlive, mask:20
+[20230613 13:43:04] [590084687] [MS] sendIpcAnswer: cmd[keepAlive], mask:20, ret:0
+[20230613 13:43:54] [590134687] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:43:54] [590134687] [MS] ipcDataParse: cmd:keepAlive, mask:21
+[20230613 13:43:54] [590134687] [MS] sendIpcAnswer: cmd[keepAlive], mask:21, ret:0
+[20230613 13:44:44] [590184703] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:44:44] [590184703] [MS] ipcDataParse: cmd:keepAlive, mask:22
+[20230613 13:44:44] [590184703] [MS] sendIpcAnswer: cmd[keepAlive], mask:22, ret:0
+[20230613 13:45:34] [590234703] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:45:35] [590235578] [MS] ipcDataParse: cmd:keepAlive, mask:23
+[20230613 13:45:35] [590235578] [MS] sendIpcAnswer: cmd[keepAlive], mask:23, ret:0
+[20230613 13:46:25] [590285578] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:46:25] [590285578] [MS] ipcDataParse: cmd:keepAlive, mask:24
+[20230613 13:46:25] [590285593] [MS] sendIpcAnswer: cmd[keepAlive], mask:24, ret:0
+[20230613 13:47:15] [590335593] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:47:15] [590335593] [MS] ipcDataParse: cmd:keepAlive, mask:25
+[20230613 13:47:15] [590335609] [MS] sendIpcAnswer: cmd[keepAlive], mask:25, ret:0
+[20230613 13:48:05] [590385609] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:48:05] [590385609] [MS] ipcDataParse: cmd:keepAlive, mask:26
+[20230613 13:48:05] [590385609] [MS] sendIpcAnswer: cmd[keepAlive], mask:26, ret:0
+[20230613 13:48:55] [590435625] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:48:55] [590435625] [MS] ipcDataParse: cmd:keepAlive, mask:27
+[20230613 13:48:55] [590435625] [MS] sendIpcAnswer: cmd[keepAlive], mask:27, ret:0
+[20230613 13:49:45] [590485640] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:49:45] [590486031] [MS] ipcDataParse: cmd:keepAlive, mask:28
+[20230613 13:49:45] [590486031] [MS] sendIpcAnswer: cmd[keepAlive], mask:28, ret:0
+[20230613 13:50:35] [590536046] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:50:35] [590536046] [MS] ipcDataParse: cmd:keepAlive, mask:29
+[20230613 13:50:35] [590536046] [MS] sendIpcAnswer: cmd[keepAlive], mask:29, ret:0
+[20230613 13:51:25] [590586062] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:51:25] [590586062] [MS] ipcDataParse: cmd:keepAlive, mask:30
+[20230613 13:51:25] [590586062] [MS] sendIpcAnswer: cmd[keepAlive], mask:30, ret:0
+[20230613 13:52:15] [590636062] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:52:15] [590636062] [MS] ipcDataParse: cmd:keepAlive, mask:31
+[20230613 13:52:15] [590636062] [MS] sendIpcAnswer: cmd[keepAlive], mask:31, ret:0
+[20230613 13:52:29] [590650062] [MAIN] [main start, version:V1.0.29T1, port=64774]
+
+[20230613 13:52:29] [590650062] [GMD] cGeneralModel create
+[20230613 13:52:29] [590650078] [MS] cMultiDownloadServer init
+[20230613 13:52:29] [590650093] [MS] socketInitThreadFunc
+[20230613 13:52:30] [590650109] [MS] [work-4294967295] socketRecvThreadFunc
+[20230613 13:52:30] [590650109] [MS] socketParsePackageThreadFunc
+[20230613 13:52:30] [590650109] [MS] socketSendThreadFunc
+[20230613 13:52:30] [590650109] [MS] [work-4294967295] socketSendThreadFunc
+[20230613 13:52:30] [590650109] [MS] keepAliveThreadFunc
+[20230613 13:52:30] [590650109] [MS] msgPackageSendThreadFunc
+[20230613 13:52:30] [590650421] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=37Bytes, time cost=0ms
+[20230613 13:52:30] [590650421] [MS] ipcDataParse: cmd:keepAlive, mask:1
+[20230613 13:52:30] [590650421] [MS] sendIpcAnswer: cmd[keepAlive], mask:1, ret:0
+[20230613 13:52:33] [590653921] [MS] [work-4294967295] socketRecvThreadFunc: recv package ok, data lens=70Bytes, time cost=3500ms
+[20230613 13:52:33] [590653921] [MS] ipcDataParse: cmd:moduleInit, mask:2
+[20230613 13:52:33] [590653921] [MS] moduleInit:model:4, work:10
+[20230613 13:52:33] [590653921] [GMD] init:model:4, work:10
+[20230613 13:52:33] [590653921] [BPT] cBaseProtocol create
+[20230613 13:52:33] [590653921] [CH341A] cCh341aPort create
+[20230613 13:52:33] [590653921] [CH341A-CORE] ch341aCoreInit
+[20230613 13:52:33] [590653921] [MH2T] cMh1902tDownload init
+[20230613 13:52:33] [590653921] [BPT] cBaseProtocol create
+[20230613 13:52:33] [590653921] [CH341A] cCh341aPort create
+[20230613 13:52:33] [590653921] [CH341A-CORE] ch341aCoreInit
+[20230613 13:52:33] [590653921] [SM] cSunmiDownload create
+[20230613 13:52:33] [590653921] [BPT] init: success!
+[20230613 13:52:33] [590653921] [BPT] init: success!
+[20230613 13:52:33] [590653937] [MS] sendIpcAnswer: cmd[moduleInit], mask:2, ret:0
+[20230613 13:52:35] [590655984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=2063ms
+[20230613 13:52:35] [590655984] [MS] ipcDataParse: cmd:setParam, mask:3
+[20230613 13:52:35] [590655984] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:52:35] [590655984] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20230613 13:52:35] [590655984] [MS] sendIpcAnswer: cmd[setParam], mask:3, ret:0
+[20230613 13:52:36] [590656281] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=246Bytes, time cost=297ms
+[20230613 13:52:36] [590656281] [MS] ipcDataParse: cmd:setParam, mask:4
+[20230613 13:52:36] [590656281] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_BOOT_V2.0.10_20220906.sig
+[20230613 13:52:36] [590656281] [MS] sendIpcAnswer: cmd[setParam], mask:4, ret:0
+[20230613 13:52:36] [590656578] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=297ms
+[20230613 13:52:36] [590656578] [MS] ipcDataParse: cmd:setParam, mask:5
+[20230613 13:52:36] [590656578] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\CT621_CFG_V2.02.dat.sig
+[20230613 13:52:36] [590656578] [MS] sendIpcAnswer: cmd[setParam], mask:5, ret:0
+[20230613 13:52:36] [590656921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=343ms
+[20230613 13:52:36] [590656921] [MS] ipcDataParse: cmd:setParam, mask:6
+[20230613 13:52:36] [590656921] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:52:36] [590656921] [MS] sendIpcAnswer: cmd[setParam], mask:6, ret:0
+[20230613 13:52:37] [590657937] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=228Bytes, time cost=1016ms
+[20230613 13:52:37] [590657937] [MS] ipcDataParse: cmd:setParam, mask:7
+[20230613 13:52:37] [590657937] [BPT] setDownloadFilePath: dt:1, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_PUK.rsa
+[20230613 13:52:37] [590657937] [MH2T] setKeyDownloadParam:密钥文件载入成功
+[20230613 13:52:37] [590657937] [MS] sendIpcAnswer: cmd[setParam], mask:7, ret:0
+[20230613 13:52:37] [590658078] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=246Bytes, time cost=141ms
+[20230613 13:52:37] [590658078] [MS] ipcDataParse: cmd:setParam, mask:8
+[20230613 13:52:37] [590658078] [BPT] setDownloadFilePath: dt:2, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_BOOT_V2.0.10_20220906.sig
+[20230613 13:52:37] [590658078] [MS] sendIpcAnswer: cmd[setParam], mask:8, ret:0
+[20230613 13:52:38] [590658234] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=236Bytes, time cost=156ms
+[20230613 13:52:38] [590658234] [MS] ipcDataParse: cmd:setParam, mask:9
+[20230613 13:52:38] [590658234] [BPT] setDownloadFilePath: dt:3, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\CT621_CFG_V2.02.dat.sig
+[20230613 13:52:38] [590658234] [MS] sendIpcAnswer: cmd[setParam], mask:9, ret:0
+[20230613 13:52:38] [590658390] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=253Bytes, time cost=156ms
+[20230613 13:52:38] [590658390] [MS] ipcDataParse: cmd:setParam, mask:10
+[20230613 13:52:38] [590658390] [BPT] setDownloadFilePath: dt:4, path:E:\CaseCode\Codes\SynologyDrive\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\CT621_LiteOS_V2.1.21_20230316\MH1902T_LiteOS_V2.1.21_20230316.bin.sig
+[20230613 13:52:38] [590658390] [MS] sendIpcAnswer: cmd[setParam], mask:10, ret:0
+[20230613 13:53:20] [590700421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=42031ms
+[20230613 13:53:20] [590700421] [MS] ipcDataParse: cmd:keepAlive, mask:11
+[20230613 13:53:20] [590700437] [MS] sendIpcAnswer: cmd[keepAlive], mask:11, ret:0
+[20230613 13:54:10] [590750437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:54:10] [590750437] [MS] ipcDataParse: cmd:keepAlive, mask:12
+[20230613 13:54:10] [590750437] [MS] sendIpcAnswer: cmd[keepAlive], mask:12, ret:0
+[20230613 13:55:00] [590800453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:55:00] [590800453] [MS] ipcDataParse: cmd:keepAlive, mask:13
+[20230613 13:55:00] [590800453] [MS] sendIpcAnswer: cmd[keepAlive], mask:13, ret:0
+[20230613 13:55:50] [590850453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:55:50] [590850453] [MS] ipcDataParse: cmd:keepAlive, mask:14
+[20230613 13:55:50] [590850453] [MS] sendIpcAnswer: cmd[keepAlive], mask:14, ret:0
+[20230613 13:56:40] [590900453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:56:40] [590900453] [MS] ipcDataParse: cmd:keepAlive, mask:15
+[20230613 13:56:40] [590900453] [MS] sendIpcAnswer: cmd[keepAlive], mask:15, ret:0
+[20230613 13:57:30] [590950468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 13:57:30] [590950468] [MS] ipcDataParse: cmd:keepAlive, mask:16
+[20230613 13:57:30] [590950468] [MS] sendIpcAnswer: cmd[keepAlive], mask:16, ret:0
+[20230613 13:58:20] [591000484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 13:58:20] [591000484] [MS] ipcDataParse: cmd:keepAlive, mask:17
+[20230613 13:58:20] [591000484] [MS] sendIpcAnswer: cmd[keepAlive], mask:17, ret:0
+[20230613 13:59:10] [591050484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 13:59:10] [591050484] [MS] ipcDataParse: cmd:keepAlive, mask:18
+[20230613 13:59:10] [591050484] [MS] sendIpcAnswer: cmd[keepAlive], mask:18, ret:0
+[20230613 14:00:00] [591100500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:00:00] [591100500] [MS] ipcDataParse: cmd:keepAlive, mask:19
+[20230613 14:00:00] [591100500] [MS] sendIpcAnswer: cmd[keepAlive], mask:19, ret:0
+[20230613 14:00:50] [591150515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:00:50] [591150515] [MS] ipcDataParse: cmd:keepAlive, mask:20
+[20230613 14:00:50] [591150515] [MS] sendIpcAnswer: cmd[keepAlive], mask:20, ret:0
+[20230613 14:01:40] [591200531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:01:40] [591200531] [MS] ipcDataParse: cmd:keepAlive, mask:21
+[20230613 14:01:40] [591200531] [MS] sendIpcAnswer: cmd[keepAlive], mask:21, ret:0
+[20230613 14:02:30] [591250531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:02:30] [591250546] [MS] ipcDataParse: cmd:keepAlive, mask:22
+[20230613 14:02:30] [591250546] [MS] sendIpcAnswer: cmd[keepAlive], mask:22, ret:0
+[20230613 14:03:20] [591300546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:03:20] [591300546] [MS] ipcDataParse: cmd:keepAlive, mask:23
+[20230613 14:03:20] [591300546] [MS] sendIpcAnswer: cmd[keepAlive], mask:23, ret:0
+[20230613 14:04:10] [591350546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:04:10] [591350546] [MS] ipcDataParse: cmd:keepAlive, mask:24
+[20230613 14:04:10] [591350546] [MS] sendIpcAnswer: cmd[keepAlive], mask:24, ret:0
+[20230613 14:05:00] [591400546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:05:00] [591400546] [MS] ipcDataParse: cmd:keepAlive, mask:25
+[20230613 14:05:00] [591400546] [MS] sendIpcAnswer: cmd[keepAlive], mask:25, ret:0
+[20230613 14:05:50] [591450562] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:05:50] [591450562] [MS] ipcDataParse: cmd:keepAlive, mask:26
+[20230613 14:05:50] [591450562] [MS] sendIpcAnswer: cmd[keepAlive], mask:26, ret:0
+[20230613 14:06:40] [591500562] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:06:40] [591500562] [MS] ipcDataParse: cmd:keepAlive, mask:27
+[20230613 14:06:40] [591500562] [MS] sendIpcAnswer: cmd[keepAlive], mask:27, ret:0
+[20230613 14:07:30] [591550562] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:07:30] [591550562] [MS] ipcDataParse: cmd:keepAlive, mask:28
+[20230613 14:07:30] [591550562] [MS] sendIpcAnswer: cmd[keepAlive], mask:28, ret:0
+[20230613 14:08:20] [591600578] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:08:20] [591600843] [MS] ipcDataParse: cmd:keepAlive, mask:29
+[20230613 14:08:20] [591600843] [MS] sendIpcAnswer: cmd[keepAlive], mask:29, ret:0
+[20230613 14:09:10] [591650859] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:09:10] [591650859] [MS] ipcDataParse: cmd:keepAlive, mask:30
+[20230613 14:09:10] [591650859] [MS] sendIpcAnswer: cmd[keepAlive], mask:30, ret:0
+[20230613 14:10:00] [591700859] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:10:00] [591700859] [MS] ipcDataParse: cmd:keepAlive, mask:31
+[20230613 14:10:00] [591700875] [MS] sendIpcAnswer: cmd[keepAlive], mask:31, ret:0
+[20230613 14:10:50] [591750875] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:10:50] [591750875] [MS] ipcDataParse: cmd:keepAlive, mask:32
+[20230613 14:10:50] [591750875] [MS] sendIpcAnswer: cmd[keepAlive], mask:32, ret:0
+[20230613 14:11:40] [591800890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:11:40] [591800890] [MS] ipcDataParse: cmd:keepAlive, mask:33
+[20230613 14:11:40] [591800890] [MS] sendIpcAnswer: cmd[keepAlive], mask:33, ret:0
+[20230613 14:12:30] [591850890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:12:30] [591850937] [MS] ipcDataParse: cmd:keepAlive, mask:34
+[20230613 14:12:30] [591850937] [MS] sendIpcAnswer: cmd[keepAlive], mask:34, ret:0
+[20230613 14:13:20] [591900953] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:13:20] [591900953] [MS] ipcDataParse: cmd:keepAlive, mask:35
+[20230613 14:13:20] [591900953] [MS] sendIpcAnswer: cmd[keepAlive], mask:35, ret:0
+[20230613 14:14:10] [591950968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:14:10] [591950968] [MS] ipcDataParse: cmd:keepAlive, mask:36
+[20230613 14:14:10] [591950968] [MS] sendIpcAnswer: cmd[keepAlive], mask:36, ret:0
+[20230613 14:15:00] [592000984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:15:00] [592000984] [MS] ipcDataParse: cmd:keepAlive, mask:37
+[20230613 14:15:00] [592000984] [MS] sendIpcAnswer: cmd[keepAlive], mask:37, ret:0
+[20230613 14:15:50] [592050984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:15:50] [592050984] [MS] ipcDataParse: cmd:keepAlive, mask:38
+[20230613 14:15:50] [592050984] [MS] sendIpcAnswer: cmd[keepAlive], mask:38, ret:0
+[20230613 14:16:40] [592100984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:16:40] [592100984] [MS] ipcDataParse: cmd:keepAlive, mask:39
+[20230613 14:16:40] [592100984] [MS] sendIpcAnswer: cmd[keepAlive], mask:39, ret:0
+[20230613 14:17:30] [592151000] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:17:31] [592151609] [MS] ipcDataParse: cmd:keepAlive, mask:40
+[20230613 14:17:31] [592151609] [MS] sendIpcAnswer: cmd[keepAlive], mask:40, ret:0
+[20230613 14:18:21] [592201609] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:18:21] [592201609] [MS] ipcDataParse: cmd:keepAlive, mask:41
+[20230613 14:18:21] [592201609] [MS] sendIpcAnswer: cmd[keepAlive], mask:41, ret:0
+[20230613 14:19:11] [592251625] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:19:11] [592251625] [MS] ipcDataParse: cmd:keepAlive, mask:42
+[20230613 14:19:11] [592251625] [MS] sendIpcAnswer: cmd[keepAlive], mask:42, ret:0
+[20230613 14:20:01] [592301640] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:20:01] [592301640] [MS] ipcDataParse: cmd:keepAlive, mask:43
+[20230613 14:20:01] [592301640] [MS] sendIpcAnswer: cmd[keepAlive], mask:43, ret:0
+[20230613 14:20:51] [592351640] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:20:51] [592351640] [MS] ipcDataParse: cmd:keepAlive, mask:44
+[20230613 14:20:51] [592351640] [MS] sendIpcAnswer: cmd[keepAlive], mask:44, ret:0
+[20230613 14:21:41] [592401656] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:21:41] [592401656] [MS] ipcDataParse: cmd:keepAlive, mask:45
+[20230613 14:21:41] [592401656] [MS] sendIpcAnswer: cmd[keepAlive], mask:45, ret:0
+[20230613 14:22:31] [592451656] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:22:31] [592451656] [MS] ipcDataParse: cmd:keepAlive, mask:46
+[20230613 14:22:31] [592451656] [MS] sendIpcAnswer: cmd[keepAlive], mask:46, ret:0
+[20230613 14:23:21] [592501656] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:23:21] [592501656] [MS] ipcDataParse: cmd:keepAlive, mask:47
+[20230613 14:23:21] [592501656] [MS] sendIpcAnswer: cmd[keepAlive], mask:47, ret:0
+[20230613 14:24:11] [592551671] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:24:11] [592551671] [MS] ipcDataParse: cmd:keepAlive, mask:48
+[20230613 14:24:11] [592551671] [MS] sendIpcAnswer: cmd[keepAlive], mask:48, ret:0
+[20230613 14:25:01] [592601671] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:25:01] [592601671] [MS] ipcDataParse: cmd:keepAlive, mask:49
+[20230613 14:25:01] [592601671] [MS] sendIpcAnswer: cmd[keepAlive], mask:49, ret:0
+[20230613 14:25:51] [592651671] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:25:51] [592651671] [MS] ipcDataParse: cmd:keepAlive, mask:50
+[20230613 14:25:51] [592651671] [MS] sendIpcAnswer: cmd[keepAlive], mask:50, ret:0
+[20230613 14:26:41] [592701671] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:26:41] [592701671] [MS] ipcDataParse: cmd:keepAlive, mask:51
+[20230613 14:26:41] [592701671] [MS] sendIpcAnswer: cmd[keepAlive], mask:51, ret:0
+[20230613 14:27:31] [592751687] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:27:31] [592751687] [MS] ipcDataParse: cmd:keepAlive, mask:52
+[20230613 14:27:31] [592751687] [MS] sendIpcAnswer: cmd[keepAlive], mask:52, ret:0
+[20230613 14:28:21] [592801687] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:28:21] [592801687] [MS] ipcDataParse: cmd:keepAlive, mask:53
+[20230613 14:28:21] [592801687] [MS] sendIpcAnswer: cmd[keepAlive], mask:53, ret:0
+[20230613 14:29:11] [592851687] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:29:11] [592851687] [MS] ipcDataParse: cmd:keepAlive, mask:54
+[20230613 14:29:11] [592851687] [MS] sendIpcAnswer: cmd[keepAlive], mask:54, ret:0
+[20230613 14:30:01] [592901703] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:30:01] [592901703] [MS] ipcDataParse: cmd:keepAlive, mask:55
+[20230613 14:30:01] [592901703] [MS] sendIpcAnswer: cmd[keepAlive], mask:55, ret:0
+[20230613 14:30:51] [592951703] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:30:51] [592951703] [MS] ipcDataParse: cmd:keepAlive, mask:56
+[20230613 14:30:51] [592951703] [MS] sendIpcAnswer: cmd[keepAlive], mask:56, ret:0
+[20230613 14:31:41] [593001703] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:31:41] [593001703] [MS] ipcDataParse: cmd:keepAlive, mask:57
+[20230613 14:31:41] [593001703] [MS] sendIpcAnswer: cmd[keepAlive], mask:57, ret:0
+[20230613 14:32:31] [593051703] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:32:31] [593051703] [MS] ipcDataParse: cmd:keepAlive, mask:58
+[20230613 14:32:31] [593051703] [MS] sendIpcAnswer: cmd[keepAlive], mask:58, ret:0
+[20230613 14:33:21] [593101718] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:33:21] [593101718] [MS] ipcDataParse: cmd:keepAlive, mask:59
+[20230613 14:33:21] [593101718] [MS] sendIpcAnswer: cmd[keepAlive], mask:59, ret:0
+[20230613 14:34:11] [593151718] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:34:12] [593152953] [MS] ipcDataParse: cmd:keepAlive, mask:60
+[20230613 14:34:12] [593152953] [MS] sendIpcAnswer: cmd[keepAlive], mask:60, ret:0
+[20230613 14:35:02] [593202968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:35:02] [593202968] [MS] ipcDataParse: cmd:keepAlive, mask:61
+[20230613 14:35:02] [593202968] [MS] sendIpcAnswer: cmd[keepAlive], mask:61, ret:0
+[20230613 14:35:52] [593252968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:35:52] [593252968] [MS] ipcDataParse: cmd:keepAlive, mask:62
+[20230613 14:35:52] [593252968] [MS] sendIpcAnswer: cmd[keepAlive], mask:62, ret:0
+[20230613 14:36:42] [593302984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:36:42] [593302984] [MS] ipcDataParse: cmd:keepAlive, mask:63
+[20230613 14:36:42] [593302984] [MS] sendIpcAnswer: cmd[keepAlive], mask:63, ret:0
+[20230613 14:37:32] [593352984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:37:32] [593352984] [MS] ipcDataParse: cmd:keepAlive, mask:64
+[20230613 14:37:32] [593352984] [MS] sendIpcAnswer: cmd[keepAlive], mask:64, ret:0
+[20230613 14:38:22] [593402984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:38:22] [593403000] [MS] ipcDataParse: cmd:keepAlive, mask:65
+[20230613 14:38:22] [593403000] [MS] sendIpcAnswer: cmd[keepAlive], mask:65, ret:0
+[20230613 14:39:12] [593453000] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:39:12] [593453000] [MS] ipcDataParse: cmd:keepAlive, mask:66
+[20230613 14:39:12] [593453000] [MS] sendIpcAnswer: cmd[keepAlive], mask:66, ret:0
+[20230613 14:40:02] [593503015] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:40:02] [593503015] [MS] ipcDataParse: cmd:keepAlive, mask:67
+[20230613 14:40:02] [593503015] [MS] sendIpcAnswer: cmd[keepAlive], mask:67, ret:0
+[20230613 14:40:52] [593553015] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:40:52] [593553015] [MS] ipcDataParse: cmd:keepAlive, mask:68
+[20230613 14:40:52] [593553015] [MS] sendIpcAnswer: cmd[keepAlive], mask:68, ret:0
+[20230613 14:41:42] [593603031] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:41:42] [593603031] [MS] ipcDataParse: cmd:keepAlive, mask:69
+[20230613 14:41:42] [593603031] [MS] sendIpcAnswer: cmd[keepAlive], mask:69, ret:0
+[20230613 14:42:32] [593653031] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:42:32] [593653031] [MS] ipcDataParse: cmd:keepAlive, mask:70
+[20230613 14:42:32] [593653031] [MS] sendIpcAnswer: cmd[keepAlive], mask:70, ret:0
+[20230613 14:43:22] [593703031] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:43:22] [593703031] [MS] ipcDataParse: cmd:keepAlive, mask:71
+[20230613 14:43:22] [593703031] [MS] sendIpcAnswer: cmd[keepAlive], mask:71, ret:0
+[20230613 14:44:12] [593753046] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:44:12] [593753046] [MS] ipcDataParse: cmd:keepAlive, mask:72
+[20230613 14:44:12] [593753046] [MS] sendIpcAnswer: cmd[keepAlive], mask:72, ret:0
+[20230613 14:45:02] [593803046] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:45:02] [593803046] [MS] ipcDataParse: cmd:keepAlive, mask:73
+[20230613 14:45:02] [593803046] [MS] sendIpcAnswer: cmd[keepAlive], mask:73, ret:0
+[20230613 14:45:52] [593853046] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:45:52] [593853046] [MS] ipcDataParse: cmd:keepAlive, mask:74
+[20230613 14:45:52] [593853046] [MS] sendIpcAnswer: cmd[keepAlive], mask:74, ret:0
+[20230613 14:46:42] [593903046] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:46:42] [593903046] [MS] ipcDataParse: cmd:keepAlive, mask:75
+[20230613 14:46:42] [593903046] [MS] sendIpcAnswer: cmd[keepAlive], mask:75, ret:0
+[20230613 14:47:32] [593953062] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:47:32] [593953062] [MS] ipcDataParse: cmd:keepAlive, mask:76
+[20230613 14:47:32] [593953062] [MS] sendIpcAnswer: cmd[keepAlive], mask:76, ret:0
+[20230613 14:48:22] [594003062] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:48:22] [594003062] [MS] ipcDataParse: cmd:keepAlive, mask:77
+[20230613 14:48:22] [594003062] [MS] sendIpcAnswer: cmd[keepAlive], mask:77, ret:0
+[20230613 14:49:12] [594053078] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:49:12] [594053078] [MS] ipcDataParse: cmd:keepAlive, mask:78
+[20230613 14:49:12] [594053078] [MS] sendIpcAnswer: cmd[keepAlive], mask:78, ret:0
+[20230613 14:50:02] [594103078] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:50:02] [594103078] [MS] ipcDataParse: cmd:keepAlive, mask:79
+[20230613 14:50:02] [594103078] [MS] sendIpcAnswer: cmd[keepAlive], mask:79, ret:0
+[20230613 14:50:52] [594153078] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:50:52] [594153078] [MS] ipcDataParse: cmd:keepAlive, mask:80
+[20230613 14:50:52] [594153078] [MS] sendIpcAnswer: cmd[keepAlive], mask:80, ret:0
+[20230613 14:51:42] [594203078] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:51:42] [594203078] [MS] ipcDataParse: cmd:keepAlive, mask:81
+[20230613 14:51:42] [594203078] [MS] sendIpcAnswer: cmd[keepAlive], mask:81, ret:0
+[20230613 14:52:32] [594253093] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 14:52:32] [594253093] [MS] ipcDataParse: cmd:keepAlive, mask:82
+[20230613 14:52:32] [594253093] [MS] sendIpcAnswer: cmd[keepAlive], mask:82, ret:0
+[20230613 14:53:22] [594303093] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:53:22] [594303093] [MS] ipcDataParse: cmd:keepAlive, mask:83
+[20230613 14:53:22] [594303093] [MS] sendIpcAnswer: cmd[keepAlive], mask:83, ret:0
+[20230613 14:54:12] [594353093] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:54:12] [594353093] [MS] ipcDataParse: cmd:keepAlive, mask:84
+[20230613 14:54:12] [594353093] [MS] sendIpcAnswer: cmd[keepAlive], mask:84, ret:0
+[20230613 14:55:03] [594403093] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:55:03] [594403093] [MS] ipcDataParse: cmd:keepAlive, mask:85
+[20230613 14:55:03] [594403093] [MS] sendIpcAnswer: cmd[keepAlive], mask:85, ret:0
+[20230613 14:55:53] [594453109] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:55:53] [594453109] [MS] ipcDataParse: cmd:keepAlive, mask:86
+[20230613 14:55:53] [594453109] [MS] sendIpcAnswer: cmd[keepAlive], mask:86, ret:0
+[20230613 14:56:43] [594503109] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:56:43] [594503109] [MS] ipcDataParse: cmd:keepAlive, mask:87
+[20230613 14:56:43] [594503109] [MS] sendIpcAnswer: cmd[keepAlive], mask:87, ret:0
+[20230613 14:57:33] [594553109] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:57:33] [594553109] [MS] ipcDataParse: cmd:keepAlive, mask:88
+[20230613 14:57:33] [594553109] [MS] sendIpcAnswer: cmd[keepAlive], mask:88, ret:0
+[20230613 14:58:23] [594603125] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 14:58:23] [594603125] [MS] ipcDataParse: cmd:keepAlive, mask:89
+[20230613 14:58:23] [594603125] [MS] sendIpcAnswer: cmd[keepAlive], mask:89, ret:0
+[20230613 14:59:13] [594653125] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 14:59:13] [594653125] [MS] ipcDataParse: cmd:keepAlive, mask:90
+[20230613 14:59:13] [594653125] [MS] sendIpcAnswer: cmd[keepAlive], mask:90, ret:0
+[20230613 15:00:03] [594703125] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:00:03] [594703125] [MS] ipcDataParse: cmd:keepAlive, mask:91
+[20230613 15:00:03] [594703125] [MS] sendIpcAnswer: cmd[keepAlive], mask:91, ret:0
+[20230613 15:00:53] [594753125] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:00:53] [594753125] [MS] ipcDataParse: cmd:keepAlive, mask:92
+[20230613 15:00:53] [594753140] [MS] sendIpcAnswer: cmd[keepAlive], mask:92, ret:0
+[20230613 15:01:43] [594803140] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50015ms
+[20230613 15:01:43] [594803140] [MS] ipcDataParse: cmd:keepAlive, mask:93
+[20230613 15:01:43] [594803140] [MS] sendIpcAnswer: cmd[keepAlive], mask:93, ret:0
+[20230613 15:02:33] [594853140] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:02:33] [594853140] [MS] ipcDataParse: cmd:keepAlive, mask:94
+[20230613 15:02:33] [594853140] [MS] sendIpcAnswer: cmd[keepAlive], mask:94, ret:0
+[20230613 15:03:23] [594903140] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:03:23] [594903140] [MS] ipcDataParse: cmd:keepAlive, mask:95
+[20230613 15:03:23] [594903140] [MS] sendIpcAnswer: cmd[keepAlive], mask:95, ret:0
+[20230613 15:04:13] [594953156] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50016ms
+[20230613 15:04:13] [594953156] [MS] ipcDataParse: cmd:keepAlive, mask:96
+[20230613 15:04:13] [594953156] [MS] sendIpcAnswer: cmd[keepAlive], mask:96, ret:0
+[20230613 15:05:03] [595003156] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:05:03] [595003156] [MS] ipcDataParse: cmd:keepAlive, mask:97
+[20230613 15:05:03] [595003156] [MS] sendIpcAnswer: cmd[keepAlive], mask:97, ret:0
+[20230613 15:05:53] [595053156] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:05:53] [595053156] [MS] ipcDataParse: cmd:keepAlive, mask:98
+[20230613 15:05:53] [595053156] [MS] sendIpcAnswer: cmd[keepAlive], mask:98, ret:0
+[20230613 15:06:43] [595103156] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=38Bytes, time cost=50000ms
+[20230613 15:06:43] [595103156] [MS] ipcDataParse: cmd:keepAlive, mask:99
+[20230613 15:06:43] [595103156] [MS] sendIpcAnswer: cmd[keepAlive], mask:99, ret:0
+[20230613 15:07:33] [595153171] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 15:07:33] [595153171] [MS] ipcDataParse: cmd:keepAlive, mask:100
+[20230613 15:07:33] [595153171] [MS] sendIpcAnswer: cmd[keepAlive], mask:100, ret:0
+[20230613 15:08:23] [595203171] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:08:23] [595203171] [MS] ipcDataParse: cmd:keepAlive, mask:101
+[20230613 15:08:23] [595203171] [MS] sendIpcAnswer: cmd[keepAlive], mask:101, ret:0
+[20230613 15:09:13] [595253171] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:09:13] [595253171] [MS] ipcDataParse: cmd:keepAlive, mask:102
+[20230613 15:09:13] [595253171] [MS] sendIpcAnswer: cmd[keepAlive], mask:102, ret:0
+[20230613 15:10:03] [595303187] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:10:03] [595303187] [MS] ipcDataParse: cmd:keepAlive, mask:103
+[20230613 15:10:03] [595303187] [MS] sendIpcAnswer: cmd[keepAlive], mask:103, ret:0
+[20230613 15:10:53] [595353187] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:10:53] [595353187] [MS] ipcDataParse: cmd:keepAlive, mask:104
+[20230613 15:10:53] [595353187] [MS] sendIpcAnswer: cmd[keepAlive], mask:104, ret:0
+[20230613 15:11:43] [595403187] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:11:43] [595403187] [MS] ipcDataParse: cmd:keepAlive, mask:105
+[20230613 15:11:43] [595403187] [MS] sendIpcAnswer: cmd[keepAlive], mask:105, ret:0
+[20230613 15:12:33] [595453187] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:12:33] [595453796] [MS] ipcDataParse: cmd:keepAlive, mask:106
+[20230613 15:12:33] [595453796] [MS] sendIpcAnswer: cmd[keepAlive], mask:106, ret:0
+[20230613 15:13:23] [595503796] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:13:23] [595503796] [MS] ipcDataParse: cmd:keepAlive, mask:107
+[20230613 15:13:23] [595503796] [MS] sendIpcAnswer: cmd[keepAlive], mask:107, ret:0
+[20230613 15:14:13] [595553796] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:14:13] [595553890] [MS] ipcDataParse: cmd:keepAlive, mask:108
+[20230613 15:14:13] [595553890] [MS] sendIpcAnswer: cmd[keepAlive], mask:108, ret:0
+[20230613 15:15:03] [595603890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:15:03] [595603890] [MS] ipcDataParse: cmd:keepAlive, mask:109
+[20230613 15:15:03] [595603890] [MS] sendIpcAnswer: cmd[keepAlive], mask:109, ret:0
+[20230613 15:15:53] [595653890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:15:53] [595653890] [MS] ipcDataParse: cmd:keepAlive, mask:110
+[20230613 15:15:53] [595653890] [MS] sendIpcAnswer: cmd[keepAlive], mask:110, ret:0
+[20230613 15:16:43] [595703906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:16:43] [595703906] [MS] ipcDataParse: cmd:keepAlive, mask:111
+[20230613 15:16:43] [595703906] [MS] sendIpcAnswer: cmd[keepAlive], mask:111, ret:0
+[20230613 15:17:33] [595753906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:17:33] [595753906] [MS] ipcDataParse: cmd:keepAlive, mask:112
+[20230613 15:17:33] [595753906] [MS] sendIpcAnswer: cmd[keepAlive], mask:112, ret:0
+[20230613 15:18:23] [595803906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:18:23] [595803906] [MS] ipcDataParse: cmd:keepAlive, mask:113
+[20230613 15:18:23] [595803906] [MS] sendIpcAnswer: cmd[keepAlive], mask:113, ret:0
+[20230613 15:19:13] [595853921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 15:19:13] [595853921] [MS] ipcDataParse: cmd:keepAlive, mask:114
+[20230613 15:19:13] [595853921] [MS] sendIpcAnswer: cmd[keepAlive], mask:114, ret:0
+[20230613 15:20:03] [595903921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:20:03] [595903921] [MS] ipcDataParse: cmd:keepAlive, mask:115
+[20230613 15:20:03] [595903921] [MS] sendIpcAnswer: cmd[keepAlive], mask:115, ret:0
+[20230613 15:20:53] [595953921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:20:53] [595953921] [MS] ipcDataParse: cmd:keepAlive, mask:116
+[20230613 15:20:53] [595953921] [MS] sendIpcAnswer: cmd[keepAlive], mask:116, ret:0
+[20230613 15:21:43] [596003921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:21:43] [596003921] [MS] ipcDataParse: cmd:keepAlive, mask:117
+[20230613 15:21:43] [596003921] [MS] sendIpcAnswer: cmd[keepAlive], mask:117, ret:0
+[20230613 15:22:33] [596053937] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:22:34] [596054312] [MS] ipcDataParse: cmd:keepAlive, mask:118
+[20230613 15:22:34] [596054312] [MS] sendIpcAnswer: cmd[keepAlive], mask:118, ret:0
+[20230613 15:23:24] [596104328] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:23:24] [596104328] [MS] ipcDataParse: cmd:keepAlive, mask:119
+[20230613 15:23:24] [596104328] [MS] sendIpcAnswer: cmd[keepAlive], mask:119, ret:0
+[20230613 15:24:14] [596154328] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:24:14] [596154328] [MS] ipcDataParse: cmd:keepAlive, mask:120
+[20230613 15:24:14] [596154328] [MS] sendIpcAnswer: cmd[keepAlive], mask:120, ret:0
+[20230613 15:25:04] [596204328] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:25:04] [596204328] [MS] ipcDataParse: cmd:keepAlive, mask:121
+[20230613 15:25:04] [596204328] [MS] sendIpcAnswer: cmd[keepAlive], mask:121, ret:0
+[20230613 15:25:54] [596254328] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:25:54] [596254343] [MS] ipcDataParse: cmd:keepAlive, mask:122
+[20230613 15:25:54] [596254343] [MS] sendIpcAnswer: cmd[keepAlive], mask:122, ret:0
+[20230613 15:26:44] [596304343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:26:44] [596304343] [MS] ipcDataParse: cmd:keepAlive, mask:123
+[20230613 15:26:44] [596304343] [MS] sendIpcAnswer: cmd[keepAlive], mask:123, ret:0
+[20230613 15:27:34] [596354343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:27:34] [596354343] [MS] ipcDataParse: cmd:keepAlive, mask:124
+[20230613 15:27:34] [596354343] [MS] sendIpcAnswer: cmd[keepAlive], mask:124, ret:0
+[20230613 15:28:24] [596404343] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:28:24] [596404343] [MS] ipcDataParse: cmd:keepAlive, mask:125
+[20230613 15:28:24] [596404343] [MS] sendIpcAnswer: cmd[keepAlive], mask:125, ret:0
+[20230613 15:29:14] [596454359] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:29:14] [596454359] [MS] ipcDataParse: cmd:keepAlive, mask:126
+[20230613 15:29:14] [596454359] [MS] sendIpcAnswer: cmd[keepAlive], mask:126, ret:0
+[20230613 15:30:04] [596504359] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:30:04] [596504359] [MS] ipcDataParse: cmd:keepAlive, mask:127
+[20230613 15:30:04] [596504359] [MS] sendIpcAnswer: cmd[keepAlive], mask:127, ret:0
+[20230613 15:30:54] [596554359] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:30:54] [596554359] [MS] ipcDataParse: cmd:keepAlive, mask:128
+[20230613 15:30:54] [596554359] [MS] sendIpcAnswer: cmd[keepAlive], mask:128, ret:0
+[20230613 15:31:44] [596604375] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:31:44] [596604375] [MS] ipcDataParse: cmd:keepAlive, mask:129
+[20230613 15:31:44] [596604375] [MS] sendIpcAnswer: cmd[keepAlive], mask:129, ret:0
+[20230613 15:32:34] [596654375] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:32:34] [596654406] [MS] ipcDataParse: cmd:keepAlive, mask:130
+[20230613 15:32:34] [596654406] [MS] sendIpcAnswer: cmd[keepAlive], mask:130, ret:0
+[20230613 15:33:24] [596704406] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:33:24] [596704406] [MS] ipcDataParse: cmd:keepAlive, mask:131
+[20230613 15:33:24] [596704421] [MS] sendIpcAnswer: cmd[keepAlive], mask:131, ret:0
+[20230613 15:34:14] [596754421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 15:34:14] [596754421] [MS] ipcDataParse: cmd:keepAlive, mask:132
+[20230613 15:34:14] [596754421] [MS] sendIpcAnswer: cmd[keepAlive], mask:132, ret:0
+[20230613 15:35:04] [596804421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:35:04] [596804421] [MS] ipcDataParse: cmd:keepAlive, mask:133
+[20230613 15:35:04] [596804421] [MS] sendIpcAnswer: cmd[keepAlive], mask:133, ret:0
+[20230613 15:35:54] [596854421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:35:54] [596854421] [MS] ipcDataParse: cmd:keepAlive, mask:134
+[20230613 15:35:54] [596854421] [MS] sendIpcAnswer: cmd[keepAlive], mask:134, ret:0
+[20230613 15:36:44] [596904437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:36:44] [596904437] [MS] ipcDataParse: cmd:keepAlive, mask:135
+[20230613 15:36:44] [596904437] [MS] sendIpcAnswer: cmd[keepAlive], mask:135, ret:0
+[20230613 15:37:34] [596954437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:37:34] [596954437] [MS] ipcDataParse: cmd:keepAlive, mask:136
+[20230613 15:37:34] [596954437] [MS] sendIpcAnswer: cmd[keepAlive], mask:136, ret:0
+[20230613 15:38:24] [597004437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:38:24] [597004437] [MS] ipcDataParse: cmd:keepAlive, mask:137
+[20230613 15:38:24] [597004437] [MS] sendIpcAnswer: cmd[keepAlive], mask:137, ret:0
+[20230613 15:39:14] [597054453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:39:14] [597054453] [MS] ipcDataParse: cmd:keepAlive, mask:138
+[20230613 15:39:14] [597054453] [MS] sendIpcAnswer: cmd[keepAlive], mask:138, ret:0
+[20230613 15:40:04] [597104453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:40:04] [597104453] [MS] ipcDataParse: cmd:keepAlive, mask:139
+[20230613 15:40:04] [597104453] [MS] sendIpcAnswer: cmd[keepAlive], mask:139, ret:0
+[20230613 15:40:54] [597154453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:40:54] [597154453] [MS] ipcDataParse: cmd:keepAlive, mask:140
+[20230613 15:40:54] [597154453] [MS] sendIpcAnswer: cmd[keepAlive], mask:140, ret:0
+[20230613 15:41:44] [597204453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:41:44] [597204453] [MS] ipcDataParse: cmd:keepAlive, mask:141
+[20230613 15:41:44] [597204453] [MS] sendIpcAnswer: cmd[keepAlive], mask:141, ret:0
+[20230613 15:42:34] [597254468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 15:42:34] [597254468] [MS] ipcDataParse: cmd:keepAlive, mask:142
+[20230613 15:42:34] [597254468] [MS] sendIpcAnswer: cmd[keepAlive], mask:142, ret:0
+[20230613 15:43:24] [597304468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:43:24] [597304468] [MS] ipcDataParse: cmd:keepAlive, mask:143
+[20230613 15:43:24] [597304468] [MS] sendIpcAnswer: cmd[keepAlive], mask:143, ret:0
+[20230613 15:44:14] [597354468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:44:14] [597354468] [MS] ipcDataParse: cmd:keepAlive, mask:144
+[20230613 15:44:14] [597354468] [MS] sendIpcAnswer: cmd[keepAlive], mask:144, ret:0
+[20230613 15:45:04] [597404484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:45:04] [597404484] [MS] ipcDataParse: cmd:keepAlive, mask:145
+[20230613 15:45:04] [597404484] [MS] sendIpcAnswer: cmd[keepAlive], mask:145, ret:0
+[20230613 15:45:54] [597454484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:45:54] [597454484] [MS] ipcDataParse: cmd:keepAlive, mask:146
+[20230613 15:45:54] [597454484] [MS] sendIpcAnswer: cmd[keepAlive], mask:146, ret:0
+[20230613 15:46:44] [597504484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:46:44] [597504484] [MS] ipcDataParse: cmd:keepAlive, mask:147
+[20230613 15:46:44] [597504484] [MS] sendIpcAnswer: cmd[keepAlive], mask:147, ret:0
+[20230613 15:47:34] [597554500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:47:34] [597554500] [MS] ipcDataParse: cmd:keepAlive, mask:148
+[20230613 15:47:34] [597554500] [MS] sendIpcAnswer: cmd[keepAlive], mask:148, ret:0
+[20230613 15:48:24] [597604500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:48:24] [597604500] [MS] ipcDataParse: cmd:keepAlive, mask:149
+[20230613 15:48:24] [597604500] [MS] sendIpcAnswer: cmd[keepAlive], mask:149, ret:0
+[20230613 15:49:14] [597654500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:49:14] [597654500] [MS] ipcDataParse: cmd:keepAlive, mask:150
+[20230613 15:49:14] [597654500] [MS] sendIpcAnswer: cmd[keepAlive], mask:150, ret:0
+[20230613 15:50:04] [597704515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 15:50:04] [597704515] [MS] ipcDataParse: cmd:keepAlive, mask:151
+[20230613 15:50:04] [597704515] [MS] sendIpcAnswer: cmd[keepAlive], mask:151, ret:0
+[20230613 15:50:54] [597754515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:50:54] [597754796] [MS] ipcDataParse: cmd:keepAlive, mask:152
+[20230613 15:50:54] [597754796] [MS] sendIpcAnswer: cmd[keepAlive], mask:152, ret:0
+[20230613 15:51:44] [597804796] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:51:44] [597804796] [MS] ipcDataParse: cmd:keepAlive, mask:153
+[20230613 15:51:44] [597804796] [MS] sendIpcAnswer: cmd[keepAlive], mask:153, ret:0
+[20230613 15:52:34] [597854796] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:52:34] [597854796] [MS] ipcDataParse: cmd:keepAlive, mask:154
+[20230613 15:52:34] [597854796] [MS] sendIpcAnswer: cmd[keepAlive], mask:154, ret:0
+[20230613 15:53:24] [597904796] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:53:24] [597904796] [MS] ipcDataParse: cmd:keepAlive, mask:155
+[20230613 15:53:24] [597904796] [MS] sendIpcAnswer: cmd[keepAlive], mask:155, ret:0
+[20230613 15:54:14] [597954812] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:54:14] [597954812] [MS] ipcDataParse: cmd:keepAlive, mask:156
+[20230613 15:54:14] [597954812] [MS] sendIpcAnswer: cmd[keepAlive], mask:156, ret:0
+[20230613 15:55:04] [598004812] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:55:04] [598004812] [MS] ipcDataParse: cmd:keepAlive, mask:157
+[20230613 15:55:04] [598004812] [MS] sendIpcAnswer: cmd[keepAlive], mask:157, ret:0
+[20230613 15:55:54] [598054812] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:55:54] [598054812] [MS] ipcDataParse: cmd:keepAlive, mask:158
+[20230613 15:55:54] [598054812] [MS] sendIpcAnswer: cmd[keepAlive], mask:158, ret:0
+[20230613 15:56:44] [598104828] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 15:56:44] [598104828] [MS] ipcDataParse: cmd:keepAlive, mask:159
+[20230613 15:56:44] [598104828] [MS] sendIpcAnswer: cmd[keepAlive], mask:159, ret:0
+[20230613 15:57:34] [598154828] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:57:34] [598154828] [MS] ipcDataParse: cmd:keepAlive, mask:160
+[20230613 15:57:34] [598154828] [MS] sendIpcAnswer: cmd[keepAlive], mask:160, ret:0
+[20230613 15:58:24] [598204828] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 15:58:24] [598204828] [MS] ipcDataParse: cmd:keepAlive, mask:161
+[20230613 15:58:24] [598204828] [MS] sendIpcAnswer: cmd[keepAlive], mask:161, ret:0
+[20230613 15:59:14] [598254843] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 15:59:14] [598254843] [MS] ipcDataParse: cmd:keepAlive, mask:162
+[20230613 15:59:14] [598254843] [MS] sendIpcAnswer: cmd[keepAlive], mask:162, ret:0
+[20230613 16:00:04] [598304843] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:00:04] [598304843] [MS] ipcDataParse: cmd:keepAlive, mask:163
+[20230613 16:00:04] [598304843] [MS] sendIpcAnswer: cmd[keepAlive], mask:163, ret:0
+[20230613 16:00:54] [598354843] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:00:54] [598354843] [MS] ipcDataParse: cmd:keepAlive, mask:164
+[20230613 16:00:54] [598354843] [MS] sendIpcAnswer: cmd[keepAlive], mask:164, ret:0
+[20230613 16:01:44] [598404843] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:01:44] [598404843] [MS] ipcDataParse: cmd:keepAlive, mask:165
+[20230613 16:01:44] [598404843] [MS] sendIpcAnswer: cmd[keepAlive], mask:165, ret:0
+[20230613 16:02:34] [598454859] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:02:34] [598454859] [MS] ipcDataParse: cmd:keepAlive, mask:166
+[20230613 16:02:34] [598454859] [MS] sendIpcAnswer: cmd[keepAlive], mask:166, ret:0
+[20230613 16:03:24] [598504859] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:03:24] [598504859] [MS] ipcDataParse: cmd:keepAlive, mask:167
+[20230613 16:03:24] [598504859] [MS] sendIpcAnswer: cmd[keepAlive], mask:167, ret:0
+[20230613 16:04:14] [598554859] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:04:14] [598554859] [MS] ipcDataParse: cmd:keepAlive, mask:168
+[20230613 16:04:14] [598554859] [MS] sendIpcAnswer: cmd[keepAlive], mask:168, ret:0
+[20230613 16:05:04] [598604875] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:05:04] [598604875] [MS] ipcDataParse: cmd:keepAlive, mask:169
+[20230613 16:05:04] [598604875] [MS] sendIpcAnswer: cmd[keepAlive], mask:169, ret:0
+[20230613 16:05:54] [598654875] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:05:54] [598654875] [MS] ipcDataParse: cmd:keepAlive, mask:170
+[20230613 16:05:54] [598654875] [MS] sendIpcAnswer: cmd[keepAlive], mask:170, ret:0
+[20230613 16:06:44] [598704875] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:06:44] [598704875] [MS] ipcDataParse: cmd:keepAlive, mask:171
+[20230613 16:06:44] [598704875] [MS] sendIpcAnswer: cmd[keepAlive], mask:171, ret:0
+[20230613 16:07:34] [598754890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:07:34] [598754890] [MS] ipcDataParse: cmd:keepAlive, mask:172
+[20230613 16:07:34] [598754890] [MS] sendIpcAnswer: cmd[keepAlive], mask:172, ret:0
+[20230613 16:08:24] [598804890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:08:24] [598804890] [MS] ipcDataParse: cmd:keepAlive, mask:173
+[20230613 16:08:24] [598804890] [MS] sendIpcAnswer: cmd[keepAlive], mask:173, ret:0
+[20230613 16:09:14] [598854890] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:09:14] [598854890] [MS] ipcDataParse: cmd:keepAlive, mask:174
+[20230613 16:09:14] [598854890] [MS] sendIpcAnswer: cmd[keepAlive], mask:174, ret:0
+[20230613 16:10:04] [598904906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:10:04] [598904906] [MS] ipcDataParse: cmd:keepAlive, mask:175
+[20230613 16:10:04] [598904906] [MS] sendIpcAnswer: cmd[keepAlive], mask:175, ret:0
+[20230613 16:10:54] [598954906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:10:54] [598954906] [MS] ipcDataParse: cmd:keepAlive, mask:176
+[20230613 16:10:54] [598954906] [MS] sendIpcAnswer: cmd[keepAlive], mask:176, ret:0
+[20230613 16:11:44] [599004906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:11:44] [599004906] [MS] ipcDataParse: cmd:keepAlive, mask:177
+[20230613 16:11:44] [599004906] [MS] sendIpcAnswer: cmd[keepAlive], mask:177, ret:0
+[20230613 16:12:34] [599054906] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:12:34] [599054906] [MS] ipcDataParse: cmd:keepAlive, mask:178
+[20230613 16:12:34] [599054906] [MS] sendIpcAnswer: cmd[keepAlive], mask:178, ret:0
+[20230613 16:13:24] [599104921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:13:24] [599104921] [MS] ipcDataParse: cmd:keepAlive, mask:179
+[20230613 16:13:24] [599104921] [MS] sendIpcAnswer: cmd[keepAlive], mask:179, ret:0
+[20230613 16:14:14] [599154921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:14:14] [599154921] [MS] ipcDataParse: cmd:keepAlive, mask:180
+[20230613 16:14:14] [599154921] [MS] sendIpcAnswer: cmd[keepAlive], mask:180, ret:0
+[20230613 16:15:04] [599204921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:15:04] [599204921] [MS] ipcDataParse: cmd:keepAlive, mask:181
+[20230613 16:15:04] [599204921] [MS] sendIpcAnswer: cmd[keepAlive], mask:181, ret:0
+[20230613 16:15:54] [599254921] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:15:54] [599254921] [MS] ipcDataParse: cmd:keepAlive, mask:182
+[20230613 16:15:54] [599254921] [MS] sendIpcAnswer: cmd[keepAlive], mask:182, ret:0
+[20230613 16:16:44] [599304937] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:16:44] [599304937] [MS] ipcDataParse: cmd:keepAlive, mask:183
+[20230613 16:16:44] [599304937] [MS] sendIpcAnswer: cmd[keepAlive], mask:183, ret:0
+[20230613 16:17:34] [599354937] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:17:34] [599354937] [MS] ipcDataParse: cmd:keepAlive, mask:184
+[20230613 16:17:34] [599354937] [MS] sendIpcAnswer: cmd[keepAlive], mask:184, ret:0
+[20230613 16:18:24] [599404937] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:18:24] [599404937] [MS] ipcDataParse: cmd:keepAlive, mask:185
+[20230613 16:18:24] [599404937] [MS] sendIpcAnswer: cmd[keepAlive], mask:185, ret:0
+[20230613 16:19:14] [599454937] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:19:14] [599454937] [MS] ipcDataParse: cmd:keepAlive, mask:186
+[20230613 16:19:14] [599454937] [MS] sendIpcAnswer: cmd[keepAlive], mask:186, ret:0
+[20230613 16:20:04] [599504953] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:20:04] [599504953] [MS] ipcDataParse: cmd:keepAlive, mask:187
+[20230613 16:20:04] [599504953] [MS] sendIpcAnswer: cmd[keepAlive], mask:187, ret:0
+[20230613 16:20:54] [599554953] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:20:54] [599554953] [MS] ipcDataParse: cmd:keepAlive, mask:188
+[20230613 16:20:54] [599554953] [MS] sendIpcAnswer: cmd[keepAlive], mask:188, ret:0
+[20230613 16:21:44] [599604953] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:21:44] [599604953] [MS] ipcDataParse: cmd:keepAlive, mask:189
+[20230613 16:21:44] [599604953] [MS] sendIpcAnswer: cmd[keepAlive], mask:189, ret:0
+[20230613 16:22:34] [599654953] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:22:34] [599654953] [MS] ipcDataParse: cmd:keepAlive, mask:190
+[20230613 16:22:34] [599654968] [MS] sendIpcAnswer: cmd[keepAlive], mask:190, ret:0
+[20230613 16:23:24] [599704968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:23:24] [599704968] [MS] ipcDataParse: cmd:keepAlive, mask:191
+[20230613 16:23:24] [599704968] [MS] sendIpcAnswer: cmd[keepAlive], mask:191, ret:0
+[20230613 16:24:14] [599754968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:24:14] [599754968] [MS] ipcDataParse: cmd:keepAlive, mask:192
+[20230613 16:24:14] [599754968] [MS] sendIpcAnswer: cmd[keepAlive], mask:192, ret:0
+[20230613 16:25:04] [599804968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:25:04] [599804968] [MS] ipcDataParse: cmd:keepAlive, mask:193
+[20230613 16:25:04] [599804968] [MS] sendIpcAnswer: cmd[keepAlive], mask:193, ret:0
+[20230613 16:25:54] [599854968] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:25:54] [599854968] [MS] ipcDataParse: cmd:keepAlive, mask:194
+[20230613 16:25:54] [599854968] [MS] sendIpcAnswer: cmd[keepAlive], mask:194, ret:0
+[20230613 16:26:44] [599904984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:26:44] [599904984] [MS] ipcDataParse: cmd:keepAlive, mask:195
+[20230613 16:26:44] [599904984] [MS] sendIpcAnswer: cmd[keepAlive], mask:195, ret:0
+[20230613 16:27:34] [599954984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:27:34] [599954984] [MS] ipcDataParse: cmd:keepAlive, mask:196
+[20230613 16:27:34] [599954984] [MS] sendIpcAnswer: cmd[keepAlive], mask:196, ret:0
+[20230613 16:28:24] [600004984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:28:24] [600004984] [MS] ipcDataParse: cmd:keepAlive, mask:197
+[20230613 16:28:24] [600004984] [MS] sendIpcAnswer: cmd[keepAlive], mask:197, ret:0
+[20230613 16:29:14] [600054984] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:29:14] [600054984] [MS] ipcDataParse: cmd:keepAlive, mask:198
+[20230613 16:29:14] [600054984] [MS] sendIpcAnswer: cmd[keepAlive], mask:198, ret:0
+[20230613 16:30:04] [600105000] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:30:04] [600105000] [MS] ipcDataParse: cmd:keepAlive, mask:199
+[20230613 16:30:04] [600105000] [MS] sendIpcAnswer: cmd[keepAlive], mask:199, ret:0
+[20230613 16:30:54] [600155000] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:30:54] [600155000] [MS] ipcDataParse: cmd:keepAlive, mask:200
+[20230613 16:30:54] [600155000] [MS] sendIpcAnswer: cmd[keepAlive], mask:200, ret:0
+[20230613 16:31:44] [600205000] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:31:44] [600205000] [MS] ipcDataParse: cmd:keepAlive, mask:201
+[20230613 16:31:44] [600205000] [MS] sendIpcAnswer: cmd[keepAlive], mask:201, ret:0
+[20230613 16:32:34] [600255000] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:32:34] [600255000] [MS] ipcDataParse: cmd:keepAlive, mask:202
+[20230613 16:32:34] [600255000] [MS] sendIpcAnswer: cmd[keepAlive], mask:202, ret:0
+[20230613 16:33:24] [600305015] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:33:24] [600305015] [MS] ipcDataParse: cmd:keepAlive, mask:203
+[20230613 16:33:24] [600305015] [MS] sendIpcAnswer: cmd[keepAlive], mask:203, ret:0
+[20230613 16:34:14] [600355015] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:34:14] [600355015] [MS] ipcDataParse: cmd:keepAlive, mask:204
+[20230613 16:34:14] [600355015] [MS] sendIpcAnswer: cmd[keepAlive], mask:204, ret:0
+[20230613 16:35:04] [600405015] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:35:04] [600405015] [MS] ipcDataParse: cmd:keepAlive, mask:205
+[20230613 16:35:04] [600405015] [MS] sendIpcAnswer: cmd[keepAlive], mask:205, ret:0
+[20230613 16:35:54] [600455015] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:35:54] [600455015] [MS] ipcDataParse: cmd:keepAlive, mask:206
+[20230613 16:35:54] [600455015] [MS] sendIpcAnswer: cmd[keepAlive], mask:206, ret:0
+[20230613 16:36:44] [600505031] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:36:44] [600505031] [MS] ipcDataParse: cmd:keepAlive, mask:207
+[20230613 16:36:44] [600505031] [MS] sendIpcAnswer: cmd[keepAlive], mask:207, ret:0
+[20230613 16:37:34] [600555031] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:37:34] [600555031] [MS] ipcDataParse: cmd:keepAlive, mask:208
+[20230613 16:37:34] [600555031] [MS] sendIpcAnswer: cmd[keepAlive], mask:208, ret:0
+[20230613 16:38:24] [600605031] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:38:25] [600605203] [MS] ipcDataParse: cmd:keepAlive, mask:209
+[20230613 16:38:25] [600605203] [MS] sendIpcAnswer: cmd[keepAlive], mask:209, ret:0
+[20230613 16:39:15] [600655203] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:39:15] [600655203] [MS] ipcDataParse: cmd:keepAlive, mask:210
+[20230613 16:39:15] [600655203] [MS] sendIpcAnswer: cmd[keepAlive], mask:210, ret:0
+[20230613 16:40:05] [600705203] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:40:05] [600705203] [MS] ipcDataParse: cmd:keepAlive, mask:211
+[20230613 16:40:05] [600705203] [MS] sendIpcAnswer: cmd[keepAlive], mask:211, ret:0
+[20230613 16:40:55] [600755203] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:40:55] [600755203] [MS] ipcDataParse: cmd:keepAlive, mask:212
+[20230613 16:40:55] [600755203] [MS] sendIpcAnswer: cmd[keepAlive], mask:212, ret:0
+[20230613 16:41:45] [600805218] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:41:45] [600805218] [MS] ipcDataParse: cmd:keepAlive, mask:213
+[20230613 16:41:45] [600805218] [MS] sendIpcAnswer: cmd[keepAlive], mask:213, ret:0
+[20230613 16:42:35] [600855218] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:42:35] [600855484] [MS] ipcDataParse: cmd:keepAlive, mask:214
+[20230613 16:42:35] [600855484] [MS] sendIpcAnswer: cmd[keepAlive], mask:214, ret:0
+[20230613 16:43:25] [600905484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:43:25] [600905484] [MS] ipcDataParse: cmd:keepAlive, mask:215
+[20230613 16:43:25] [600905484] [MS] sendIpcAnswer: cmd[keepAlive], mask:215, ret:0
+[20230613 16:44:15] [600955484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:44:15] [600955484] [MS] ipcDataParse: cmd:keepAlive, mask:216
+[20230613 16:44:15] [600955484] [MS] sendIpcAnswer: cmd[keepAlive], mask:216, ret:0
+[20230613 16:45:05] [601005500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:45:05] [601005500] [MS] ipcDataParse: cmd:keepAlive, mask:217
+[20230613 16:45:05] [601005500] [MS] sendIpcAnswer: cmd[keepAlive], mask:217, ret:0
+[20230613 16:45:55] [601055500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:45:55] [601055500] [MS] ipcDataParse: cmd:keepAlive, mask:218
+[20230613 16:45:55] [601055500] [MS] sendIpcAnswer: cmd[keepAlive], mask:218, ret:0
+[20230613 16:46:45] [601105500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:46:45] [601105500] [MS] ipcDataParse: cmd:keepAlive, mask:219
+[20230613 16:46:45] [601105500] [MS] sendIpcAnswer: cmd[keepAlive], mask:219, ret:0
+[20230613 16:47:35] [601155500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:47:35] [601155500] [MS] ipcDataParse: cmd:keepAlive, mask:220
+[20230613 16:47:35] [601155500] [MS] sendIpcAnswer: cmd[keepAlive], mask:220, ret:0
+[20230613 16:48:25] [601205515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:48:25] [601205515] [MS] ipcDataParse: cmd:keepAlive, mask:221
+[20230613 16:48:25] [601205515] [MS] sendIpcAnswer: cmd[keepAlive], mask:221, ret:0
+[20230613 16:49:15] [601255515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:49:15] [601255515] [MS] ipcDataParse: cmd:keepAlive, mask:222
+[20230613 16:49:15] [601255515] [MS] sendIpcAnswer: cmd[keepAlive], mask:222, ret:0
+[20230613 16:50:05] [601305515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:50:05] [601305515] [MS] ipcDataParse: cmd:keepAlive, mask:223
+[20230613 16:50:05] [601305515] [MS] sendIpcAnswer: cmd[keepAlive], mask:223, ret:0
+[20230613 16:50:55] [601355531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:50:55] [601355531] [MS] ipcDataParse: cmd:keepAlive, mask:224
+[20230613 16:50:55] [601355531] [MS] sendIpcAnswer: cmd[keepAlive], mask:224, ret:0
+[20230613 16:51:45] [601405531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:51:45] [601405531] [MS] ipcDataParse: cmd:keepAlive, mask:225
+[20230613 16:51:45] [601405531] [MS] sendIpcAnswer: cmd[keepAlive], mask:225, ret:0
+[20230613 16:52:35] [601455531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:52:35] [601455531] [MS] ipcDataParse: cmd:keepAlive, mask:226
+[20230613 16:52:35] [601455531] [MS] sendIpcAnswer: cmd[keepAlive], mask:226, ret:0
+[20230613 16:53:25] [601505531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:53:25] [601505531] [MS] ipcDataParse: cmd:keepAlive, mask:227
+[20230613 16:53:25] [601505531] [MS] sendIpcAnswer: cmd[keepAlive], mask:227, ret:0
+[20230613 16:54:15] [601555546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 16:54:15] [601555546] [MS] ipcDataParse: cmd:keepAlive, mask:228
+[20230613 16:54:15] [601555546] [MS] sendIpcAnswer: cmd[keepAlive], mask:228, ret:0
+[20230613 16:55:05] [601605546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:55:05] [601605546] [MS] ipcDataParse: cmd:keepAlive, mask:229
+[20230613 16:55:05] [601605546] [MS] sendIpcAnswer: cmd[keepAlive], mask:229, ret:0
+[20230613 16:55:55] [601655546] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:55:55] [601655546] [MS] ipcDataParse: cmd:keepAlive, mask:230
+[20230613 16:55:55] [601655546] [MS] sendIpcAnswer: cmd[keepAlive], mask:230, ret:0
+[20230613 16:56:45] [601705562] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 16:56:45] [601705562] [MS] ipcDataParse: cmd:keepAlive, mask:231
+[20230613 16:56:45] [601705562] [MS] sendIpcAnswer: cmd[keepAlive], mask:231, ret:0
+[20230613 16:57:35] [601755562] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:57:35] [601755562] [MS] ipcDataParse: cmd:keepAlive, mask:232
+[20230613 16:57:35] [601755562] [MS] sendIpcAnswer: cmd[keepAlive], mask:232, ret:0
+[20230613 16:58:25] [601805562] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:58:26] [601806359] [MS] ipcDataParse: cmd:keepAlive, mask:233
+[20230613 16:58:26] [601806359] [MS] sendIpcAnswer: cmd[keepAlive], mask:233, ret:0
+[20230613 16:59:16] [601856359] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 16:59:16] [601856359] [MS] ipcDataParse: cmd:keepAlive, mask:234
+[20230613 16:59:16] [601856359] [MS] sendIpcAnswer: cmd[keepAlive], mask:234, ret:0
+[20230613 17:00:06] [601906359] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:00:06] [601906375] [MS] ipcDataParse: cmd:keepAlive, mask:235
+[20230613 17:00:06] [601906375] [MS] sendIpcAnswer: cmd[keepAlive], mask:235, ret:0
+[20230613 17:00:56] [601956375] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:00:56] [601956375] [MS] ipcDataParse: cmd:keepAlive, mask:236
+[20230613 17:00:56] [601956375] [MS] sendIpcAnswer: cmd[keepAlive], mask:236, ret:0
+[20230613 17:01:46] [602006375] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:01:46] [602006375] [MS] ipcDataParse: cmd:keepAlive, mask:237
+[20230613 17:01:46] [602006375] [MS] sendIpcAnswer: cmd[keepAlive], mask:237, ret:0
+[20230613 17:02:36] [602056390] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 17:02:36] [602056390] [MS] ipcDataParse: cmd:keepAlive, mask:238
+[20230613 17:02:36] [602056390] [MS] sendIpcAnswer: cmd[keepAlive], mask:238, ret:0
+[20230613 17:03:26] [602106390] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:03:26] [602106390] [MS] ipcDataParse: cmd:keepAlive, mask:239
+[20230613 17:03:26] [602106390] [MS] sendIpcAnswer: cmd[keepAlive], mask:239, ret:0
+[20230613 17:04:16] [602156390] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:04:16] [602156390] [MS] ipcDataParse: cmd:keepAlive, mask:240
+[20230613 17:04:16] [602156390] [MS] sendIpcAnswer: cmd[keepAlive], mask:240, ret:0
+[20230613 17:05:06] [602206390] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:05:06] [602206390] [MS] ipcDataParse: cmd:keepAlive, mask:241
+[20230613 17:05:06] [602206390] [MS] sendIpcAnswer: cmd[keepAlive], mask:241, ret:0
+[20230613 17:05:56] [602256406] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 17:05:56] [602256406] [MS] ipcDataParse: cmd:keepAlive, mask:242
+[20230613 17:05:56] [602256406] [MS] sendIpcAnswer: cmd[keepAlive], mask:242, ret:0
+[20230613 17:06:46] [602306406] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:06:46] [602306406] [MS] ipcDataParse: cmd:keepAlive, mask:243
+[20230613 17:06:46] [602306406] [MS] sendIpcAnswer: cmd[keepAlive], mask:243, ret:0
+[20230613 17:07:36] [602356406] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:07:36] [602356406] [MS] ipcDataParse: cmd:keepAlive, mask:244
+[20230613 17:07:36] [602356406] [MS] sendIpcAnswer: cmd[keepAlive], mask:244, ret:0
+[20230613 17:08:26] [602406421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 17:08:26] [602406421] [MS] ipcDataParse: cmd:keepAlive, mask:245
+[20230613 17:08:26] [602406421] [MS] sendIpcAnswer: cmd[keepAlive], mask:245, ret:0
+[20230613 17:09:16] [602456421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:09:16] [602456421] [MS] ipcDataParse: cmd:keepAlive, mask:246
+[20230613 17:09:16] [602456421] [MS] sendIpcAnswer: cmd[keepAlive], mask:246, ret:0
+[20230613 17:10:06] [602506421] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:10:06] [602506421] [MS] ipcDataParse: cmd:keepAlive, mask:247
+[20230613 17:10:06] [602506421] [MS] sendIpcAnswer: cmd[keepAlive], mask:247, ret:0
+[20230613 17:10:56] [602556437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 17:10:56] [602556437] [MS] ipcDataParse: cmd:keepAlive, mask:248
+[20230613 17:10:56] [602556437] [MS] sendIpcAnswer: cmd[keepAlive], mask:248, ret:0
+[20230613 17:11:46] [602606437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:11:46] [602606437] [MS] ipcDataParse: cmd:keepAlive, mask:249
+[20230613 17:11:46] [602606437] [MS] sendIpcAnswer: cmd[keepAlive], mask:249, ret:0
+[20230613 17:12:36] [602656437] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:12:36] [602656437] [MS] ipcDataParse: cmd:keepAlive, mask:250
+[20230613 17:12:36] [602656437] [MS] sendIpcAnswer: cmd[keepAlive], mask:250, ret:0
+[20230613 17:13:26] [602706453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 17:13:26] [602706453] [MS] ipcDataParse: cmd:keepAlive, mask:251
+[20230613 17:13:26] [602706453] [MS] sendIpcAnswer: cmd[keepAlive], mask:251, ret:0
+[20230613 17:14:16] [602756453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:14:16] [602756453] [MS] ipcDataParse: cmd:keepAlive, mask:252
+[20230613 17:14:16] [602756453] [MS] sendIpcAnswer: cmd[keepAlive], mask:252, ret:0
+[20230613 17:15:06] [602806453] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:15:06] [602806453] [MS] ipcDataParse: cmd:keepAlive, mask:253
+[20230613 17:15:06] [602806453] [MS] sendIpcAnswer: cmd[keepAlive], mask:253, ret:0
+[20230613 17:15:56] [602856468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 17:15:56] [602856468] [MS] ipcDataParse: cmd:keepAlive, mask:254
+[20230613 17:15:56] [602856468] [MS] sendIpcAnswer: cmd[keepAlive], mask:254, ret:0
+[20230613 17:16:46] [602906468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:16:46] [602906468] [MS] ipcDataParse: cmd:keepAlive, mask:255
+[20230613 17:16:46] [602906468] [MS] sendIpcAnswer: cmd[keepAlive], mask:255, ret:0
+[20230613 17:17:36] [602956468] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:17:36] [602956468] [MS] ipcDataParse: cmd:keepAlive, mask:256
+[20230613 17:17:36] [602956468] [MS] sendIpcAnswer: cmd[keepAlive], mask:256, ret:0
+[20230613 17:18:26] [603006484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 17:18:26] [603006484] [MS] ipcDataParse: cmd:keepAlive, mask:257
+[20230613 17:18:26] [603006484] [MS] sendIpcAnswer: cmd[keepAlive], mask:257, ret:0
+[20230613 17:19:16] [603056484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:19:16] [603056484] [MS] ipcDataParse: cmd:keepAlive, mask:258
+[20230613 17:19:16] [603056484] [MS] sendIpcAnswer: cmd[keepAlive], mask:258, ret:0
+[20230613 17:20:06] [603106484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:20:06] [603106484] [MS] ipcDataParse: cmd:keepAlive, mask:259
+[20230613 17:20:06] [603106484] [MS] sendIpcAnswer: cmd[keepAlive], mask:259, ret:0
+[20230613 17:20:56] [603156484] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:20:56] [603156484] [MS] ipcDataParse: cmd:keepAlive, mask:260
+[20230613 17:20:56] [603156484] [MS] sendIpcAnswer: cmd[keepAlive], mask:260, ret:0
+[20230613 17:21:46] [603206500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 17:21:46] [603206500] [MS] ipcDataParse: cmd:keepAlive, mask:261
+[20230613 17:21:46] [603206500] [MS] sendIpcAnswer: cmd[keepAlive], mask:261, ret:0
+[20230613 17:22:36] [603256500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:22:36] [603256500] [MS] ipcDataParse: cmd:keepAlive, mask:262
+[20230613 17:22:36] [603256500] [MS] sendIpcAnswer: cmd[keepAlive], mask:262, ret:0
+[20230613 17:23:26] [603306500] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:23:26] [603306500] [MS] ipcDataParse: cmd:keepAlive, mask:263
+[20230613 17:23:26] [603306500] [MS] sendIpcAnswer: cmd[keepAlive], mask:263, ret:0
+[20230613 17:24:16] [603356515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50015ms
+[20230613 17:24:16] [603356515] [MS] ipcDataParse: cmd:keepAlive, mask:264
+[20230613 17:24:16] [603356515] [MS] sendIpcAnswer: cmd[keepAlive], mask:264, ret:0
+[20230613 17:25:06] [603406515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:25:06] [603406515] [MS] ipcDataParse: cmd:keepAlive, mask:265
+[20230613 17:25:06] [603406515] [MS] sendIpcAnswer: cmd[keepAlive], mask:265, ret:0
+[20230613 17:25:56] [603456515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:25:56] [603456515] [MS] ipcDataParse: cmd:keepAlive, mask:266
+[20230613 17:25:56] [603456515] [MS] sendIpcAnswer: cmd[keepAlive], mask:266, ret:0
+[20230613 17:26:46] [603506515] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:26:46] [603506515] [MS] ipcDataParse: cmd:keepAlive, mask:267
+[20230613 17:26:46] [603506515] [MS] sendIpcAnswer: cmd[keepAlive], mask:267, ret:0
+[20230613 17:27:36] [603556531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50016ms
+[20230613 17:27:36] [603556531] [MS] ipcDataParse: cmd:keepAlive, mask:268
+[20230613 17:27:36] [603556531] [MS] sendIpcAnswer: cmd[keepAlive], mask:268, ret:0
+[20230613 17:28:26] [603606531] [MS] [work-9] socketRecvThreadFunc: recv package ok, data lens=39Bytes, time cost=50000ms
+[20230613 17:28:26] [603606531] [MS] ipcDataParse: cmd:keepAlive, mask:269
+[20230613 17:28:26] [603606531] [MS] sendIpcAnswer: cmd[keepAlive], mask:269, ret:0
+[20230613 17:28:27] [603607375] [MS] [work-9] socketRecvThreadFunc: error: ret SOCKET_ERROR
+[20230613 17:30:07] [603707234] [MS] keepAliveThreadFunc: exit2 error: keep alive timeout
+[20230613 17:30:07] [603707234] [MS] moduleExit: start
+[20230613 17:30:07] [603707250] [MS] localHwndThreadMessageFunc: exit normal: get WM_DESTROY msg
+[20230613 17:30:07] [603707343] [MS] [work-9] socketSendThreadFunc: exit1 normal: getNeedStop = true
+[20230613 17:30:07] [603707343] [MS] socketParsePackageThreadFunc: exit1 normal: getNeedStop = true
+[20230613 17:30:07] [603707343] [MS] [work-9] socketRecvThreadFunc: exit1 normal: getNeedStop = true
+[20230613 17:30:07] [603707343] [MS] socketInitThreadFunc: exit3 normal: getNeedStop = true
+[20230613 17:30:07] [603707343] [MS] msgPackageSendThreadFunc: exit1 normal: getNeedStop = true
+[20230613 17:30:07] [603707343] [MS] moduleExit: end, time cost=93ms
+[20230613 17:30:07] [603707343] [MAIN] [main end, success=0, waitRet=0]
+
+
+[20230613 17:30:07] [603707359] [MS] moduleExit: do nothing
+[20230613 17:30:07] [603707359] [MS] ~cMultiDownloadServer destory
+[20230613 17:30:07] [603707359] [GMD] downloadStop: end
+[20230613 17:30:07] [603707359] [SM] ~cSunmiDownload destory
+[20230613 17:30:07] [603707359] [GMD] fr012DownloadThreadMessageFunc: exit normal: get WM_DESTROY msg
+[20230613 17:30:07] [603707359] [CH341A-CORE] ch341aCoreDeinit
+[20230613 17:30:07] [603707359] [MH2T] waitforThreadExit: done, time cost=0ms
+[20230613 17:30:07] [603707359] [MH2T] mh1902tDownloadThreadMessageFunc: exit normal: get WM_DESTROY msg
+[20230613 17:30:07] [603707359] [MH2T] downloadStop end
+[20230613 17:30:07] [603707359] [MH2T] waitforThreadExit: done, time cost=0ms
+[20230613 17:30:07] [603707359] [MH2T] ~cMh1902tDownload destory
+[20230613 17:30:07] [603707359] [CH341A-CORE] ch341aCoreDeinit
+[20230613 17:30:07] [603707359] [GMD] ~cGeneralModel:destory

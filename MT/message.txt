@@ -1,0 +1,157 @@
+HiBurn V100R001C00SPC200
+Image file check is complete, start flashing
+Empty film programming mode, start the paste first and then burn phase, please wait ...
+
+COM51 Usbloader.bin Download ...
+COM51 Usbloader.bin Download ...
+The COM51 port is closing the serial port, please wait ...
+COM51 usbloader.bin File Download Pass.
+This time, the first paste and then the flash burned a total of 1 devices. The flashing was successful:1, the flashing failed:0, and the success rate was 100%.
+
+Start scanning ADB devices, please wait ...
+
+Scan countdown: 19 seconds
+
+Scan countdown: 18 seconds
+
+Scan countdown: 17 seconds
+
+Scan countdown: 16 seconds
+
+Scan countdown: 15 seconds
+
+Scan countdown: 14 seconds
+
+Scan countdown: 13 seconds
+
+Scan countdown: 12 seconds
+
+Scan countdown: 11 seconds
+
+Scan countdown: 10 seconds
+
+Scan countdown: 9 seconds
+
+Scan countdown: 8 seconds
+
+Scan countdown: 7 seconds
+
+Scan countdown: 6 seconds
+
+Scan countdown: 5 seconds
+
+Scan countdown: 4 seconds
+
+Scan countdown: 3 seconds
+
+Scan countdown: 2 seconds
+
+Scan countdown: 1 seconds
+
+Scan countdown: 0 seconds
+
+Scanning for 20 seconds timed out. The number of ADB devices (2) scanned did not match the number of devices burned first (1)!
+
+Scanned 1 devices and started the image burn phase
+
+COM51 ######################  burn log  start  ############################
+COM51 2020-04-28 15:29:03
+[7%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 erasing 's_version'...
+fastboot:  COM51 OKAY [  2.589s]
+fastboot:  COM51 finished. total time: 2.589s
+[14%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'ptable' (2 KB)...
+fastboot:  COM51 OKAY [  0.011s]
+fastboot:  COM51 writing 'ptable'...
+fastboot:  COM51 OKAY [  0.242s]
+fastboot:  COM51 finished. total time: 0.253s
+[21%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'm3image' (51 KB)...
+fastboot:  COM51 OKAY [  0.012s]
+fastboot:  COM51 writing 'm3image'...
+fastboot:  COM51 OKAY [  0.282s]
+fastboot:  COM51 finished. total time: 0.294s
+[29%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'fastboot' (190 KB)...
+fastboot:  COM51 OKAY [  0.018s]
+fastboot:  COM51 writing 'fastboot'...
+fastboot:  COM51 OKAY [  0.521s]
+fastboot:  COM51 finished. total time: 0.539s
+[36%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'kernel' (5904 KB)...
+fastboot:  COM51 OKAY [  0.236s]
+fastboot:  COM51 writing 'kernel'...
+fastboot:  COM51 OKAY [ 11.196s]
+fastboot:  COM51 finished. total time: 11.432s
+[43%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'recovery' (5904 KB)...
+fastboot:  COM51 OKAY [  0.238s]
+fastboot:  COM51 writing 'recovery'...
+fastboot:  COM51 OKAY [ 11.197s]
+fastboot:  COM51 finished. total time: 11.435s
+[50%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'system' (21120 KB)...
+fastboot:  COM51 OKAY [  0.815s]
+fastboot:  COM51 writing 'system'...
+fastboot:  COM51 OKAY [ 39.230s]
+fastboot:  COM51 finished. total time: 40.045s
+[57%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'online' (2048 KB)...
+fastboot:  COM51 OKAY [  0.094s]
+fastboot:  COM51 writing 'online'...
+fastboot:  COM51 OKAY [  4.214s]
+fastboot:  COM51 finished. total time: 4.309s
+[64%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'recoveryfs' (7424 KB)...
+fastboot:  COM51 OKAY [  0.290s]
+fastboot:  COM51 writing 'recoveryfs'...
+fastboot:  COM51 OKAY [ 13.705s]
+fastboot:  COM51 finished. total time: 13.995s
+[71%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'dts' (87 KB)...
+fastboot:  COM51 OKAY [  0.013s]
+fastboot:  COM51 writing 'dts'...
+fastboot:  COM51 OKAY [  0.303s]
+fastboot:  COM51 finished. total time: 0.316s
+[79%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'hifi' (1688 KB)...
+fastboot:  COM51 OKAY [  0.073s]
+fastboot:  COM51 writing 'hifi'...
+fastboot:  COM51 OKAY [  3.356s]
+fastboot:  COM51 finished. total time: 3.429s
+[86%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'nvdload' (1429 KB)...
+fastboot:  COM51 OKAY [  0.065s]
+fastboot:  COM51 writing 'nvdload'...
+fastboot:  COM51 OKAY [  2.875s]
+fastboot:  COM51 finished. total time: 2.940s
+[93%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 sending 'm3boot' (8 KB)...
+fastboot:  COM51 OKAY [  0.011s]
+fastboot:  COM51 writing 'm3boot'...
+fastboot:  COM51 OKAY [  0.260s]
+fastboot:  COM51 finished. total time: 0.271s
+[100%]COM51 Image File Download ...
+fastboot:  COM51 < usb get ok >
+fastboot:  COM51 rebooting into bootloader...
+fastboot:  COM51 OKAY [  0.228s]
+fastboot:  COM51 finished. total time: 0.228s
+COM51 Image File Download Pass.
+This programming result This programming 1 devices, this programming result:
+The programming success:1, the programming failure:0, the success rate:100 %
+COM51 2020-04-28 15:30:36
+COM51 #######################  burn log  end  #############################

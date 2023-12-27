@@ -1,0 +1,31 @@
+[FW Path]:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\ap_bootloader.bin
+[FW DB]:RML00042A.1_QDM055_01.001.01.003;QCX216.FR.1.0-0042
+[Fixture Number]:1
+[Serial Number]:
+[IMEI]:NGSANPLE
+[Date]:2023-12-2_14:21:7
+[Tool Version]:DebugMode_MCU_FW_DL_ODM_V1.2.08
+[StationName]:DL_MCU
+[MO]:HF231106200855
+[OC]:QDM055EAEQ-N03-AAASM
+[DL Time]:0
+[FN]:QDM055-Cn-DL-001
+[Opertaor]:111
+++++++++++++++++++++++++++++++
+[DL Info]:Q6-T0125-S1-001:not need set 120M
+[DL Info]:[Log_Level]:L1
+[DL Info]:[MCU_Ver]:QCX216.FR.1.1-0019.6.2
+[DL Info]:md5-FW File FTP DL Pass
+[DL Info]:Firmware MD5 Check Pass
+[DL Info]:The file already exists and does not need to be unzip
+[DL Info]:E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\ap_bootloader.bin
+[Abstract_Log ErrCode ID]:50339846 
+[Abstract_Log ErrCode Info]:285117440 
+++++++++++++++trace log begin 1+++++++++++++++
+2023-11-30_17:30:36 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,831_2023-11-27_06-02-19.csv, Registration CSV file exists
+2023-12-2_14:20:27 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,364_2023-10-19_12-40-07.csv, Registration CSV file exists
+2023-12-2_14:20:46 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,364_2023-10-19_12-40-07.csv, Registration CSV file exists
+2023-12-2_14:21:7 <--> ************IMEI:NGSANPLE************
+2023-12-2_14:21:7 <--> FAIL, DB(MO_STD)Link Fail(OLD)!
+2023-12-2_14:21:7 <--> FAIL, Check(NGSANPLE)IMEI_STD Record Fail!
+++++++++++++++trace log end+++++++++++++++

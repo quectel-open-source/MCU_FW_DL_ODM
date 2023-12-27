@@ -1,0 +1,175 @@
+bool CDlg_FW_Multi::DO_WRITE_IMEI(int i_TSCH_Numb, int i_COM_AT_Port)
+{
+	CString csSN;
+
+
+	//
+	try
+	{
+		//------------------------------------- 输入、加载“需要写入的IMEI等数据” -------------------------------------
+		//
+		::WRITE_IMEI_LOAD_PARAMS_COM_AT( i_TSCH_Numb, i_COM_AT_Port, 115200 );
+
+
+		//“主IMEI”
+		::WRITE_IMEI_LOAD_DATA_IMEI_1( i_TSCH_Numb, true, this->m_csrIMEI_In_Code[i_TSCH_Numb - 1] );
+
+
+		//“SN”
+		csSN.Format(_T("%s%s"), this->m_csrSN_In_Code[i_TSCH_Numb - 1], _T("00"));
+		//
+		::WRITE_IMEI_LOAD_DATA_SN( i_TSCH_Numb, true, csSN );
+		//-------------------------------------
+
+
+
+		//清空已加载的IMEI和SN
+//		this->m_csrIMEI_Code[i_TSCH_Numb - 1].Format(_T(""));
+//		this->m_csrSN_Code[i_TSCH_Numb - 1].Format(_T(""));
+
+
+
+
+		//------------------------------------- “Write IMEI”测试的执行 -------------------------------------
+		if(::WRITE_IMEI_DO_WRITE_IMEI_V2( i_TSCH_Numb, false ) == false)
+		{
+			throw(0);
+		}
+		//-------------------------------------
+		//add jack 增加蓝牙地址的写入
+       if (true == this->m_bWrite_BT_Addr)
+       {
+		   //读取数据库获取蓝牙地址
+		   //连接SQL数据库，读取MO数据
+		   if(this->m_dlg_Config_Multi.m_bEnable_Conn_Sql_Server == true)
+		   {
+			   //读MO_STD数据				
+			   GetDlgItem(IDC_ZIP_INFO)->SetWindowText(_T("数据库连接中......"));
+			   GetDlgItem(IDC_MO)->SetWindowText(this->m_dlg_Config_Multi.m_csMO_Name);
+			   if(::SQL_DB_FIND_MO_STD_CONN(1, SENTRY_NO, this->m_dlg_Config_Multi.m_csMO_Name, &this->m_str_MO_STD) == true)
+			   {
+				   GetDlgItem(IDC_ZIP_INFO)->SetWindowText(_T("数据库连接成功"));
+
+				   CString csData,csBT_Addr;
+				   SQL_RECORD_SET_S str_IMEI_2017;
+				   int iStatus_DB, iStatus_IMEI;
+				   SQL_RECORD_SET_S str_IMEI_STD;
+				   //
+				   try
+				   {
+					   //读出“IMEI_STD 记录”
+					   iStatus_DB = ::SQL_DB_FIND_DB_IMEI_STD_2017_CONN( 2, SENTRY_NO, this->m_csrIMEI_In_Code[i_TSCH_Numb - 1], &str_IMEI_2017 );
+
+					   //处理搜索IMEI结果
+					   switch(iStatus_DB)
+					   {
+					      case SQL_FIND_TARGET://有IMEI数据，读数据，检查该IMEI数据，防止IMEI重复
+							  //读取蓝牙地址
+							  csBT_Addr.Format(_T("%s"), str_IMEI_2017.strr_Base_Data[DB_IMEI_STD_2017_BT_ADDR].cs_DATA);
+							  //检查蓝牙地址长度
+							  if(csBT_Addr.GetLength() == 12)
+							  {
+								  ::WRITE_IMEI_LOAD_DATA_BT_ADDR(i_TSCH_Numb, this->m_bWrite_BT_Addr, csBT_Addr);
+								  this->Show_Status(_T("蓝牙地址写入成功"), i_TSCH_Numb);
+							  }
+							  else
+							  {
+								  csData.Format(_T("ERROR, 蓝牙地址长度!=12!"));
+								  this->Show_Status(csData, i_TSCH_Numb);
+								  throw(0);
+							  }
+						   break;
+						   case SQL_FIND_NO_TARGET://无IMEI数据
+							   //读SQL中IMEI信息
+						   {
+							   int iRtn=0;
+							   iRtn = ::SQL_DB_FIND_IMEI_STD_CONN(1, SENTRY_NO,
+								   this->m_str_MO_STD.strr_Base_Data[MO_STD_MODEL_PRODU].cs_DATA,
+								   this->m_csrIMEI_In_Code[i_TSCH_Numb - 1],
+								   &str_IMEI_STD);
+							   //处理dll返回结果
+							   switch(iRtn)
+							   {
+									case SQL_FIND_TARGET://SQL有IMEI数据
+									   {
+										   csBT_Addr.Format(_T("%s"), str_IMEI_STD.strr_Base_Data[IMEI_STD_RESERVED + 0].cs_DATA);
+										   //检查蓝牙地址长度
+										   if(csBT_Addr.GetLength() == 12)
+										   {
+											   ::WRITE_IMEI_LOAD_DATA_BT_ADDR(i_TSCH_Numb, this->m_bWrite_BT_Addr, csBT_Addr);
+											   this->Show_Status(_T("蓝牙地址写入成功"), i_TSCH_Numb);
+										   }
+										   else
+										   {
+												csData.Format(_T("ERROR, 蓝牙地址长度!=12!"));
+												this->Show_Status(csData, i_TSCH_Numb);
+												throw(0);
+										   }
+									   }
+										break;
+									case SQL_FIND_NO_TARGET://无IMEI数据
+										{
+											csData.Format(_T("ERROR, 蓝牙地址写入失败!"));
+											this->Show_Status(csData, i_TSCH_Numb);
+											//
+											throw(0);
+										}
+										break;
+
+									default:
+										{
+											csData.Format(_T("ERROR, 蓝牙地址写入失败!"));
+											this->Show_Status(csData, i_TSCH_Numb);
+											//
+											throw(0);
+										}
+										break;
+									}
+							   break;
+						   }
+						   default:
+							{
+								csData.Format(_T("ERROR, 蓝牙地址写入失败!"));
+								this->Show_Status(csData, i_TSCH_Numb);
+								//
+								throw(0);
+							}
+							break;
+
+					   }
+				   }
+				   catch(...)
+				   {
+					   //清除加载给DLL的“写入、核对数据”
+					   ::WRITE_IMEI_CLEAR_ALL_IMPORT_DATA( i_TSCH_Numb );
+
+					   //fail
+					   return false;
+				   }
+			   }
+
+		   }
+		   
+       }
+       
+
+		//-------------------------------------
+
+
+
+		//清除加载给DLL的“写入、核对数据”
+		::WRITE_IMEI_CLEAR_ALL_IMPORT_DATA( i_TSCH_Numb );
+
+	}
+	catch(...)
+	{
+		//清除加载给DLL的“写入、核对数据”
+		::WRITE_IMEI_CLEAR_ALL_IMPORT_DATA( i_TSCH_Numb );
+
+		//fail
+		return false;
+	}
+
+	//pass
+	return true;
+}

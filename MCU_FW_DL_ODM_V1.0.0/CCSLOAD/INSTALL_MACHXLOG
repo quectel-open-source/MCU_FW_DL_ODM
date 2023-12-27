@@ -1,0 +1,58 @@
+***  Installation Started 05/05/2023 22:44  ***
+Title: CCSLOAD Installation
+Source: D:\Desktop\setup_ccsload5.exe | 05-05-2023 | 09:13:06 | 17854376
+File Copy: C:\Program Files (x86)\PICC\UNWISE.EXE | 03-09-2010 | 14:02:50 | 11.0.0.214 | 186464 | 2b25eb13
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\CCSLOAD
+RegDB Val: CCSLOAD
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\CCSLOAD
+RegDB Val: C:\PROGRA~2\PICC\UNWISE.EXE C:\PROGRA~2\PICC\INSTALL_MACHXLOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: C:\Program Files (x86)\PICC\Spbu.jpg | 01-19-2014 | 18:11:22 | | 21641 | b056ca1e
+File Copy: C:\Program Files (x86)\PICC\ccsload.exe | 03-07-2023 | 19:15:40 | 5.82.7.19 | 20455336 | cf499b81
+File Copy: C:\Program Files (x86)\PICC\ccsloader.exe | 03-07-2023 | 19:15:56 | | 725416 | 67d5112f
+File Overwrite: C:\Program Files (x86)\PICC\ccsload.chm | 08-02-2018 | 07:32:10 | | 4147035 | 623262eb
+File Copy: C:\Program Files (x86)\PICC\devices5p.dat | 02-16-2023 | 09:57:58 | | 14536704 | 2b798712
+File Copy: C:\Program Files (x86)\PICC\fuses.txt | 09-14-2022 | 11:24:24 | | 49011 | eaa44e4a
+File Copy: C:\Program Files (x86)\PICC\\icd-images-firmware-03-57.fw | 02-24-2023 | 12:12:32 | | 3307520 | aa8d589a
+File Copy: C:\Program Files (x86)\PICC\\icdfirmware-01-39.fw | 02-24-2005 | 11:44:28 | | 512000 | 6455ce59
+File Copy: C:\Program Files (x86)\PICC\\lng-images-firmware-v-03.21.fw | 11-16-2022 | 10:52:20 | | 829440 | be546f0c
+File Copy: C:\Program Files (x86)\PICC\\machx-images-firmware-01-47.fw | 09-14-2022 | 16:15:16 | | 2027520 | c73053b3
+File Copy: C:\Program Files (x86)\PICC\\picgang-images-firmware-v-01-22.fw | 07-16-2018 | 15:14:10 | | 920576 | e4889d70
+File Copy: C:\Program Files (x86)\PICC\\picload-images-firmware-v-01-29.fw | 07-16-2018 | 13:02:00 | | 647168 | 6e9c183
+File Copy: C:\Program Files (x86)\PICC\\prime8-images-firmware-v-03.22.fw | 10-20-2022 | 11:51:20 | | 4515840 | 93b96ad1
+File Copy: C:\Program Files (x86)\PICC\\ccsdbgpic12f629_675-calib.hex | 11-11-2003 | 13:56:14 | | 1327 | 53d1cb49
+File Copy: C:\Program Files (x86)\PICC\\ccsdbgpic16f630_676-calib.hex | 11-11-2003 | 14:10:58 | | 1323 | 9eed27ca
+Made Dir: C:\Program Files (x86)\PICC\DLL
+File Copy: C:\Program Files (x86)\PICC\DLL\Ccsicdu.dll | 03-07-2023 | 19:16:04 | 5.82.7.19 | 1113512 | 8f2e37ba
+File Copy: C:\Program Files (x86)\PICC\DLL\Ccsicd.dll | 03-07-2023 | 19:16:12 | 5.82.7.19 | 1084328 | 7c1cb3c4
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PIC-C\ccsload.lnk
+Link Info: C:\Program Files (x86)\PICC\ccsload.exe |  |  | 0 | 1 | 0 | 
+Made Dir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PIC-C
+Shell Link: C:\Users\Public\Desktop\ccsload.lnk
+Link Info: C:\Program Files (x86)\PICC\ccsload.exe |  |  | 0 | 1 | 0 | 
+RegDB Key: .HEX
+RegDB Val: Intel HEX File
+RegDB Key: Intel HEX File
+RegDB Val: ICD
+RegDB Key: Intel HEX File\shell\open\command
+RegDB Val: C:\PROGRA~2\PICC\machx.exe %1
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\CCSLOAD
+RegDB Val: 1.x
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\CCSLOAD
+RegDB Val: 262-797-0455
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\CCSLOAD
+RegDB Val: CCS
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\CCSLOAD
+RegDB Val: http://www.ccsinfo.com/picc
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+User Rights: Admin

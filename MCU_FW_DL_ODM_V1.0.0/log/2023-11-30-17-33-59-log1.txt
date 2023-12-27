@@ -1,0 +1,58 @@
+2023-11-30_17:30:16 <--> Note: not set PLC Port!
+2023-11-30_17:30:16 <--> Fixture Number Length Error
+2023-11-30_17:30:16 <--> Link DB(MO:HF231106200855)......
+2023-11-30_17:30:16 <--> Link DB Pass
+2023-11-30_17:30:16 <--> Q6-T0125-S1-001:not need set 120M
+2023-11-30_17:30:16 <--> DB(MO:HF231106200855,OC:QDM055EAEQ-N03-AAASM,FW_Ver:RML00042A.1_QDM055_01.001.01.003)......
+2023-11-30_17:30:16 <--> MO_Name:HF231106200855, Tool_Name:{"TestFlow":[{"Id":"1","Station":"SilverLabel","Status":"AUTO_SN_GEN","SNFlag":"","TestTool":"ODM_MOB_Label_Print"},{"Id":"2","Station":"RF_FT","Status":"AUTO_FT","SNFlag":"","TestTool":"ODM_MOB_FT"},{"Id":"3","Station":"FCT","Status":"AUTO_FCT","SNFlag":"","TestTool":"ODM_FCT_Test_MOB"},{"Id":"4","Station":"DL_MCU","Status":"AUTO_DL_MCU","SNFlag":"","TestTool":"MCU_FW_DL_ODM"},{"Id":"5","Station":"AttLabel","Status":"Auto_Att_Label","SNFlag":"","TestTool":"ODM_Extend_Label_Print"},{"Id":"6","Station":"Collect","Status":"AUTO_PACK","SNFlag":"","TestTool":"ODM_Collect"},{"Id":"7","Station":"Ship","Status":"AUTO_SHIP","SNFlag":"","TestTool":"
+2023-11-30_17:30:16 <--> Get_SQL_ATT_Custom_Test_Flow Pass
+2023-11-30_17:30:16 <--> Custom_Test_Flow_Allow_Status:"AUTO_FCT","AUTO_DL_MCU","Auto_Att_Label"
+2023-11-30_17:30:16 <--> Custom_Test_Flow_Allow_SNFlag:"","",""
+2023-11-30_17:30:16 <--> Custom_Test_Flow_Write_Status:"AUTO_DL_MCU"
+2023-11-30_17:30:16 <--> Custom_Test_Flow_Write_SNFlag:""
+2023-11-30_17:30:16 <--> LastStatus:"AUTO_FCT"
+2023-11-30_17:30:16 <--> Check_CustomTestFlow Pass
+2023-11-30_17:30:17 <--> MO_Name:HF231106200855, Tool_Name:MCU_FW_DL_ODM-V1.2.07
+2023-11-30_17:30:17 <--> DB Tool Ver:V1.2.07
+2023-11-30_17:30:17 <--> Local Tool Ver:V1.2.08
+2023-11-30_17:30:17 <--> OC(QDM055EAEQ-N03-AAASM)-Produ_Name(QDM055-EAEQ)-Produ_Type(7)-Produ_Ver(0)
+2023-11-30_17:30:17 <--> =====PRODU_TYPE_MOB======
+2023-11-30_17:30:17 <--> GetOcpVal m_eu_BB_Chip: 118
+2023-11-30_17:30:17 <--> Note:Produ_Name:QDM055-EAEQ-Voltage:3.700000-Current:3.000000
+2023-11-30_17:30:17 <--> LTE Product
+2023-11-30_17:30:17 <--> Need Log_Level-L1
+2023-11-30_17:30:17 <--> Config File-Registration31,831_2023-11-27_06-02-19
+2023-11-30_17:30:17 <--> Need DL MCU_Ver-QCX216.FR.1.1-0019.6.2
+2023-11-30_17:30:17 <--> NOT REP MO
+2023-11-30_17:30:17 <--> Not Nend GetO_Mo-1
+2023-11-30_17:30:17 <--> HF
+2023-11-30_17:30:17 <--> /ikotek/DCC/ikotek-hf
+2023-11-30_17:30:17 <--> Delete Local FW Dir...
+2023-11-30_17:30:17 <--> Delete Local FW Dir Pass
+2023-11-30_17:30:17 <--> Find FW Path...
+2023-11-30_17:30:17 <--> FW_Name=FIR is exist
+2023-11-30_17:30:17 <--> Find Fir Path Pass
+2023-11-30_17:30:17 <--> MD5 and FW Files Lost
+2023-11-30_17:30:17 <--> FTP Internet Session(md5)...
+2023-11-30_17:30:18 <--> QCX216.FR.1.1-0019.6.2.md5 Loading
+2023-11-30_17:30:18 <--> QCX216.FR.1.1-0019.6.2.md5 Loading Pass
+2023-11-30_17:30:18 <--> Md5 File DL Pass
+2023-11-30_17:30:18 <--> FW File FTP DL Start...
+2023-11-30_17:30:18 <--> FTP Internet Session(FW)...
+2023-11-30_17:30:18 <--> QCX216.FR.1.1-0019.6.2.zip Loading
+2023-11-30_17:30:35 <--> QCX216.FR.1.1-0019.6.2.zip Loading Pass
+2023-11-30_17:30:35 <--> FW File DL Pass
+2023-11-30_17:30:35 <--> MD5 Check...
+2023-11-30_17:30:35 <--> MD5 Check Pass
+2023-11-30_17:30:35 <--> Local FW Unzip...
+2023-11-30_17:30:35 <--> Local FW Dir not exist
+2023-11-30_17:30:35 <--> Exact Package......
+2023-11-30_17:30:36 <--> Local FW Unzip Pass
+2023-11-30_17:30:36 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\*
+2023-11-30_17:30:36 <--> Find_Fw_File MCU Pass_FileSuffix
+2023-11-30_17:30:36 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QCX216.FR.1.1-0019.6.2\ap_bootloader.bin
+2023-11-30_17:30:36 <--> Get_Platform m_eu_BB_Chip: 118
+2023-11-30_17:30:36 <--> FW:E:\CASECODE\CODES\MCU_FW_DL_ODM_CODE\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\FIR\QCX216.FR.1.1-0019.6.2\AP_BOOTLOADER.BIN
+2023-11-30_17:30:36 <--> m_eu_BB_Chip: 118
+2023-11-30_17:30:36 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,831_2023-11-27_06-02-19.csv, Registration CSV file exists
+2023-11-30_17:30:36 <--> Fixture Number Length Error

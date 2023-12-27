@@ -1,0 +1,29 @@
+Application log started
+ - J-Flash V6.82c (J-Flash compiled Jul 31 2020 17:37:19)
+ - JLinkARM.dll V6.82c (DLL compiled Jul 31 2020 17:36:49)
+Optional command line parameters found
+ - [1]: -openprjE:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM027\1\QDM551_Jflashfile.jflash
+ - [2]: -openE:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDM551_FM33LG048_01.001.01.001_BETA20231128\QDM551_FM33LG048_01.001.01.001_BETA20231128.hex,0x0000000
+ - [3]: -erasechip
+ - [4]: -programverify
+ - [5]: -startapp
+ - [6]: -jflashlogE:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM027\1\JflashResult.txt
+ - [7]: -exit
+Reading flash device list [E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM027\1\ETC/JFlash/Flash.csv] ...
+ - List of flash devices read successfully (451 Devices)
+Reading MCU device list ...
+ - List of MCU devices read successfully (7707 Devices)
+Opening project file [E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM027\1\QDM551_Jflashfile.jflash] ...
+ - Project opened successfully
+Opening data file [E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDM551_FM33LG048_01.001.01.001_BETA20231128\QDM551_FM33LG048_01.001.01.001_BETA20231128.hex] ...
+ - Data file opened successfully (88276 bytes, 2 ranges, CRC of data = 0x42A7A885, CRC of file = 0x8DC2ED9A)
+Erasing chip ...
+ - Connecting ...
+  - ERROR: Failed to connect.
+Could not establish a connection to target.
+ - ERROR: Could not erase chip, not connected
+J-Flash V6.82c Error: Failed to connect.
+Could not establish a connection to target.
+Could not erase chip, not connected
+Close project
+ - Project closed

@@ -1,0 +1,32 @@
+[FW Path]:E:\CaseDocs\QDM055\QCX216.FR.1.1-0019.6.2\QCX216.FR.1.1-0019.6.2\ap_bootloader.bin
+[FW DB]:RML00042A.1_QDM055_01.001.01.003;QCX216.FR.1.0-0042
+[Fixture Number]:1
+[Serial Number]:
+[IMEI]:TTR000000088
+[Date]:2023-12-7_15:37:13
+[Tool Version]:MCU_FW_DL_ODM_V1.2.08
+[StationName]:DL_MCU
+[MO]:HF231206154052
+[OC]:QDM055EAEQ-N03-AAASM
+[DL Time]:1
+[FN]:QDM055-CN-DL-001
+[Opertaor]:111
+++++++++++++++++++++++++++++++
+[DL Info]:Q6-T0125-S1-001:not need set 120M
+[DL Info]:[Log_Level]:L1
+[DL Info]:[MCU_Ver]:QCX216.FR.1.1-0019.6.2
+[Abstract_Log ErrCode ID]:50340095 
+[Abstract_Log ErrCode Info]:289664976 
+++++++++++++++trace log begin 1+++++++++++++++
+2023-12-2_14:21:34 <--> ************IMEI:************
+2023-12-2_14:21:45 <--> Open Port0 ......
+2023-12-2_14:22:5 <--> Open Port Timeout
+2023-12-2_14:22:6 <--> QDM046 CustomerFlowTest Fail
+2023-12-2_14:22:6 <--> =====ERR-OC:QDM055EAEQ-N03-AAASM=====
+2023-12-7_15:35:14 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,364_2023-10-19_12-40-07.csv, Registration CSV file exists
+2023-12-7_15:37:2 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,364_2023-10-19_12-40-07.csv, Registration CSV file exists
+2023-12-7_15:37:12 <--> ************IMEI:TTR000000088************
+2023-12-7_15:37:13 <--> Check(TTR000000088)IMEI_STD Record Complete
+2023-12-7_15:37:13 <--> QDM046 CustomerFlowTest Fail
+2023-12-7_15:37:13 <--> =====ERR-OC:QDM055EAEQ-N03-AAASM=====
+++++++++++++++trace log end+++++++++++++++

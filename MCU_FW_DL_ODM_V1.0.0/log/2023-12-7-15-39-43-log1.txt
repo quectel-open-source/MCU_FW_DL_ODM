@@ -1,0 +1,68 @@
+2023-12-7_15:37:1 <--> Note: not set PLC Port!
+2023-12-7_15:37:1 <--> Link DB(MO:HF231206154052)......
+2023-12-7_15:37:1 <--> Link DB Pass
+2023-12-7_15:37:1 <--> Q6-T0125-S1-001:not need set 120M
+2023-12-7_15:37:1 <--> DB(MO:HF231206154052,OC:QDM055EAEQ-N03-AAASM,FW_Ver:RML00042A.1_QDM055_01.001.01.003)......
+2023-12-7_15:37:1 <--> MO_Name:HF231206154052, Tool_Name:{"TestFlow":[{"Id":"1","Station":"SilverLabel","Status":"AUTO_SN_GEN","SNFlag":"","TestTool":"ODM_MOB_Label_Print"},{"Id":"2","Station":"RF_FT","Status":"AUTO_FT","SNFlag":"","TestTool":"ODM_MOB_FT"},{"Id":"3","Station":"FCT","Status":"AUTO_FCT","SNFlag":"","TestTool":"ODM_FCT_Test_MOB"},{"Id":"4","Station":"DL_MCU","Status":"AUTO_DL_MCU","SNFlag":"","TestTool":"MCU_FW_DL_ODM"},{"Id":"5","Station":"AttLabel","Status":"Auto_Att_Label","SNFlag":"","TestTool":"ODM_Extend_Label_Print"},{"Id":"6","Station":"Collect","Status":"AUTO_PACK","SNFlag":"","TestTool":"ODM_Collect"},{"Id":"7","Station":"Ship","Status":"AUTO_SHIP","SNFlag":"","TestTool":"出货管理系统_ODM"}]}
+2023-12-7_15:37:1 <--> Get_SQL_ATT_Custom_Test_Flow Pass
+2023-12-7_15:37:1 <--> Custom_Test_Flow_Allow_Status:"AUTO_FCT","AUTO_DL_MCU","Auto_Att_Label"
+2023-12-7_15:37:1 <--> Custom_Test_Flow_Allow_SNFlag:"","",""
+2023-12-7_15:37:1 <--> Custom_Test_Flow_Write_Status:"AUTO_DL_MCU"
+2023-12-7_15:37:1 <--> Custom_Test_Flow_Write_SNFlag:""
+2023-12-7_15:37:1 <--> LastStatus:"AUTO_FCT"
+2023-12-7_15:37:1 <--> Check_CustomTestFlow Pass
+2023-12-7_15:37:1 <--> MO_Name:HF231206154052, Tool_Name:MCU_FW_DL_ODM-V1.2.07
+2023-12-7_15:37:1 <--> DB Tool Ver:V1.2.07
+2023-12-7_15:37:1 <--> Local Tool Ver:V1.2.08
+2023-12-7_15:37:1 <--> OC(QDM055EAEQ-N03-AAASM)-Produ_Name(QDM055-EAEQ)-Produ_Type(7)-Produ_Ver(0)
+2023-12-7_15:37:1 <--> =====PRODU_TYPE_MOB======
+2023-12-7_15:37:1 <--> GetOcpVal m_eu_BB_Chip: 118
+2023-12-7_15:37:1 <--> Note:Produ_Name:QDM055-EAEQ-Voltage:3.700000-Current:3.000000
+2023-12-7_15:37:1 <--> LTE Product
+2023-12-7_15:37:1 <--> Need Log_Level-L1
+2023-12-7_15:37:1 <--> Config File-Registration31,364_2023-10-19_12-40-07
+2023-12-7_15:37:1 <--> Need DL MCU_Ver-QCX216.FR.1.1-0019.6.2
+2023-12-7_15:37:1 <--> NOT REP MO
+2023-12-7_15:37:1 <--> Not Nend GetO_Mo-1
+2023-12-7_15:37:2 <--> HF
+2023-12-7_15:37:2 <--> /ikotek/DCC/ikotek-hf
+2023-12-7_15:37:2 <--> Get_Platform m_eu_BB_Chip: 118
+2023-12-7_15:37:2 <--> FW:E:\CASEDOCS\QDM055\QCX216.FR.1.1-0019.6.2\QCX216.FR.1.1-0019.6.2\AP_BOOTLOADER.BIN
+2023-12-7_15:37:2 <--> m_eu_BB_Chip: 118
+2023-12-7_15:37:2 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\QDM055\Registration31,364_2023-10-19_12-40-07.csv, Registration CSV file exists
+2023-12-7_15:37:12 <--> Barcode[1]:"TTR000000088"
+2023-12-7_15:37:12 <--> Barcode_Valid_Data = 1
+2023-12-7_15:37:12 <--> TTR000000088
+2023-12-7_15:37:12 <--> Barcode_IMEI_1_C11
+2023-12-7_15:37:12 <--> DL测试台1输入条码: "TTR000000088"
+2023-12-7_15:37:12 <--> DL测试CH1输入IMEI_SN: "TTR000000088", ""
+2023-12-7_15:37:12 <--> DL_State:2
+2023-12-7_15:37:12 <--> Start Search"TTR000000088" First_Product to DB
+2023-12-7_15:37:12 <--> First_Product-1 "TTR000000088" Fail
+2023-12-7_15:37:12 <--> Find First_Product DB Complete-"TTR000000088"
+2023-12-7_15:37:12 <--> ************IMEI:TTR000000088************
+2023-12-7_15:37:12 <--> DL init(Check DB Data)-MOB...
+2023-12-7_15:37:12 <--> Factory_Info_Name...HF
+2023-12-7_15:37:12 <--> Start Query "TTR000000088" Record From DB
+2023-12-7_15:37:13 <--> MOB_SN in DB
+2023-12-7_15:37:13 <--> AT_UseFlag_QDM =false
+2023-12-7_15:37:13 <--> TestFlow- Update MOB SN Status Pass!
+2023-12-7_15:37:13 <--> Check(TTR000000088)IMEI_STD Record Complete
+2023-12-7_15:37:13 <--> DL init(Check DB Data End)...
+2023-12-7_15:37:13 <--> QDM046 CustomerFlowTest Fail
+2023-12-7_15:37:13 <--> =====ERR-OC:QDM055EAEQ-N03-AAASM=====
+2023-12-7_15:37:13 <--> CH1:Port(4)-
+2023-12-7_15:37:13 <--> Error_Code=,50331648
+2023-12-7_15:37:13 <--> [提示]:没有获取到总控提供的线体号和操作员号
+2023-12-7_15:37:13 <--> FN_Name Len need 10-30
+2023-12-7_15:37:13 <--> [FN]:
+2023-12-7_15:37:13 <--> QDM055-CN-DL-001
+2023-12-7_15:37:13 <--> #########ErrCode=0x03000000 ################################TTR000000088
+2023-12-7_15:37:13 <--> IMEI(TTR000000088)-SQL_DB_ADD_ABSTRACT_LOG_CONN(1) Pass
+2023-12-7_15:37:13 <--> SaveLog_Abstract=0
+2023-12-7_15:37:13 <--> RTN_SUCCESS=1
+2023-12-7_15:37:13 <--> Create Directory...
+2023-12-7_15:37:13 <--> Create Directory Pass
+2023-12-7_15:37:13 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\HF231206154052\TTR000000088_DL_MCU_CH1_2023_12_7_15_37_13_FAIL.txt
+2023-12-7_15:37:13 <--> Record File(TTR000000088_DL_MCU_CH1_2023_12_7_15_37_13_FAIL.txt) FTP Upload Pass
+2023-12-7_15:37:13 <--> DL_OBJ_State:1-7

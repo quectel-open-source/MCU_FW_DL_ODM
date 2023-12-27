@@ -1,0 +1,48 @@
+2023-12-11_11:19:11 <--> Note: not set PLC Port!
+2023-12-11_11:19:11 <--> Link DB(MO:HF231211110116)......
+2023-12-11_11:19:11 <--> Link DB Pass
+2023-12-11_11:19:11 <--> PN_TEST-001:not need set 120M
+2023-12-11_11:19:11 <--> DB(MO:HF231211110116,OC:QDE507SPAK-U61-BAAAA,FW_Ver:
+2023-12-11_11:19:12 <--> MO_Name:HF231211110116, Tool_Name:{"TestFlow":[{"Id":"1","Station":"SilverLabel","Status":"AUTO_SN_GEN","SNFlag":"","TestTool":"ODM_MOB_Label_Print"},{"Id":"2","Station":"DL_FW","Status":"AUTO_DL_FW","SNFlag":"","TestTool":"FW_DL_And_Format_ODM"},{"Id":"3","Station":"DL_MCU","Status":"AUTO_DL_MCU","SNFlag":"","TestTool":"MCU_FW_DL_ODM"},{"Id":"4","Station":"RF_FT","Status":"AUTO_FT","SNFlag":"","TestTool":"ODM_RF_FT_QCM_5G"},{"Id":"5","Station":"Collect","Status":"AUTO_PACK","SNFlag":"","TestTool":"IKOTEK_Collect"},{"Id":"6","Station":"Ship","Status":"AUTO_SHIP","SNFlag":"","TestTool":"
+2023-12-11_11:19:12 <--> Get_SQL_ATT_Custom_Test_Flow Pass
+2023-12-11_11:19:12 <--> Custom_Test_Flow_Allow_Status:"AUTO_DL_FW","AUTO_DL_MCU","AUTO_FT"
+2023-12-11_11:19:12 <--> Custom_Test_Flow_Allow_SNFlag:"","",""
+2023-12-11_11:19:12 <--> Custom_Test_Flow_Write_Status:"AUTO_DL_MCU"
+2023-12-11_11:19:12 <--> Custom_Test_Flow_Write_SNFlag:""
+2023-12-11_11:19:12 <--> LastStatus:"AUTO_DL_FW"
+2023-12-11_11:19:12 <--> Check_CustomTestFlow Pass
+2023-12-11_11:19:12 <--> MO_Name:HF231211110116, Tool_Name:MCU_FW_DL_ODM-V1.2.07
+2023-12-11_11:19:12 <--> DB Tool Ver:V1.2.07
+2023-12-11_11:19:12 <--> Local Tool Ver:V1.2.09
+2023-12-11_11:19:12 <--> OC(QDE507SPAK-U61-BAAAA)-Produ_Name(QDE507-SPAK)-Produ_Type(1)-Produ_Ver(0)
+2023-12-11_11:19:12 <--> =====PRODU_TYPE_PCBA======
+2023-12-11_11:19:12 <--> GetOcpVal m_eu_BB_Chip: 118
+2023-12-11_11:19:12 <--> Note:Produ_Name:QDE507-SPAK-Voltage:3.800000-Current:3.000000
+2023-12-11_11:19:12 <--> LTE Product
+2023-12-11_11:19:12 <--> Need Log_Level-L1
+2023-12-11_11:19:12 <--> Need DL MCU_Ver-SPD-G14726 V0.17.4
+2023-12-11_11:19:12 <--> NOT REP MO
+2023-12-11_11:19:12 <--> Not Nend GetO_Mo-1
+2023-12-11_11:19:12 <--> HF
+2023-12-11_11:19:12 <--> /ikotek/DCC/ikotek-hf
+2023-12-11_11:19:12 <--> Delete Local FW Dir...
+2023-12-11_11:19:12 <--> Not Need Delete File
+2023-12-11_11:19:12 <--> Find FW Path...
+2023-12-11_11:19:12 <--> FW_Name=FIR is exist
+2023-12-11_11:19:12 <--> Find Fir Path Pass
+2023-12-11_11:19:12 <--> Local Firmware Exist
+2023-12-11_11:19:12 <--> MD5 Check...
+2023-12-11_11:19:12 <--> MD5 Check Pass
+2023-12-11_11:19:12 <--> Local FW Unzip...
+2023-12-11_11:19:12 <--> Local FW Dir exist
+2023-12-11_11:19:12 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\SPD-G14726 V0.17.4\*
+2023-12-11_11:19:12 <--> Find_Fw_File MCU Pass_FileSuffix
+2023-12-11_11:19:12 <--> E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\SPD-G14726 V0.17.4\spd1680.hex
+2023-12-11_11:19:12 <--> Get_Platform m_eu_BB_Chip: 118
+2023-12-11_11:19:12 <--> FW:E:\CASECODE\CODES\MCU_FW_DL_ODM_CODE\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\FIR\SPD-G14726 V0.17.4\SPD1680.HEX
+2023-12-11_11:19:12 <--> m_eu_BB_Chip: 118
+2023-12-11_11:19:14 <--> CMD File Save OK
+2023-12-11_11:19:14 <--> LOAD_FW_FILE_QDE507 Pass!
+2023-12-11_11:19:20 <--> Fail,Load_FW_File_QCMM
+2023-12-11_11:19:20 <--> Fail,Load_All_DL_Files_QCMM
+2023-12-11_11:19:20 <--> FAIL,Load_FW_Files Fail

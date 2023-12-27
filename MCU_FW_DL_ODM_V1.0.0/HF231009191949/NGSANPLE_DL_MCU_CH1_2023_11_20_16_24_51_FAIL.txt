@@ -1,0 +1,24 @@
+[FW Path]:C:\Users\quectel\Desktop\QDM046\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\SDCard
+[FW DB]:нч;нч
+[Fixture Number]:1
+[Serial Number]:
+[IMEI]:NGSANPLE
+[Date]:2023-11-20_16:24:51
+[Tool Version]:MCU_FW_DL_ODM_V1.2.08
+[StationName]:DL_MCU
+[MO]:HF231009191949
+[OC]:QDM046EARN-BAS-AAASM
+[DL Time]:1
+[FN]:QDM046-CN-DL-001
+[Opertaor]:111
+++++++++++++++++++++++++++++++
+[DL Info]:PN-TEST-01-001:not need set 120M
+[DL Info]:[Log_Level]:L1
+[DL Info]:[MCU_Ver]:нч
+[Abstract_Log ErrCode ID]:50339846 
+[Abstract_Log ErrCode Info]:234490832 
+++++++++++++++trace log begin 1+++++++++++++++
+2023-11-20_16:24:50 <--> ************IMEI:NGSANPLE************
+2023-11-20_16:24:51 <--> FAIL, DB(MO_STD)Link Fail(OLD)!
+2023-11-20_16:24:51 <--> FAIL, Check(NGSANPLE)IMEI_STD Record Fail!
+++++++++++++++trace log end+++++++++++++++

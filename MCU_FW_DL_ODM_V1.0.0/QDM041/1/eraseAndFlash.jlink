@@ -1,0 +1,11 @@
+device NRF52832_XXAA
+usb 0
+si 1
+speed 4000
+erase
+sleep 400
+loadfile "E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDM041_NRF52832_01.001.01.004\QDM041_NRF52832_01.001.01.004.hex" 0x00000000
+sleep 100
+r
+g
+q

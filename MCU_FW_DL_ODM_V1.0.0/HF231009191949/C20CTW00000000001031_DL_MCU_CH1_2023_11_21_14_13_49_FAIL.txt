@@ -1,0 +1,75 @@
+[FW Path]:C:\Users\quectel\Desktop\QDM046\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\SDCard
+[FW DB]:нч;нч
+[Fixture Number]:1
+[Serial Number]:
+[IMEI]:C20CTW00000000001031
+[Date]:2023-11-21_14:13:49
+[Tool Version]:MCU_FW_DL_ODM_V1.2.08
+[StationName]:DL_MCU
+[MO]:HF231009191949
+[OC]:QDM046EARN-BAS-AAASM
+[DL Time]:58
+[FN]:QDM046-Cn-DL-001
+[Opertaor]:111
+++++++++++++++++++++++++++++++
+[DL Info]:PN-TEST-01-001:not need set 120M
+[DL Info]:[Log_Level]:L1
+[DL Info]:[MCU_Ver]:нч
+[Abstract_Log ErrCode ID]:50332767 
+[Abstract_Log ErrCode Info]:242876880 
+++++++++++++++trace log begin 1+++++++++++++++
+2023-11-21_14:12:50 <--> ************IMEI:C20CTW00000000001031************
+2023-11-21_14:12:50 <--> Check(C20CTW00000000001031)IMEI_STD Record Complete
+2023-11-21_14:13:0 <--> ssh connect and check sn...
+2023-11-21_14:13:5 <--> Link_SSH_OK
+2023-11-21_14:13:5 <--> SSH recv data: C20CTW00000000001031
+
+2023-11-21_14:13:5 <--> QDM046 check sn pass.
+2023-11-21_14:13:5 <--> Start Verify MAC Addresses...
+2023-11-21_14:13:9 <--> Link_SSH_OK
+2023-11-21_14:13:9 <--> SSH recv data: 
+Base MAC Address Max Exec Time: 5.0 Secs 
+
+Base MAC Addr: 00:76:3d:01:25:40
+Base MAC Addr: 00:76:3d:01:25:41
+Base MAC Addr: 00:76:3d:01:25:42
+Base MAC Addr: 00:76:3d:01:25:43
+Base MAC Addr: 00:76:3d:01:25:44
+Base MAC Addr: 00:76:3d:01:25:45
+
+Base MAC Address Exec Time: 33.46 mSec(s)
+Base MAC Address Status: [32mPass[0m
+
+
+2023-11-21_14:13:9 <--> QDM046 Verify MAC Addresses Pass.
+2023-11-21_14:13:9 <--> Start Firmware Version Check...
+2023-11-21_14:13:14 <--> Link_SSH_OK
+2023-11-21_14:13:14 <--> SSH recv data: 
+Manufacturing Firmware Version Max Exec Time: 5.0 Secs 
+
+Manufacturing Version: 2.32.0-1.mfg.alpha.4.0.3
+Manufacturing Version: qsdk-ipq-spf11-1-cs-p1
+Manufacturing Version: Wed 25 Oct 15:20:20 UTC 2023
+
+Manufacturing Firmware Version Exec Time: 20.37 mSec(s)
+Manufacturing Firmware Version Status: [32mPass[0m
+
+
+2023-11-21_14:13:14 <--> QDM046 Firmware Version Check Pass.
+2023-11-21_14:13:14 <--> Start MD5 Check before upgrade HLOS...
+2023-11-21_14:13:17 <--> Link_SSH_OK
+2023-11-21_14:13:17 <--> SSH recv data: f7cc6f3fdac0bdc6e6795580f454cf30  /dev/disk/by-partlabel/0:HLOS
+
+2023-11-21_14:13:17 <--> Md5: f7cc6f3fdac0bdc6e6795580f454cf30
+2023-11-21_14:13:17 <--> QDM046 MD5 Check before upgrade (HLOS) Pass.
+2023-11-21_14:13:17 <--> Start MD5 Check before upgrade rootfs...
+2023-11-21_14:13:25 <--> Link_SSH_OK
+2023-11-21_14:13:25 <--> SSH recv data: 7f496fa8234a3bbf32f9b2a45d9c6b97  /dev/disk/by-partlabel/rootfs
+
+2023-11-21_14:13:25 <--> Md5: 7f496fa8234a3bbf32f9b2a45d9c6b97
+2023-11-21_14:13:25 <--> QDM046 MD5 Check before upgrade (rootfs) Pass.
+2023-11-21_14:13:45 <--> Start Update from uSD Card...
+2023-11-21_14:13:48 <--> Link_SSH_OK
+2023-11-21_14:13:48 <--> QDM046 Update from uSD Card Fail.
+2023-11-21_14:13:48 <--> =====ERR-OC:QDM046EARN-BAS-AAASM=====
+++++++++++++++trace log end+++++++++++++++

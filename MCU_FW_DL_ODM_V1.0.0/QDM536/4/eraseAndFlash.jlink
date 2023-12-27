@@ -1,0 +1,11 @@
+device gd32f303ze
+usb 0
+si 1
+speed 4000
+erase
+sleep 400
+loadfile "E:\CaseCode\Codes\MCU_FW_DL_ODM_Code\MCU_FW_DL_ODM\MCU_FW_DL_ODM\MCU_FW_DL_ODM_V1.0.0\Fir\QDM536_MCU_002.09_BT_2.13.2\QDM536_MCU_boot.001.02_app.002.09.bin" 0x08000000
+sleep 100
+r
+g
+q

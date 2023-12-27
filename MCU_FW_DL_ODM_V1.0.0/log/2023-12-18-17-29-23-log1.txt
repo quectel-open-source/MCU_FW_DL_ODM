@@ -1,0 +1,53 @@
+2023-12-18_17:25:42 <--> Note: not set PLC Port!
+2023-12-18_17:25:42 <--> Link DB(MO:HF231129104808)......
+2023-12-18_17:25:43 <--> Link DB Pass
+2023-12-18_17:25:43 <--> Q6-T0151-S1-001:not need set 120M
+2023-12-18_17:25:43 <--> DB(MO:HF231129104808,OC:QDC519SASE-E53-AAASM,FW_Ver:QDC519SASEE53_BP01.012_Android11.0.0.01.008U)......
+2023-12-18_17:25:43 <--> MO_Name:HF231129104808, Tool_Name:{"TestFlow":[{"Id":"1","Station":"SilverLabel","Status":"AUTO_SN_GEN","SNFlag":"","TestTool":"ODM_MOB_Label_Print"},{"Id":"2","Station":"Binding_TP","Status":"AUTO_BINDTP","SNFlag":"","TestTool":"ODM_Accessory_Binding_TP"},{"Id":"3","Station":"ODM_FCT2","Status":"AUTO_ODM_FCT2","SNFlag":"","TestTool":"ODM_FCT_Test_MOB_ASM"},{"Id":"4","Station":"RF_FT","Status":"AUTO_FT","SNFlag":"","TestTool":"ODM_RF_FT_QCM_LTE_ASM"},{"Id":"5","Station":"Binding_SIM","Status":"AUTO_BINDSIM","SNFlag":"","TestTool":"ODM_Accessory_Binding_SIM"},{"Id":"6","Station":"Device_WR","Status":"AUTO_WRITE","SNFlag":"","TestTool":"ODM_Device_Writer_Tool"},{"Id":"7","Station":"AttLabel","Status":"Auto_Att_Label","SNFlag":"","TestTool":"ODM_Extend_Label_Print"},{"Id":"8","Station":"LABEL_PLATE","Status":"AUTO_LB_PL","SNFlag":"","TestTool":"ODM_Extend_Label_Name_Plate_Print"},{"Id":"9","Station":"DL_FW","Status":"AUTO_DL_FW","SNFlag":"","TestTool":"FW_DL_And_Format_ODM"},{"Id":"10","Station":"DL_MCU","Status":"AUTO_DL_MCU","SNFlag":"","TestTool":"MCU_FW_DL_ODM"},{"Id":"11","Station":"DC_Check","Status":"AUTO_DCCHECK","SNFlag":"","TestTool":"ODM_DC_Check"},{"Id":"12","Station":"POWER_OFF","Status":"AUTO_POWER_OFF","SNFlag":"","TestTool":"ODM_Power_off"},{"Id":"13","Station":"Binding_BAT","Status":"AUTO_BINDBAT","SNFlag":"","TestTool":"ODM_Accessory_Binding_Battery"},{"Id":"14","Station":"COLOR_BOX","Status":"AUTO_COLORBOX","SNFlag":"","TestTool":"ODM_Extend_Label_ColorBox_Print"},{"Id":"15","Station":"Check_Color_Box","Status":"AUTO_CHECKCOLOR","SNFlag":"","TestTool":"ODM_Check_Color_Box_Label"},{"Id":"16","Station":"Collect","Status":"AUTO_PACK","SNFlag":"","TestTool":"ODM_Collect"},{"Id":"17","Station":"Ship","Status":"AUTO_SHIP","SNFlag":"","TestTool":""}]}
+2023-12-18_17:25:43 <--> Get_SQL_ATT_Custom_Test_Flow Pass
+2023-12-18_17:25:43 <--> Custom_Test_Flow_Allow_Status:"AUTO_DL_FW","AUTO_DL_MCU","AUTO_DCCHECK","AUTO_POWER_OFF","AUTO_BINDBAT","AUTO_COLORBOX","AUTO_CHECKCOLOR"
+2023-12-18_17:25:43 <--> Custom_Test_Flow_Allow_SNFlag:"","","","","","",""
+2023-12-18_17:25:43 <--> Custom_Test_Flow_Write_Status:"AUTO_DL_MCU"
+2023-12-18_17:25:43 <--> Custom_Test_Flow_Write_SNFlag:""
+2023-12-18_17:25:43 <--> LastStatus:"AUTO_DL_FW"
+2023-12-18_17:25:43 <--> Check_CustomTestFlow Pass
+2023-12-18_17:25:43 <--> MO_Name:HF231129104808, Tool_Name:MCU_FW_DL_ODM-V1.2.07
+2023-12-18_17:25:43 <--> DB Tool Ver:V1.2.07
+2023-12-18_17:25:43 <--> Local Tool Ver:V1.2.09
+2023-12-18_17:25:43 <--> OC(QDC519SASE-E53-AAASM)-Produ_Name(QDC519-SASE-ASM)-Produ_Type(7)-Produ_Ver(0)
+2023-12-18_17:25:43 <--> =====PRODU_TYPE_MOB======
+2023-12-18_17:25:43 <--> GetOcpVal m_eu_BB_Chip: 118
+2023-12-18_17:25:43 <--> Note:Produ_Name:QDC519-SASE-ASM-Voltage:7.200000-Current:3.000000
+2023-12-18_17:25:43 <--> LTE Product
+2023-12-18_17:25:43 <--> Need Log_Level-L1
+2023-12-18_17:25:43 <--> Need DL MCU_Ver-QDC519SASEE53_SunmiCfgcrp.0.0.01.001C
+2023-12-18_17:25:43 <--> NOT REP MO
+2023-12-18_17:25:43 <--> Not Nend GetO_Mo-1
+2023-12-18_17:25:44 <--> HF
+2023-12-18_17:25:44 <--> /ikotek/DCC/ikotek-hf
+2023-12-18_17:25:44 <--> Get_Platform m_eu_BB_Chip: 118
+2023-12-18_17:25:44 <--> FW:C:\USERS\QUECTEL\DESKTOP\QDC519SASEE53_SUNMICFGCRP.0.0.01.001CV02\QDC519SASEE53_SUNMICFGCRP.0.0.01.001C\SKU01_X30R_0AW_RD5_01EU_V0.1_20231204_SIG.TXT
+2023-12-18_17:25:44 <--> m_eu_BB_Chip: 118
+2023-12-18_17:26:12 <--> Barcode[1]:"BQ1T00230000101101"
+2023-12-18_17:26:12 <--> Barcode_Valid_Data = 1
+2023-12-18_17:26:12 <--> BQ1T00230000101101
+2023-12-18_17:26:12 <--> Barcode_IMEI_1_C11
+2023-12-18_17:26:12 <--> DL
+2023-12-18_17:26:12 <--> DL
+2023-12-18_17:26:12 <--> DL_State:2
+2023-12-18_17:26:12 <--> Start Search"BQ1T00230000101101" First_Product to DB
+2023-12-18_17:26:12 <--> First_Product-1 "BQ1T00230000101101" Fail
+2023-12-18_17:26:12 <--> Find First_Product DB Complete-"BQ1T00230000101101"
+2023-12-18_17:26:12 <--> ************IMEI:BQ1T00230000101101************
+2023-12-18_17:26:12 <--> DL init(Check DB Data)-MOB...
+2023-12-18_17:26:12 <--> Factory_Info_Name...HF
+2023-12-18_17:26:12 <--> Start Query "BQ1T00230000101101" Record From DB
+2023-12-18_17:26:13 <--> MOB_SN in DB
+2023-12-18_17:26:13 <--> AT_UseFlag_QDM =false
+2023-12-18_17:26:13 <--> TestFlow- Update MOB SN Status Pass!
+2023-12-18_17:26:13 <--> Check(BQ1T00230000101101)IMEI_STD Record Complete
+2023-12-18_17:26:13 <--> DL init(Check DB Data End)...
+2023-12-18_17:26:24 <--> Wait 1s...
+2023-12-18_17:26:24 <--> Run Command: reboot bootloader
+2023-12-18_17:26:30 <--> sunmitool 15s...
+2023-12-18_17:26:45 <--> QDC519 Flash Cfg file ...
